@@ -8,7 +8,7 @@ const NavItem = props => {
       <li className={liClassName}>
         <a href={props.path} className={aClassName}>
           {props.name}
-          {(props.path === pageURI) ? (<span className="sr-only">(current)</span>) : ''}
+          {(props.path === pageURI) ? (<span className="sr-only badge">(current)</span>) : ''}
         </a>
       </li>
     );
