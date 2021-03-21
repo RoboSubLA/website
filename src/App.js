@@ -1,31 +1,38 @@
-import React from 'react';
-// import './App.scss'
-// import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import { Button } from 'react-bootstrap'
-import Navigation from './components/Navigation'
-import Banner from './components/Banner'
-import Thumbnails from './components/Thumbnails'
-import Card from './components/Card'
+import React from 'react'
+import Banner from 'react-banner'
+import './Banner.css'
 
-function App() {
+
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
+import Home from './components/pages/Home'
+import Projects from './components/pages/Projects'
+import Ducks from './components/pages/Projects'
+
+function App(props) {
   return(
-      <div className="App">
-        <Navigation/>
-        <Banner title='Title 1' things="some suff, words are here"/>
-        <div>
-          <Card/>
-          <Card/>
-          <Card/>
-          <Card/>
-          <Card/>
-          <Card/>
-        </div>
-        <div>
-          
-        </div>
-        <Banner title='Title 2' things="Other words here"/>
-     </div>
+    <div className='App'>
+      <Router>
+        <Banner
+            logo="Ricardo Medina"
+            url={ window.location.pathname }
+            searchBar={false}
+            items={[
+                { "content": "Home", "url": "/" },
+                { "content": "Projects", "url": "/projects" },
+                { "content": "Ducks", "url": "/ducks" },
+                { "content": "Link w/ Children", "url": "/children", "children": [
+                    { "content": "John", "url": "/children/john" },
+                    { "content": "Jill", "url": "/children/jill" },
+                    { "content": "Jack", "url": "/children/jack" }
+                ]}
+            ]} />
+        <Switch>
+          <Route path='/' exact component={Home} />
+          <Route path='/projects' component={Projects} />
+          <Route path='/ducks' component={Ducks} />
+        </Switch>
+      </Router>
+    </div>
   )
 }
 
