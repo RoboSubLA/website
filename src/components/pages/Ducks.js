@@ -1,17 +1,16 @@
-import React from 'react'
-import Card from '../Card'
+import React from 'react';
+import '../../App.css';
+import Cards from '../Cards';
+import VideoSection from '../VideoSection';
+import Footer from '../Footer';
 
-
-const Ducks = () =>{
-    return (
-        <>
-            <h1>quack</h1>
-            <div>
-                <Card src='https://cdn.pixabay.com/photo/2018/06/16/00/39/mallard-3478011_960_720.jpg'/>
-                <Card src='https://cdn.pixabay.com/photo/2017/08/25/13/21/ducks-2680162_960_720.png' />
-            </div>
-        </>
-    )
+function Ducks() {
+  return (
+    <>
+      <VideoSection heading="FUCK YOU QUACKERS" text='shitty duck' src='/videos/video-3.mp4'/>
+      <Footer />
+    </>
+  );
 }
 
 export default Ducks;

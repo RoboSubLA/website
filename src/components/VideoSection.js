@@ -1,14 +1,17 @@
-import React from 'react'
-import './VideoSection.css'
+import React from 'react';
+import '../App.css';
+import { Button } from './Button';
+import './VideoSection.css';
 
-const VideoSection = () => {
-    return(
-        <div className='video-container'>
-            <video src='/videos/video-1.mp4' autoPlay loop muted />
-            <h1>Title Here</h1>
-            <p>What are you waiting for</p>
-        </div>
-    )
+function VideoSection(props) {
+  return (
+    <div className='video-container'>
+      <video src={props.src} autoPlay loop muted />
+      <h1>{props.heading}</h1>
+      <p>{props.text}</p>
+      {props.children}
+    </div>
+  );
 }
 
-export default VideoSection
+export default VideoSection;
