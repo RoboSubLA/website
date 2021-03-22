@@ -1,7 +1,5 @@
 import React from 'react'
 import Card from '../Card'
-import Thumbnails from '../Thumbnails'
-import { Button } from 'react-bootstrap'
 import VideoSection from '../VideoSection'
 
 const Home = () =>{
@@ -9,10 +7,10 @@ const Home = () =>{
         <>
             <VideoSection />
             <div>
-                <Card/>
-                <Card/>
-                <Card/>
-                <Card/>
+                <Card src='https://cdn.pixabay.com/photo/2017/09/12/13/21/photovoltaic-system-2742302_960_720.jpg'/>
+                <Card src='https://cdn.pixabay.com/photo/2017/09/12/13/21/photovoltaic-system-2742302_960_720.jpg'/>
+                <Card src='https://cdn.pixabay.com/photo/2017/09/12/13/21/photovoltaic-system-2742302_960_720.jpg'/>
+                <Card src='https://cdn.pixabay.com/photo/2017/09/12/13/21/photovoltaic-system-2742302_960_720.jpg'/>
             </div>
         </>
     )
