@@ -6,7 +6,7 @@ import './VideoSection.css';
 function VideoSection(props) {
   return (
     <div className='video-container'>
-      <video src={props.src} autoPlay loop muted />
+      <img src={props.src}/>
       <h1>{props.heading}</h1>
       <p>{props.text}</p>
       {props.children}
