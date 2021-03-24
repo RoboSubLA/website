@@ -42,3 +42,9 @@
   color: #fff;
   font-size: 100px;
 }
+
+@import url('https://fonts.googleapis.com/css?family=Audiowide');
+
+text,p,h1,h2,h3,button{
+  font-family: "Audiowide", sans-serif;
+}

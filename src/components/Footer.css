@@ -100,16 +100,15 @@
 }
 
 .social-media {
-  max-width: 1000px;
-  width: 100%;
+  width: 75%;
 }
 
 .social-media-wrap {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 90%;
-  max-width: 1000px;
+  /* width: 90%; */
+  /* max-width: 1000px; */
   margin: 40px auto 0 auto;
 }
 
@@ -117,7 +116,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 240px;
+ 
 }
 
 .social-logo {
@@ -135,6 +134,7 @@
 .website-rights {
   color: #fff;
   margin-bottom: 16px;
+  font-size: 22px;
 }
 
 @media screen and (max-width: 820px) {
@@ -160,4 +160,14 @@
 }
 
 @media screen and (max-width: 768px) {
+}
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Audiowide');
+
+text,p,h1,h2,h3,button,small, .social-logo{
+  font-family: "Audiowide", sans-serif;
 }

@@ -38,17 +38,27 @@ function Navbar() {
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
             <li className='nav-item'>
               <Link to='/' className='nav-links' onClick={closeMobileMenu}>
-                Home
+                Home Port  <i class="fas fa-anchor"></i>
               </Link>
             </li>
             <li className='nav-item'>
               <Link to='/thefleet' className='nav-links' onClick={closeMobileMenu}>
-                The Fleet
+                The Fleet <i class="fas fa-ship"></i>
               </Link>
             </li>
             <li className='nav-item'>
               <Link to='/officers' className='nav-links' onClick={closeMobileMenu}>
-                Officers
+                Officers <i class="fas fa-id-card"></i>
+              </Link>
+            </li>
+            <li className='nav-item'>
+              <Link to='/members' className='nav-links' onClick={closeMobileMenu}>
+                Members <i class="fas fa-id-card"></i>
+              </Link>
+            </li>
+            <li className='nav-item'>
+              <Link to='/resources' className='nav-links' onClick={closeMobileMenu}>
+                Resources <i class="fas fa-id-card"></i>
               </Link>
             </li>
             <li>

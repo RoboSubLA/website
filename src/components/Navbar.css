@@ -15,7 +15,7 @@
   justify-content: center;
   align-items: center;
   height: 80px;
-  max-width: 1500px;
+  width: 100%
 }
 
 .navbar-logo {
@@ -27,6 +27,7 @@
   font-size: 2rem;
   display: flex;
   align-items: center;
+  margin-right: auto;
 }
 
 .fa-typo3 {
@@ -35,29 +36,41 @@
 }
 
 .nav-menu {
-  display: grid;
-  grid-template-columns: repeat(4, auto);
-  grid-gap: 10px;
-  list-style: none;
-  text-align: center;
-  width: 60vw;
-  justify-content: end;
-  margin-right: 2rem;
+  margin: 0;
+  padding: 0;
+
+  
 }
 
 .nav-item {
-  height: 80px;
+  list-style: none;
+  text-align: center;
+  font-size: 20px;
+  margin: 0px 20px 0px 20px;
+
+  
 }
 
 .nav-links {
-  color: #fff;
-  display: flex;
-  align-items: center;
+  display: block;
   text-decoration: none;
-  padding: 0.5rem 1rem;
-  height: 100%;
+  color: #fffefe;
+  padding: 10px 0;
+}
+nav {
+  display: table;
+  table-layout: fixed;
 }
 
+ul {
+  display: flex;
+  flex-direction: row;
+}
+
+ul li {
+  flex-grow: 1;
+  justify-content: space-evenly;
+}
 .nav-links:hover {
   border-bottom: 4px solid #fff;
   transition: all 0.2s ease-out;
@@ -69,13 +82,17 @@
 
 .nav-links-mobile {
   display: none;
+  margin-left: auto;
 }
 
 .menu-icon {
   display: none;
 }
 
-@media screen and (max-width: 960px) {
+
+
+
+@media screen and (max-width: 970px) {
   .NavbarItems {
     position: relative;
   }
@@ -155,4 +172,10 @@
     color: #242424;
     transition: 250ms;
   }
+}
+
+@import url('https://fonts.googleapis.com/css?family=Audiowide');
+
+text,h1,h2,h3,button,.nav-links, .navbar-logo{
+  font-family: "Audiowide", sans-serif;
 }

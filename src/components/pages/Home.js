@@ -1,16 +1,17 @@
 import React from 'react';
 import '../../App.css';
-import Cards from '../Cards';
 import VideoSection from '../VideoSection';
 import Footer from '../Footer';
 import { Button } from '../Button';
+
 
 function Home() {
   const onClick= ()=> window.open("https://www.youtube.com/watch?v=vo6-J_rYyo4", "_blank")
   // const onClick="window.open('https://www.youtube.com/watch?v=vo6-J_rYyo4')"
   return (
     <>
-      <VideoSection heading="Robosub" text="Underwater Thingy" src='https://images.unsplash.com/photo-1465634836201-1d5651b9b6d6?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1934&q=80'>
+      <VideoSection id='under-heading' heading="Robosub" text='Design | Code | Build | Test' src='https://images.unsplash.com/photo-1465634836201-1d5651b9b6d6?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1934&q=80'>
+        
         <div className='video-btns'>
           <Button
             className='btns'
@@ -27,8 +28,10 @@ function Home() {
           >
             WATCH TRAILER <i className='far fa-play-circle' />
           </Button>
+          
         </div>
       </VideoSection>
+      
       <Footer />
     </>
   );
