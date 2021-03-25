@@ -1,0 +1,28 @@
+{
+    "officers":[{
+        "name":"Ricardo Medina",
+        "img":"https://miro.medium.com/max/7086/1*xcdwakgStLJQA4zgoRH3fQ.jpeg",
+        "title":"President",
+        "text":"Stuff to write in here",
+        "link":"https://www.ricardomedina.net"
+    },{
+        "name":"Ricardo Medina",
+        "img":"https://miro.medium.com/max/7086/1*xcdwakgStLJQA4zgoRH3fQ.jpeg",
+        "title":"President",
+        "text":"Stuff to write in here",
+        "link":"https://www.ricardomedina.net"
+    }],
+    "members":[{
+        "name":"Ricardo Medina",
+        "img":"https://miro.medium.com/max/7086/1*xcdwakgStLJQA4zgoRH3fQ.jpeg",
+        "title":"President",
+        "text":"Stuff to write in here",
+        "link":"https://www.ricardomedina.net"
+    },{
+        "name":"Ricardo Medina",
+        "img":"https://miro.medium.com/max/7086/1*xcdwakgStLJQA4zgoRH3fQ.jpeg",
+        "title":"President",
+        "text":"Stuff to write in here",
+        "link":"https://www.ricardomedina.net"
+    }]
+}
