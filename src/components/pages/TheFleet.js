@@ -4,26 +4,32 @@ import Card from 'react-bootstrap/Card'
 import CardDeck from 'react-bootstrap/CardDeck'
 import Button from 'react-bootstrap/Button'
 import Jumbotron from 'react-bootstrap/Jumbotron'
-import '../../App.css';
+import '../pages/fleet.css';
+// import '../../../public/images/'
 
 const TheFleet = () => {
     return(
-        <>
-            <h1 style={{textAlign: 'center', fontFamily: 'Audiowide, sans-serif'}}>Meet the Fleet!!</h1>
-
+        <div className='fleet-container'>
             {/* 2020-2021 */}
-            <Jumbotron>
-                <h1>2020-2021 (Online-Competition)</h1>
-                <h3>Rankings:</h3>
-                <p>Overall: ~ </p>
-                <p>Video: ~ </p>
-                <p>Website: ~ </p>
-                <p>Technical-Design Report: ~</p>
+            <Jumbotron fluid className='jumbotron-container'>
+                <h1 className='jumbotron-h1'>ROBOSUB 2020-2021 (Online-Competition)</h1>
+                <h2 className='jumbotron-h2'>Rankings:</h2>
+                <p className='jumbotron-p'>Overall: ~ </p>
+                <p className='jumbotron-p'>Video: ~ </p>
+                <p className='jumbotron-p'>Website: ~ </p>
+                <p className='jumbotron-p'>Technical-Design Report: ~</p>
+                <div className='button-container'>
+                    <Button className='jumbotron-button' href='/'>Team Video</Button>
+                    <Button className='jumbotron-button' href='/'>Design Report</Button> 
+                </div>
+                
+                
+
             </Jumbotron>
             
             <CardDeck>
                 <Card border="info" >
-                    <Card.Img variant="top" src="https://www.calstatela.edu/sites/default/files/users/u227286/lanturn.png" />
+                    <Card.Img variant="top" src={process.env.PUBLIC_URL + '/images/lanturn.png'} />
                     <Card.Body>
                         <Card.Title>Lanturn 2019-2021</Card.Title>
                         <Card.Text>
@@ -37,7 +43,7 @@ const TheFleet = () => {
                 </Card>
 
                 <Card border="info" >
-                    <Card.Img variant="top" src="https://www.calstatela.edu/sites/default/files/users/u227286/donphan.jpg" />
+                    <Card.Img variant="top" src={process.env.PUBLIC_URL + '/images/donphan2.jpg'} />
                     <Card.Body>
                         <Card.Title>Donphan 2019-2021</Card.Title>
                         <Card.Text>
@@ -54,18 +60,23 @@ const TheFleet = () => {
             </CardDeck>
 
             {/* 2019-2020 */}
-            <Jumbotron>
-                <h1>2019-2020 (Online-Competition)</h1>
-                <h3>Rankings:</h3>
-                <p>Overall: 11th</p>
-                <p>Video: 9th</p>
-                <p>Website: 13th</p>
-                <p>Technical-Design Report: 20th</p>
-            </Jumbotron>
+            <Jumbotron fluid className='jumbotron-container'>
+                <h1 className='jumbotron-h1'>ROBOSUB 2019-2020 (Online-Competition)</h1>
+                <h2 className='jumbotron-h2'>Rankings:</h2>
+                <p className='jumbotron-p'>Overall: 11th </p>
+                <p className='jumbotron-p'>Video: 9th </p>
+                <p className='jumbotron-p'>Website: 13th </p>
+                <p className='jumbotron-p'>Technical-Design Report: 20th </p>
+                <div className='button-container'>
+                    <Button className='jumbotron-button' href='/'>Team Video</Button>
+                    <Button className='jumbotron-button' href='/'>Design Report</Button> 
+                </div>    
 
+            </Jumbotron>
+            
             <CardDeck>
                 <Card border="info" >
-                    <Card.Img variant="top" src="https://www.calstatela.edu/sites/default/files/users/u227286/lanturn.png" />
+                    <Card.Img variant="top" src={process.env.PUBLIC_URL + '/images/lanturn.png'}  />
                     <Card.Body>
                         <Card.Title>Lanturn 2019-2021</Card.Title>
                         <Card.Text>
@@ -79,7 +90,7 @@ const TheFleet = () => {
                 </Card>
 
                 <Card border="info" >
-                    <Card.Img variant="top" src="https://www.calstatela.edu/sites/default/files/users/u227286/donphan.jpg" />
+                    <Card.Img variant="top" src={process.env.PUBLIC_URL + '/images/donphan.jpg'}  />
                     <Card.Body>
                         <Card.Title>Donphan 2019-2021</Card.Title>
                         <Card.Text>
@@ -96,15 +107,21 @@ const TheFleet = () => {
             </CardDeck>
             
             {/* 2018-2019 */}
-            <Jumbotron>
-                <h1>2018-2019</h1>
-                <h3>Ranking: 31st</h3>
-            </Jumbotron>
+            
+            <Jumbotron fluid className='jumbotron-container'>
+                <h1 className='jumbotron-h1'>ROBOSUB 2018-2019</h1>
+                <h2 className='jumbotron-h2'>Ranked: 31st</h2>
+                
+                <div className='button-container'>
+                    <Button className='jumbotron-button' href='/'>Team Video</Button>
+                    <Button className='jumbotron-button' href='/'>Design Report</Button> 
+                </div>    
 
+            </Jumbotron>
             <CardDeck>
                 
                 <Card border="info" >
-                    <Card.Img variant="top" src="https://www.calstatela.edu/sites/default/files/users/u227286/gyarados.png" />
+                    <Card.Img variant="top" src={process.env.PUBLIC_URL + '/images/gyarados.png'}  />
                     <Card.Body>
                         <Card.Title>Gyarados 2018-2019</Card.Title>
                         
@@ -117,7 +134,7 @@ const TheFleet = () => {
 
 
                 <Card border="info" >
-                    <Card.Img variant="top" src="https://www.calstatela.edu/sites/default/files/users/u227286/magikarp.png" />
+                    <Card.Img variant="top" src={process.env.PUBLIC_URL + '/images/magikarp.png'}  />
                     <Card.Body>
                         <Card.Title>Magikarp 2018-2019</Card.Title>
                         
@@ -131,7 +148,7 @@ const TheFleet = () => {
             </CardDeck>
             
             <Footer/>
-        </>
+        </div>
     )
 }
 

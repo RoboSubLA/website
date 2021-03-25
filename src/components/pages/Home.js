@@ -10,7 +10,7 @@ function Home() {
   // const onClick="window.open('https://www.youtube.com/watch?v=vo6-J_rYyo4')"
   return (
     <>
-      <VideoSection id='under-heading' heading="Robosub" text='Design | Code | Build | Test' src='https://images.unsplash.com/photo-1465634836201-1d5651b9b6d6?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1934&q=80'>
+      <VideoSection id='under-heading' heading="Robosub LA" text='Design | Code | Build | Test' src='https://images.unsplash.com/photo-1465634836201-1d5651b9b6d6?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1934&q=80'>
         
         <div className='video-btns'>
           <Button

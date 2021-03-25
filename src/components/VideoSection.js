@@ -7,8 +7,8 @@ function VideoSection(props) {
   return (
     <div className='video-container'>
       <img alt='gonzo was here' className='splashpage-img' src={props.src}/>
-      <h1>{props.heading}</h1>
-      <p>{props.text}</p>
+      <h1 className='title'>{props.heading}</h1>
+      <p className='motto' style={{fontFamily: 'Audiowide'}}>{props.text}</p>
       {props.children}
     </div>
   );
