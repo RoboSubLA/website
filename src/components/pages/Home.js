@@ -1,7 +1,8 @@
 import React from 'react';
 import '../../App.css';
 import VideoSection from '../VideoSection';
-import Footer from '../Footer';
+import Footer from '../Footer'
+import About from '../About'
 import { Button } from '../Button';
 
 
@@ -31,7 +32,7 @@ function Home() {
           
         </div>
       </VideoSection>
-      
+      <About/>
       <Footer />
     </>
   );
