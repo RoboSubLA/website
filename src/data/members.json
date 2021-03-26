@@ -1,28 +1,64 @@
 {
     "officers":[{
         "name":"Ricardo Medina",
-        "img":"https://miro.medium.com/max/7086/1*xcdwakgStLJQA4zgoRH3fQ.jpeg",
+        "img":"/images/ricardo.jpg",
         "title":"President",
-        "text":"Stuff to write in here",
+        "text":"Senior Cs Major and Team Lead for Senior Design",
         "link":"https://www.ricardomedina.net"
     },{
-        "name":"Ricardo Medina",
-        "img":"https://miro.medium.com/max/7086/1*xcdwakgStLJQA4zgoRH3fQ.jpeg",
-        "title":"President",
-        "text":"Stuff to write in here",
-        "link":"https://www.ricardomedina.net"
+        "name":"Aren Petrossian",
+        "img":"/images/aren.jpg",
+        "title":"Vice-President",
+        "text":"Mechanical Engineer Student with a 4.0 gpa",
+        "link":"https://www.linkedin.com/in/aren-petrossian/"
+    },{
+        "name":"Heriberto Gonzalez",
+        "img":"/images/gonzo.jpeg",
+        "title":"Officer / ComputerVision Lead",
+        "text":"God of CV",
+        "link":"https://www.linkedin.com/in/hg12/"
+    },{
+        "name":"Eric Anthony",
+        "img":"/images/eric.jpg",
+        "title":"Officer / Treasurer",
+        "text":"God of ME",
+        "link":"https://www.linkedin.com/in/ewaengineering/"
+    },{
+        "name":"Saul Loza",
+        "img":"/images/saul.jpg",
+        "title":"Officer / Outreach",
+        "text":"Actuated Systems Lead",
+        "link":"https://www.linkedin.com/"
     }],
     "members":[{
         "name":"Ricardo Medina",
         "img":"https://miro.medium.com/max/7086/1*xcdwakgStLJQA4zgoRH3fQ.jpeg",
         "title":"President",
         "text":"Stuff to write in here",
-        "link":"https://www.ricardomedina.net"
+        "link":""
     },{
         "name":"Ricardo Medina",
         "img":"https://miro.medium.com/max/7086/1*xcdwakgStLJQA4zgoRH3fQ.jpeg",
         "title":"President",
         "text":"Stuff to write in here",
-        "link":"https://www.ricardomedina.net"
+        "link":""
+    },{
+        "name":"Ricardo Medina",
+        "img":"https://miro.medium.com/max/7086/1*xcdwakgStLJQA4zgoRH3fQ.jpeg",
+        "title":"President",
+        "text":"Stuff to write in here",
+        "link":""
+    },{
+        "name":"Ricardo Medina",
+        "img":"https://miro.medium.com/max/7086/1*xcdwakgStLJQA4zgoRH3fQ.jpeg",
+        "title":"President",
+        "text":"Stuff to write in here",
+        "link":""
+    },{
+        "name":"Ricardo Medina",
+        "img":"https://miro.medium.com/max/7086/1*xcdwakgStLJQA4zgoRH3fQ.jpeg",
+        "title":"President",
+        "text":"Stuff to write in here",
+        "link":""
     }]
 }

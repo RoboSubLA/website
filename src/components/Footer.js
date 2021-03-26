@@ -16,14 +16,7 @@ function Footer() {
           </div>
           <small class='website-rights'>Robosub © 2020</small>
           <div class='social-icons'>
-            <Link
-              class='social-icon-link facebook'
-              to='/'
-              target='_blank'
-              aria-label='Facebook'
-            >
-              <i class='fab fa-facebook-f' />
-            </Link>
+            
             <Link
               class='social-icon-link instagram'
               to='/'
@@ -47,14 +40,6 @@ function Footer() {
               aria-label='Twitter'
             >
               <i class='fab fa-twitter' />
-            </Link>
-            <Link
-              class='social-icon-link twitter'
-              to='/'
-              target='_blank'
-              aria-label='LinkedIn'
-            >
-              <i class='fab fa-linkedin' />
             </Link>
           </div>
         </div>
