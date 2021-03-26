@@ -9,7 +9,7 @@ import '../pages/fleet.css';
 
 const TheFleet = () => {
     return(
-        <div className='fleet-container'>
+        <div className='fleet-container' >
             {/* 2020-2021 */}
             <Jumbotron fluid className='jumbotron-container'>
                 <h1 className='jumbotron-h1'>ROBOSUB 2020-2021 (Online-Competition)</h1>
