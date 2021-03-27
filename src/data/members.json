@@ -1,31 +1,31 @@
 {
     "officers":[{
         "name":"Ricardo Medina",
-        "img":"/images/ricardo.jpg",
+        "img":"/images/members/ricardo.jpg",
         "title":"President",
         "text":"Senior Cs Major and Team Lead for Senior Design",
         "link":"https://www.ricardomedina.net"
     },{
         "name":"Aren Petrossian",
-        "img":"/images/aren.jpg",
+        "img":"/images/members/aren.jpg",
         "title":"Vice-President",
         "text":"Mechanical Engineer Student with a 4.0 gpa",
         "link":"https://www.linkedin.com/in/aren-petrossian/"
     },{
         "name":"Heriberto Gonzalez",
-        "img":"/images/gonzo.jpg",
+        "img":"/images/members/gonzo.jpg",
         "title":"Officer / ComputerVision Lead",
         "text":"God of CV",
         "link":"https://www.linkedin.com/in/hg12/"
     },{
         "name":"Eric Anthony",
-        "img":"/images/eric.jpg",
+        "img":"/images/members/eric.jpg",
         "title":"Officer / Treasurer",
         "text":"God of ME",
         "link":"https://www.linkedin.com/in/ewaengineering/"
     },{
         "name":"Saul Loza",
-        "img":"/images/saul.jpg",
+        "img":"/images/members/saul.jpg",
         "title":"Officer / Outreach",
         "text":"Actuated Systems Lead",
         "link":"https://www.linkedin.com/"
