@@ -5,7 +5,6 @@ import CardDeck from 'react-bootstrap/CardDeck'
 import Button from 'react-bootstrap/Button'
 import Jumbotron from 'react-bootstrap/Jumbotron'
 import '../pages/fleet.css';
-// import '../../../public/images/'
 
 const TheFleet = () => {
     return(
@@ -27,8 +26,8 @@ const TheFleet = () => {
 
             </Jumbotron>
             
-            <CardDeck>
-                <Card border="info" >
+            <CardDeck className='fleet-carddeck'>
+                <Card className='fleet-card' border="dark" >
                     <Card.Img variant="top" src={process.env.PUBLIC_URL + '/images/lanturn.png'} />
                     <Card.Body>
                         <Card.Title>Lanturn 2019-2021</Card.Title>
@@ -36,13 +35,10 @@ const TheFleet = () => {
                             Currently under construction...
                         </Card.Text>
                     </Card.Body>
-                    <Button variant="primary">Go somewhere</Button>
-                    <Card.Footer>
-                        <small className="text-muted">Last updated 3 mins ago</small>
-                    </Card.Footer>
+                    <Button variant="danger">More Info</Button>
                 </Card>
 
-                <Card border="info" >
+                <Card className='fleet-card'border="dark" >
                     <Card.Img variant="top" src={process.env.PUBLIC_URL + '/images/donphan2.jpg'} />
                     <Card.Body>
                         <Card.Title>Donphan 2019-2021</Card.Title>
@@ -50,10 +46,8 @@ const TheFleet = () => {
                             Currently under construction...
                         </Card.Text>
                     </Card.Body>
-                    <Button variant="primary">Go somewhere</Button>
-                    <Card.Footer>
-                        <small className="text-muted">Last updated 3 mins ago</small>
-                    </Card.Footer>
+                    <Button variant="danger">More Info</Button>
+                    
                 </Card>
 
                 
@@ -74,33 +68,29 @@ const TheFleet = () => {
 
             </Jumbotron>
             
-            <CardDeck>
-                <Card border="info" >
+            <CardDeck className='fleet-carddeck'>
+                <Card className='fleet-card' border="dark" >
                     <Card.Img variant="top" src={process.env.PUBLIC_URL + '/images/lanturn.png'}  />
                     <Card.Body>
-                        <Card.Title>Lanturn 2019-2021</Card.Title>
+                        <Card.Title>Lanturn 2019-2020</Card.Title>
                         <Card.Text>
                             Complications Due to COVID-19...
                         </Card.Text>
                     </Card.Body>
-                    <Button variant="primary">Go somewhere</Button>
-                    <Card.Footer>
-                        <small className="text-muted">Last updated 3 mins ago</small>
-                    </Card.Footer>
+                    <Button variant="danger">More Info</Button>
+                    
                 </Card>
 
-                <Card border="info" >
+                <Card className='fleet-card' border="dark" >
                     <Card.Img variant="top" src={process.env.PUBLIC_URL + '/images/donphan.jpg'}  />
                     <Card.Body>
-                        <Card.Title>Donphan 2019-2021</Card.Title>
+                        <Card.Title>Donphan 2019-2020</Card.Title>
                         <Card.Text>
                         Complications Due to COVID-19...
                         </Card.Text>
                     </Card.Body>
-                    <Button variant="primary">Go somewhere</Button>
-                    <Card.Footer>
-                        <small className="text-muted">Last updated 3 mins ago</small>
-                    </Card.Footer>
+                    <Button variant="danger">More Info</Button>
+                    
                 </Card>
 
                 
@@ -118,31 +108,25 @@ const TheFleet = () => {
                 </div>    
 
             </Jumbotron>
-            <CardDeck>
+            <CardDeck className='fleet-carddeck'>
                 
-                <Card border="info" >
+                <Card className='fleet-card' border="dark" >
                     <Card.Img variant="top" src={process.env.PUBLIC_URL + '/images/gyarados.png'}  />
                     <Card.Body>
                         <Card.Title>Gyarados 2018-2019</Card.Title>
                         
                     </Card.Body>
-                    <Button variant="primary">Go somewhere</Button>
-                    <Card.Footer>
-                        <small className="text-muted">Last updated 3 mins ago</small>
-                    </Card.Footer>
+                    <Button variant="danger">More Info</Button>
                 </Card>
 
 
-                <Card border="info" >
+                <Card className='fleet-card'border="dark" >
                     <Card.Img variant="top" src={process.env.PUBLIC_URL + '/images/magikarp.png'}  />
                     <Card.Body>
                         <Card.Title>Magikarp 2018-2019</Card.Title>
                         
                     </Card.Body>
-                    <Button variant="primary">Go somewhere</Button>
-                    <Card.Footer>
-                        <small className="text-muted">Last updated 3 mins ago</small>
-                    </Card.Footer>
+                    <Button variant="danger">More Info</Button>
                 </Card>
 
             </CardDeck>

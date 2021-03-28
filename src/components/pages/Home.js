@@ -31,6 +31,7 @@ function Home() {
           </Button>
           
         </div>
+        
       </VideoSection>
       <About/>
       <Footer />

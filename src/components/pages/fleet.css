@@ -4,9 +4,21 @@
 .jumbotron-container{
     text-align: center;
     background-color: #4b7bec;
+    padding-bottom: 5px;
+    padding-top: 10px;
+    margin-bottom: 0;
+    margin-top: px;
 }
 
-
+.fleet-carddeck {
+  margin:10px 10px 10px 10px;
+  justify-content: center;
+}
+.fleet-card {
+  max-width: 800px;
+  max-height: 900px;
+  text-align: center;
+}
 .jumbotron-h1 {
     
 }
