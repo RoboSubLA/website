@@ -29,14 +29,6 @@ const MemberSection = (props) => {
             })}
         </CardDeck>
 
-        <CardDeck className='card-deck-members'>
-            {props.list.map((item) => {
-                return (<Member json={item} key={item.name}/>)
-            })}
-        </CardDeck>
-
-
-
         </>
         
     )
