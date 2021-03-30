@@ -9,9 +9,9 @@ const Member = (props) => {
         <Card className='card-members' border="info" >
             <Card.Img className='card-member-img' variant="top" src={props.json.img} />
             <Card.Body className='card-member-body'>
-                <Card.Title>{props.json.position}</Card.Title>
-                <Card.Text>{props.json.name}</Card.Text>
-                <Card.Text>{props.json.text}</Card.Text>
+                {/* <Card.Title>{props.json.position}</Card.Title> */}
+                <Card.Text className='card-member-name'>{props.json.name}</Card.Text>
+                {/* <Card.Text>{props.json.text}</Card.Text> */}
                 <Button className='card-member-button' variant="outline-dark" href={props.json.link}>More Info</Button>
             </Card.Body>
             

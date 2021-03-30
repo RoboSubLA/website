@@ -5,7 +5,7 @@ import CardDeck from 'react-bootstrap/CardDeck'
 import Button from 'react-bootstrap/Button'
 import Footer from '../Footer'
 import '../pages/members.css'
-import '../../App.css'
+// import '../../App.css'
 
 const Members = () => {
     let json = require('../../data/members.json')
@@ -24,7 +24,7 @@ const Members = () => {
                         <Card.Body className='card-member-body'>
                             <Card.Title className='card-member-name'>{json.officers[0].name}</Card.Title>
                             <Card.Title className='card-member-title'>{json.officers[0].title}</Card.Title>
-                            <Card.Text>{json.officers[0].text}</Card.Text>
+                            {/* <Card.Text>{json.officers[0].text}</Card.Text> */}
                             <Button className='card-member-button-officers' variant="outline-light" href={json.officers[0].link}>More Info</Button>
                         
                         </Card.Body>
@@ -36,7 +36,7 @@ const Members = () => {
                         <Card.Body className='card-member-body'>
                             <Card.Title className='card-member-name'>{json.officers[1].name}</Card.Title>
                             <Card.Title className='card-member-title'>{json.officers[1].title}</Card.Title>
-                            <Card.Text>{json.officers[1].text}</Card.Text>
+                            {/* <Card.Text>{json.officers[1].text}</Card.Text> */}
                             <Button className='card-member-button-officers' variant="outline-light" href={json.officers[1].link}>More Info</Button>
                         </Card.Body>
                         
@@ -54,7 +54,7 @@ const Members = () => {
                             <Card.Title className='card-member-name'>{json.officers[4].name}</Card.Title>
                             <Card.Title className='card-member-title'>{json.officers[4].title}</Card.Title>
                             
-                            <Card.Text>{json.officers[4].text}</Card.Text>
+                            {/* <Card.Text>{json.officers[4].text}</Card.Text> */}
                             <Button className='card-member-button-officers' variant="outline-light" href={json.officers[4].link}>More Info</Button>
                         </Card.Body>
                         
@@ -67,7 +67,7 @@ const Members = () => {
                             <Card.Title className='card-member-name'>{json.officers[2].name}</Card.Title>
                             <Card.Title className='card-member-title'>{json.officers[2].title}</Card.Title>
                             
-                            <Card.Text>{json.officers[2].text}</Card.Text>
+                            {/* <Card.Text>{json.officers[2].text}</Card.Text> */}
 
                             <Button className='card-member-button-officers' variant="outline-light" href={json.officers[2].link}>More Info</Button>
                         </Card.Body>
@@ -80,7 +80,7 @@ const Members = () => {
                         <Card.Body  className='card-member-body'>
                             <Card.Title className='card-member-name'>{json.officers[3].name}</Card.Title>
                             <Card.Title className='card-member-title'>{json.officers[3].title}</Card.Title>
-                            <Card.Text>{json.officers[3].text}</Card.Text>
+                            {/* <Card.Text>{json.officers[3].text}</Card.Text> */}
 
                         <Button className='card-member-button-officers' variant="outline-light" href={json.officers[3].link}>More Info</Button>
                         

@@ -29,22 +29,16 @@ const TheFleet = () => {
             <CardDeck className='fleet-carddeck'>
                 <Card className='fleet-card' border="dark" >
                     <Card.Img variant="top" src={process.env.PUBLIC_URL + '/images/lanturn.png'} />
-                    <Card.Body>
-                        <Card.Title>Lanturn 2019-2021</Card.Title>
-                        <Card.Text>
-                            Currently under construction...
-                        </Card.Text>
+                    <Card.Body className='fleet-card-body'>
+                        <Card.Title className='fleet-card-title'>Lanturn 2019-2021</Card.Title>
                     </Card.Body>
                     <Button variant="danger">More Info</Button>
                 </Card>
 
                 <Card className='fleet-card'border="dark" >
                     <Card.Img variant="top" src={process.env.PUBLIC_URL + '/images/donphan2.jpg'} />
-                    <Card.Body>
-                        <Card.Title>Donphan 2019-2021</Card.Title>
-                        <Card.Text>
-                            Currently under construction...
-                        </Card.Text>
+                    <Card.Body className='fleet-card-body'>
+                        <Card.Title className='fleet-card-title'>Donphan 2019-2021</Card.Title>
                     </Card.Body>
                     <Button variant="danger">More Info</Button>
                     
@@ -71,11 +65,8 @@ const TheFleet = () => {
             <CardDeck className='fleet-carddeck'>
                 <Card className='fleet-card' border="dark" >
                     <Card.Img variant="top" src={process.env.PUBLIC_URL + '/images/lanturn.png'}  />
-                    <Card.Body>
-                        <Card.Title>Lanturn 2019-2020</Card.Title>
-                        <Card.Text>
-                            Complications Due to COVID-19...
-                        </Card.Text>
+                    <Card.Body className='fleet-card-body'>
+                        <Card.Title className='fleet-card-title'>Lanturn 2019-2020</Card.Title>
                     </Card.Body>
                     <Button variant="danger">More Info</Button>
                     
@@ -83,11 +74,8 @@ const TheFleet = () => {
 
                 <Card className='fleet-card' border="dark" >
                     <Card.Img variant="top" src={process.env.PUBLIC_URL + '/images/donphan.jpg'}  />
-                    <Card.Body>
-                        <Card.Title>Donphan 2019-2020</Card.Title>
-                        <Card.Text>
-                        Complications Due to COVID-19...
-                        </Card.Text>
+                    <Card.Body className='fleet-card-body'>
+                        <Card.Title className='fleet-card-title'>Donphan 2019-2020</Card.Title>
                     </Card.Body>
                     <Button variant="danger">More Info</Button>
                     
@@ -112,9 +100,8 @@ const TheFleet = () => {
                 
                 <Card className='fleet-card' border="dark" >
                     <Card.Img variant="top" src={process.env.PUBLIC_URL + '/images/gyarados.png'}  />
-                    <Card.Body>
-                        <Card.Title>Gyarados 2018-2019</Card.Title>
-                        
+                    <Card.Body className='fleet-card-body'>
+                        <Card.Title className='fleet-card-title'>Gyarados 2018-2019</Card.Title>
                     </Card.Body>
                     <Button variant="danger">More Info</Button>
                 </Card>
@@ -122,9 +109,8 @@ const TheFleet = () => {
 
                 <Card className='fleet-card'border="dark" >
                     <Card.Img variant="top" src={process.env.PUBLIC_URL + '/images/magikarp.png'}  />
-                    <Card.Body>
-                        <Card.Title>Magikarp 2018-2019</Card.Title>
-                        
+                    <Card.Body className='fleet-card-body'>
+                        <Card.Title className='fleet-card-title'>Magikarp 2018-2019</Card.Title>
                     </Card.Body>
                     <Button variant="danger">More Info</Button>
                 </Card>

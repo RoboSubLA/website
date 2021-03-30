@@ -19,17 +19,17 @@
   max-height: 900px;
   text-align: center;
 }
-.jumbotron-h1 {
-    
-}
 
-.jumbotron-h2 {
+.fleet-card-body {
+  background-color: #919191;
 
 }
 
-.jumbotron-p {
-
+.fleet-card-title {
+  font-size: 24px;
+  margin-top: .75rem;
 }
+
 .button-container {
     flex-direction: column;
 
