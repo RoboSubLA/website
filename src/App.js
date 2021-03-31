@@ -6,6 +6,7 @@ import SignUp from './components/pages/SignUp';
 import TheFleet from './components/pages/TheFleet'
 import Navbar from './components/Navbar'
 import Members from './components/pages/Members'
+import Resources from './components/pages/Resources'
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path='/' exact component={Home} />
           <Route path='/thefleet' component={TheFleet} />
           <Route path='/members' component={Members} />
+          <Route path='/resources' component={Resources} />
           <Route path='/sign-up' component={SignUp} />
           {/* <Route path='/sign-up' component={() => { 
             window.location.href = 'https://www.google.com'; 
