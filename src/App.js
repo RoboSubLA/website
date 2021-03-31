@@ -19,10 +19,6 @@ function App() {
           <Route path='/members' component={Members} />
           <Route path='/resources' component={Resources} />
           <Route path='/sign-up' component={SignUp} />
-          {/* <Route path='/sign-up' component={() => { 
-            window.location.href = 'https://www.google.com'; 
-            return null;
-          }}/> */}
         </Switch>
       </Router>
     </>
