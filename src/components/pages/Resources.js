@@ -53,33 +53,33 @@ const Resources = () => {
                         <Tab.Content>
                             
                             <Tab.Pane eventKey="arduino">
-                                <h1 className='resource-text'>Arduino</h1>
+                                <h1 className='resource-text-title'>Arduino</h1>
                                 <Arduino />
                             </Tab.Pane>
 
                             <Tab.Pane eventKey="cv">
-                                <h1 className='resource-text'>Computer Vision</h1>
+                                <h1 className='resource-text-title'>Computer Vision</h1>
                                 <ComputerVision/>
                             </Tab.Pane>
                             
                             <Tab.Pane eventKey="electrical">
-                                <h2 className='resource-text'>Even More Stuff</h2>
+                                <h2 className='resource-text-title'>Even More Stuff</h2>
                             </Tab.Pane>
                            
                             <Tab.Pane eventKey="github">
-                            <h2 className='resource-text'>Less Stuff</h2>
+                            <h2 className='resource-text-title'>Less Stuff</h2>
                             </Tab.Pane>
                            
                             <Tab.Pane eventKey="linux">
-                            <h2 className='resource-text'>Less Stuff</h2>
+                            <h2 className='resource-text-title'>Less Stuff</h2>
                             </Tab.Pane>
                             
                             <Tab.Pane eventKey="mechanical">
-                                <h2 className='resource-text'>Less Stuff</h2>
+                                <h2 className='resource-text-title'>Less Stuff</h2>
                             </Tab.Pane>
                            
                             <Tab.Pane eventKey="ros">
-                                <h2 className='resource-text'>Robotic Operating System</h2>
+                                <h2 className='resource-text-title'>Robotic Operating System</h2>
                                 <ROS/>
                             </Tab.Pane>
 

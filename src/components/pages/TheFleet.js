@@ -56,8 +56,8 @@ const TheFleet = () => {
                 <p className='jumbotron-p'>Website: 13th </p>
                 <p className='jumbotron-p'>Technical-Design Report: 20th </p>
                 <div className='button-container'>
-                    <Button className='jumbotron-button' href='/'>Team Video</Button>
-                    <Button className='jumbotron-button' href='/'>Design Report</Button> 
+                    <Button className='jumbotron-button' href='https://www.youtube.com/watch?v=s-sQxhKXgG8'>Team Video</Button>
+                    <Button className='jumbotron-button' href={process.env.PUBLIC_URL + '/files/DesignReport2020.pdf'}>Design Report</Button> 
                 </div>    
 
             </Jumbotron>
@@ -91,8 +91,8 @@ const TheFleet = () => {
                 <h2 className='jumbotron-h2'>Ranked: 31st</h2>
                 
                 <div className='button-container'>
-                    <Button className='jumbotron-button' href='/'>Team Video</Button>
-                    <Button className='jumbotron-button' href='/'>Design Report</Button> 
+                    <Button className='jumbotron-button' href='https://www.youtube.com/watch?v=SNEvvSS3eq8'>Team Video</Button>
+                    <Button className='jumbotron-button' href={process.env.PUBLIC_URL + '/files/DesignReport2019.pdf'}>Design Report</Button> 
                 </div>    
 
             </Jumbotron>
