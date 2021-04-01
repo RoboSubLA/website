@@ -21,9 +21,6 @@ const TheFleet = () => {
                     <Button className='jumbotron-button' href='/'>Team Video</Button>
                     <Button className='jumbotron-button' href='/'>Design Report</Button> 
                 </div>
-                
-                
-
             </Jumbotron>
             
             <CardDeck className='fleet-carddeck'>
