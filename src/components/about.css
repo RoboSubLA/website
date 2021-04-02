@@ -4,9 +4,82 @@
     color:white;
     text-align: center;
     margin-bottom: 0px;
+    padding-top: 2px;
     
+}
+
+.about-header {
+    margin-top: 20px;
+    margin-bottom: 12px;
 }
 
 .about-p {
     font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 22px;
+}
+
+
+
+  /* iPhone X, iPhone 6/7/8 Plus, */
+  @media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+    .about-p {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 14px;
+    }
+
+}
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+    .about-p {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 14px;
+    }
+}
+
+
+
+/* ----------- Galaxy S3 ----------- */
+
+/* Portrait and Landscape */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 2) {
+    .about-p {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 14px;
+    }
+}
+
+/* ----------- Galaxy S4, S5 and Note 3 ----------- */
+
+/* Portrait and Landscape */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) {
+    .about-p {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 14px;
+    }
+}
+
+/* ----------- iPad 1, 2, Mini and Air ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    .about-p {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 18px;
+    }
 }

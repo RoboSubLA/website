@@ -34,6 +34,7 @@ function Home() {
         
       </VideoSection>
       <About/>
+      {/* <Sponsor/> */}
       <Footer />
     </>
   );
