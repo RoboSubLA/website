@@ -26,7 +26,7 @@ const TheFleet = () => {
             
             <CardDeck className='fleet-carddeck'>
                 <Card className='fleet-card' border="dark" >
-                    <Card.Img variant="top" src={process.env.PUBLIC_URL + '/images/lanturn.png'} />
+                    <Card.Img variant="top" src={process.env.PUBLIC_URL + '/images/subs/lanturn/lanturn.png'} />
                     <Card.Body className='fleet-card-body'>
                         <Card.Title className='fleet-card-title'>Lanturn 2019-2021</Card.Title>
                     </Card.Body>
@@ -35,7 +35,7 @@ const TheFleet = () => {
                 </Card>
 
                 <Card className='fleet-card'border="dark" >
-                    <Card.Img variant="top" src={process.env.PUBLIC_URL + '/images/donphan2.jpg'} />
+                    <Card.Img variant="top" src={process.env.PUBLIC_URL + '/images/subs/donphan/donphan2.jpg'} />
                     <Card.Body className='fleet-card-body'>
                         <Card.Title className='fleet-card-title'>Donphan 2019-2021</Card.Title>
                     </Card.Body>
@@ -63,7 +63,7 @@ const TheFleet = () => {
             
             <CardDeck className='fleet-carddeck'>
                 <Card className='fleet-card' border="dark" >
-                    <Card.Img variant="top" src={process.env.PUBLIC_URL + '/images/lanturn.png'}  />
+                    <Card.Img variant="top" src={process.env.PUBLIC_URL + '/images/subs/lanturn/lanturn.png'}  />
                     <Card.Body className='fleet-card-body'>
                         <Card.Title className='fleet-card-title'>Lanturn 2019-2020</Card.Title>
                     </Card.Body>
@@ -72,7 +72,7 @@ const TheFleet = () => {
                 </Card>
 
                 <Card className='fleet-card' border="dark" >
-                    <Card.Img variant="top" src={process.env.PUBLIC_URL + '/images/donphan.jpg'}  />
+                    <Card.Img variant="top" src={process.env.PUBLIC_URL + '/images/subs/donphan/donphan.jpg'}  />
                     <Card.Body className='fleet-card-body'>
                         <Card.Title className='fleet-card-title'>Donphan 2019-2020</Card.Title>
                     </Card.Body>
@@ -98,7 +98,7 @@ const TheFleet = () => {
             <CardDeck className='fleet-carddeck'>
                 
                 <Card className='fleet-card' border="dark" >
-                    <Card.Img variant="top" src={process.env.PUBLIC_URL + '/images/gyarados.png'}  />
+                    <Card.Img variant="top" src={process.env.PUBLIC_URL + '/images/subs/gyarados/gyarados.png'}  />
                     <Card.Body className='fleet-card-body'>
                         <Card.Title className='fleet-card-title'>Gyarados 2018-2019</Card.Title>
                     </Card.Body>
@@ -107,7 +107,7 @@ const TheFleet = () => {
 
 
                 <Card className='fleet-card'border="dark" >
-                    <Card.Img variant="top" src={process.env.PUBLIC_URL + '/images/magikarp.png'}  />
+                    <Card.Img variant="top" src={process.env.PUBLIC_URL + '/images/subs/magikarp/magikarp.png'}  />
                     <Card.Body className='fleet-card-body'>
                         <Card.Title className='fleet-card-title'>Magikarp 2018-2019</Card.Title>
                     </Card.Body>
