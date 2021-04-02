@@ -4,6 +4,7 @@ import Card from 'react-bootstrap/Card'
 import CardDeck from 'react-bootstrap/CardDeck'
 import Button from 'react-bootstrap/Button'
 import Jumbotron from 'react-bootstrap/Jumbotron'
+import { Link } from 'react-router-dom';
 import '../pages/fleet.css';
 
 const TheFleet = () => {
@@ -32,7 +33,8 @@ const TheFleet = () => {
                     <Card.Body className='fleet-card-body'>
                         <Card.Title className='fleet-card-title'>Lanturn 2019-2021</Card.Title>
                     </Card.Body>
-                    <Button variant="danger">More Info</Button>
+                    <Link className='fleet-link' to='/lanturn'>More Info</Link> 
+
                 </Card>
 
                 <Card className='fleet-card'border="dark" >
@@ -40,7 +42,7 @@ const TheFleet = () => {
                     <Card.Body className='fleet-card-body'>
                         <Card.Title className='fleet-card-title'>Donphan 2019-2021</Card.Title>
                     </Card.Body>
-                    <Button variant="danger">More Info</Button>
+                    <Link className='fleet-link' to='/donphan2'>More Info</Link> 
                     
                 </Card>
 
@@ -68,7 +70,7 @@ const TheFleet = () => {
                     <Card.Body className='fleet-card-body'>
                         <Card.Title className='fleet-card-title'>Lanturn 2019-2020</Card.Title>
                     </Card.Body>
-                    <Button variant="danger">More Info</Button>
+                    <Link className='fleet-link' to='/lanturn'>More Info</Link> 
                     
                 </Card>
 
@@ -77,7 +79,7 @@ const TheFleet = () => {
                     <Card.Body className='fleet-card-body'>
                         <Card.Title className='fleet-card-title'>Donphan 2019-2020</Card.Title>
                     </Card.Body>
-                    <Button variant="danger">More Info</Button>
+                        <Link className='fleet-link' to='/donphan'>More Info</Link> 
                     
                 </Card>
 
@@ -103,7 +105,7 @@ const TheFleet = () => {
                     <Card.Body className='fleet-card-body'>
                         <Card.Title className='fleet-card-title'>Gyarados 2018-2019</Card.Title>
                     </Card.Body>
-                    <Button variant="danger">More Info</Button>
+                        <Link className='fleet-link' to='/gyarados'>More Info</Link>                    
                 </Card>
 
 
@@ -112,7 +114,7 @@ const TheFleet = () => {
                     <Card.Body className='fleet-card-body'>
                         <Card.Title className='fleet-card-title'>Magikarp 2018-2019</Card.Title>
                     </Card.Body>
-                    <Button variant="danger">More Info</Button>
+                        <Link className='fleet-link' to='/magikarp'>More Info</Link> 
                 </Card>
 
             </CardDeck>

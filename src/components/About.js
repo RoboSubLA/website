@@ -1,13 +1,16 @@
 import React from 'react'
 import Jumbotron from 'react-bootstrap/Jumbotron'
 import Container from 'react-bootstrap/Container'
+import Image from 'react-bootstrap/Image'
+
 import './about.css'
+
 const About = () => {
     return (
         <div className='about-container'>
             <Jumbotron className='about-jumbotron' fluid>
                 <Container>
-                    <h1>About Us!!</h1>
+                    <h1 className='about-header'>About Us!!</h1>
                     <p className='about-p'>
                         Welcome to our team! The RoboSub team at California State University,
                         Los Angeles is an engineering team that builds autonomous submarine
@@ -32,6 +35,15 @@ const About = () => {
                         of what our members are working on and what tasks and projects are
                         available to new members
                     </p>
+
+                    <h1 className='about-header'>Thanks to Our Sponsors</h1>
+                    <Image src={process.env.PUBLIC_URL + '/images/sponsors/csula.png'}></Image>
+                    <Image src={process.env.PUBLIC_URL + '/images/sponsors/mathworks.png'}></Image>
+                    <Image src={process.env.PUBLIC_URL + '/images/sponsors/onr.png'}></Image>
+                    <Image src={process.env.PUBLIC_URL + '/images/sponsors/sparkfun.png'}></Image>
+                    <Image src={process.env.PUBLIC_URL + '/images/sponsors/dassaultsys.png'}></Image>
+                    
+                    
                 </Container>
             </Jumbotron>
         </div>

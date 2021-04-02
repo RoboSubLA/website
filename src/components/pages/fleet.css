@@ -25,6 +25,20 @@
 
 }
 
+.fleet-link {
+  padding: 8px 20px;
+  outline: none;
+  border: none;
+  color: #fff;
+  background-color: #dc3545;
+}
+
+.fleet-link:hover {
+  color: #ffffff;
+  background-color: #a00a19;
+  text-decoration: none;
+}
+
 .fleet-card-title {
   font-size: 24px;
   margin-top: .75rem;

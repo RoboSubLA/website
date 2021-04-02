@@ -7,6 +7,7 @@ import TheFleet from './components/pages/TheFleet'
 import Navbar from './components/Navbar'
 import Members from './components/pages/Members'
 import Resources from './components/pages/Resources'
+import Gyarados from './components/pages/subpages/Gyarados';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path='/members' component={Members} />
           <Route path='/resources' component={Resources} />
           <Route path='/sign-up' component={SignUp} />
+          <Route path='/gyarados' exact component={Gyarados} />
         </Switch>
       </Router>
     </>
