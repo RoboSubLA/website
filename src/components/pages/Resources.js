@@ -4,7 +4,7 @@ import Col from 'react-bootstrap/Col'
 import Tab from 'react-bootstrap/Tab'
 import Nav from 'react-bootstrap/Nav'
 import './resources.css'
-
+import Footer from '../Footer'
 import Arduino from './resource-sections/Arduino'
 import ComputerVision from './resource-sections/ComputerVision'
 import ROS from './resource-sections/ROS'
@@ -87,6 +87,7 @@ const Resources = () => {
                     </Col>
                 </Row>
             </Tab.Container>
+            <Footer/>
         </div>
     )
 }
