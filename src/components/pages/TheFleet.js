@@ -32,6 +32,7 @@ const TheFleet = () => {
                     <Card.Img variant="top" src={process.env.PUBLIC_URL + '/images/subs/lanturn/lanturn.png'} />
                     <Card.Body className='fleet-card-body'>
                         <Card.Title className='fleet-card-title'>Lanturn 2019-2021</Card.Title>
+                        <Card.Text className='fleet-card-text'>Senior Design Team</Card.Text>
                     </Card.Body>
                     <Link className='fleet-link' to='/lanturn'>More Info</Link> 
 
@@ -41,6 +42,7 @@ const TheFleet = () => {
                     <Card.Img variant="top" src={process.env.PUBLIC_URL + '/images/subs/donphan/donphan2.jpg'} />
                     <Card.Body className='fleet-card-body'>
                         <Card.Title className='fleet-card-title'>Donphan 2019-2021</Card.Title>
+                        <Card.Text className='fleet-card-text'>Club Team</Card.Text>
                     </Card.Body>
                     <Link className='fleet-link' to='/donphan2'>More Info</Link> 
                     
@@ -69,6 +71,7 @@ const TheFleet = () => {
                     <Card.Img variant="top" src={process.env.PUBLIC_URL + '/images/subs/lanturn/lanturn.png'}  />
                     <Card.Body className='fleet-card-body'>
                         <Card.Title className='fleet-card-title'>Lanturn 2019-2020</Card.Title>
+                        <Card.Text className='fleet-card-text'>Senior Design Team</Card.Text>
                     </Card.Body>
                     <Link className='fleet-link' to='/lanturn'>More Info</Link> 
                     
@@ -78,6 +81,7 @@ const TheFleet = () => {
                     <Card.Img variant="top" src={process.env.PUBLIC_URL + '/images/subs/donphan/donphan.jpg'}  />
                     <Card.Body className='fleet-card-body'>
                         <Card.Title className='fleet-card-title'>Donphan 2019-2020</Card.Title>
+                        <Card.Text className='fleet-card-text'>Club Team</Card.Text>
                     </Card.Body>
                         <Link className='fleet-link' to='/donphan'>More Info</Link> 
                     
@@ -104,6 +108,7 @@ const TheFleet = () => {
                     <Card.Img variant="top" src={process.env.PUBLIC_URL + '/images/subs/gyarados/gyarados.png'}  />
                     <Card.Body className='fleet-card-body'>
                         <Card.Title className='fleet-card-title'>Gyarados 2018-2019</Card.Title>
+                        <Card.Text className='fleet-card-text'>Senior Design Team</Card.Text>
                     </Card.Body>
                         <Link className='fleet-link' to='/gyarados'>More Info</Link>                    
                 </Card>
@@ -113,6 +118,7 @@ const TheFleet = () => {
                     <Card.Img variant="top" src={process.env.PUBLIC_URL + '/images/subs/magikarp/magikarp.png'}  />
                     <Card.Body className='fleet-card-body'>
                         <Card.Title className='fleet-card-title'>Magikarp 2018-2019</Card.Title>
+                        <Card.Text className='fleet-card-text'>Club Team</Card.Text>
                     </Card.Body>
                         <Link className='fleet-link' to='/magikarp'>More Info</Link> 
                 </Card>
