@@ -21,7 +21,7 @@
 }
 
 .fleet-card-body {
-  background-color: #919191;
+  background-color: #000000d8;
 
 }
 
@@ -40,8 +40,14 @@
 }
 
 .fleet-card-title {
-  font-size: 24px;
+  font-size: 26px;
   margin-top: .75rem;
+  color: #FFF;
+}
+
+.fleet-card-text {
+  color: #FFF;
+  font-size: 18px;
 }
 
 .button-container {

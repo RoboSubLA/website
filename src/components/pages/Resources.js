@@ -19,6 +19,10 @@ const Resources = () => {
                         <Nav className='resource-item-container flex-column' variant="pills">
 
                             <Nav.Item className='resource-item' >
+                                <Nav.Link  className='resource-tab' eventKey="getstarted">Get Started</Nav.Link>
+                            </Nav.Item>
+
+                            <Nav.Item className='resource-item' >
                                 <Nav.Link  className='resource-tab' eventKey="arduino">Arduino</Nav.Link>
                             </Nav.Item>
                     
@@ -51,7 +55,12 @@ const Resources = () => {
 
                     <Col sm={9} className='resource-container'>
                         <Tab.Content>
-                            
+
+                            <Tab.Pane eventKey="getstarted">
+                                <h1 className='resource-text-title'>Getting Started</h1>
+                                
+                            </Tab.Pane>
+
                             <Tab.Pane eventKey="arduino">
                                 <h1 className='resource-text-title'>Arduino</h1>
                                 <Arduino />

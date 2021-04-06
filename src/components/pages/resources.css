@@ -7,14 +7,21 @@
 }
 .resource-row {
     height: 1240px;
+
 }
 
 .resource-left-col {
     background-color: rgb(38, 41, 43);
+    display: flex;
+    justify-content: center;
+    padding-top: 4rem;
 }
 
 .resource-item-container {
     margin-top: 4rem;
+    position: fixed;
+    margin-left: 2%;
+    margin-right: 2%;
 }
 
 .resource-item {
@@ -73,6 +80,7 @@
     
     .resource-item-container {
         margin-top: 1rem;
+        position:unset
     }
     .resource-item {
         margin-top: 2px;
@@ -96,10 +104,20 @@
   and (-webkit-min-device-pixel-ratio: 2) { 
     .resource-item-container {
         margin-top: 1rem;
+        position:unset;
     }
     .resource-item {
         margin-top: 2px;
         margin-bottom: 2px;
+    }
+    .resource-iframe {
+        width: 300px;
+        height: 200px;
+    }
+    .resource-text-title {
+        text-align: center;
+        font-weight: 800;
+        font-size: 40px;
     }
 }
 
@@ -114,10 +132,20 @@
   and (-webkit-device-pixel-ratio: 2) {
     .resource-item-container {
         margin-top: 1rem;
+        position:unset;
     }
     .resource-item {
         margin-top: 2px;
         margin-bottom: 2px;
+    }
+    .resource-iframe {
+        width: 300px;
+        height: 200px;
+    }
+    .resource-text-title {
+        text-align: center;
+        font-weight: 800;
+        font-size: 35px;
     }
 }
 
@@ -130,10 +158,20 @@
   and (-webkit-device-pixel-ratio: 3) {
     .resource-item-container {
         margin-top: 1rem;
+        position:unset;
     }
     .resource-item {
         margin-top: 2px;
         margin-bottom: 2px;
+    }
+    .resource-iframe {
+        width: 300px;
+        height: 200px;
+    }
+    .resource-text-title {
+        text-align: center;
+        font-weight: 800;
+        font-size: 35px;
     }
 }
 
@@ -146,9 +184,19 @@
   and (-webkit-min-device-pixel-ratio: 1) {
     .resource-item-container {
         margin-top: 1rem;
+        
     }
     .resource-item {
         margin-top: 2px;
         margin-bottom: 2px;
+    }
+    .resource-iframe {
+        width: 500px;
+        height: 300px;
+    }
+    .resource-text-title {
+        text-align: center;
+        font-weight: 800;
+        font-size: 50px;
     }
 }
