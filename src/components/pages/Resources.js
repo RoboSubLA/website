@@ -11,6 +11,7 @@ import Arduino from "./resource-sections/Arduino";
 import ComputerVision from "./resource-sections/ComputerVision";
 import ROS from "./resource-sections/ROS";
 import Linux from "./resource-sections/Linux";
+import GetStarted from "./resource-sections/GetStarted";
 
 const Resources = () => {
   return (
@@ -62,6 +63,10 @@ const Resources = () => {
 
           <Col sm={9} className="resource-container">
             <Tab.Content>
+              <Tab.Pane eventKey="getstarted">
+                <h1 className="resource-text-title">Get Started</h1>
+                <GetStarted />
+              </Tab.Pane>
               <Tab.Pane eventKey="arduino">
                 <h1 className="resource-text-title">Arduino</h1>
                 <Arduino />
