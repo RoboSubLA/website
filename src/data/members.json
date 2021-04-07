@@ -1,64 +1,230 @@
 {
-    "officers":[{
-        "name":"Ricardo Medina",
-        "img":"/images/members/ricardo.jpg",
-        "title":"President",
-        "text":"Senior Cs Major and Team Lead for Senior Design",
-        "link":"https://www.ricardomedina.net"
-    },{
-        "name":"Aren Petrossian",
-        "img":"/images/members/aren.jpg",
-        "title":"Vice-President",
-        "text":"Mechanical Engineer Student with a 4.0 gpa",
-        "link":"https://www.linkedin.com/in/aren-petrossian/"
-    },{
-        "name":"Heriberto Gonzalez",
-        "img":"/images/members/gonzo.jpg",
-        "title":"Officer / Cv Lead",
-        "text":"God of CV",
-        "link":"https://www.linkedin.com/in/hg12/"
-    },{
-        "name":"Eric Anthony",
-        "img":"/images/members/eric.jpg",
-        "title":"Officer / Treasurer",
-        "text":"God of ME",
-        "link":"https://www.linkedin.com/in/ewaengineering/"
-    },{
-        "name":"Saul Loza",
-        "img":"/images/members/saul.jpg",
-        "title":"Officer / Outreach",
-        "text":"Actuated Systems Lead",
-        "link":"https://www.linkedin.com/"
-    }],
-    "members":[{
-        "name":"Yara Ajjawi",
-        "img":"/images/members/yara.jpg",
-        "title":"",
-        "text":"",
-        "link":"https://www.linkedin.com/in/yara-ajjawi"
-    },{
-        "name":"Jennifer Serrano",
-        "img":"/images/members/jenniferserrano.jpg",
-        "title":"",
-        "text":"",
-        "link":""
-    },{
-        "name":"Kat Bonomo",
-        "img":"https://miro.medium.com/max/7086/1*xcdwakgStLJQA4zgoRH3fQ.jpeg",
-        "title":"",
-        "text":"",
-        "link":""
-    },{
-        "name":"Victor Sandoval",
-        "img":"https://miro.medium.com/max/7086/1*xcdwakgStLJQA4zgoRH3fQ.jpeg",
-        "title":"",
-        "text":"",
-        "link":""
-    },{
-        "name":"Adrian Salgado Lopez",
-        "img":"https://miro.medium.com/max/7086/1*xcdwakgStLJQA4zgoRH3fQ.jpeg",
-        "title":"",
-        "text":"",
-        "link":"https://www.linkedin.com/in/adriansalgadocsula/"
-    }]
+  "2020-2021": {
+    "officers": [
+      {
+        "name": "Ricardo Medina",
+        "img": "/images/members/ricardo.jpg",
+        "title": "President",
+        "text": "Senior Cs Major and Team Lead for Senior Design",
+        "link": "https://www.ricardomedina.net"
+      },
+      {
+        "name": "Aren Petrossian",
+        "img": "/images/members/aren.jpg",
+        "title": "Vice-President",
+        "text": "Mechanical Engineer Student with a 4.0 gpa",
+        "link": "https://www.linkedin.com/in/aren-petrossian/"
+      },
+      {
+        "name": "Heriberto Gonzalez",
+        "img": "/images/members/gonzo.jpg",
+        "title": "Officer / Cv Lead",
+        "text": "God of CV",
+        "link": "https://www.linkedin.com/in/hg12/"
+      },
+      {
+        "name": "Eric Anthony",
+        "img": "/images/members/eric.jpg",
+        "title": "Officer / Treasurer",
+        "text": "God of ME",
+        "link": "https://www.linkedin.com/in/ewaengineering/"
+      },
+      {
+        "name": "Saul Loza",
+        "img": "/images/members/saul.jpg",
+        "title": "Officer / Outreach",
+        "text": "Actuated Systems Lead",
+        "link": "https://www.linkedin.com/"
+      }
+    ],
+    "members": [
+      {
+        "name": "Yara Ajjawi",
+        "img": "/images/members/yara.jpg",
+        "title": "",
+        "text": "",
+        "link": "https://www.linkedin.com/in/yara-ajjawi"
+      },
+      {
+        "name": "Jennifer Serrano",
+        "img": "/images/members/jenniferserrano.jpg",
+        "title": "",
+        "text": "",
+        "link": ""
+      },
+      {
+        "name": "Kat Bonomo",
+        "img": "https://miro.medium.com/max/7086/1*xcdwakgStLJQA4zgoRH3fQ.jpeg",
+        "title": "",
+        "text": "",
+        "link": ""
+      },
+      {
+        "name": "Victor Sandoval",
+        "img": "https://miro.medium.com/max/7086/1*xcdwakgStLJQA4zgoRH3fQ.jpeg",
+        "title": "",
+        "text": "",
+        "link": ""
+      },
+      {
+        "name": "Adrian Salgado Lopez",
+        "img": "https://miro.medium.com/max/7086/1*xcdwakgStLJQA4zgoRH3fQ.jpeg",
+        "title": "",
+        "text": "",
+        "link": "https://www.linkedin.com/in/adriansalgadocsula/"
+      }
+    ]
+  },
+  "2019-2020": {
+    "officers": [
+      {
+        "name": "Ricardo Medina",
+        "img": "/images/members/ricardo.jpg",
+        "title": "President",
+        "text": "Senior Cs Major and Team Lead for Senior Design",
+        "link": "https://www.ricardomedina.net"
+      },
+      {
+        "name": "Aren Petrossian",
+        "img": "/images/members/aren.jpg",
+        "title": "Vice-President",
+        "text": "Mechanical Engineer Student with a 4.0 gpa",
+        "link": "https://www.linkedin.com/in/aren-petrossian/"
+      },
+      {
+        "name": "Heriberto Gonzalez",
+        "img": "/images/members/gonzo.jpg",
+        "title": "Officer / Cv Lead",
+        "text": "God of CV",
+        "link": "https://www.linkedin.com/in/hg12/"
+      },
+      {
+        "name": "Eric Anthony",
+        "img": "/images/members/eric.jpg",
+        "title": "Officer / Treasurer",
+        "text": "God of ME",
+        "link": "https://www.linkedin.com/in/ewaengineering/"
+      },
+      {
+        "name": "Saul Loza",
+        "img": "/images/members/saul.jpg",
+        "title": "Officer / Outreach",
+        "text": "Actuated Systems Lead",
+        "link": "https://www.linkedin.com/"
+      }
+    ],
+    "members": [
+      {
+        "name": "Yara Ajjawi",
+        "img": "/images/members/yara.jpg",
+        "title": "",
+        "text": "",
+        "link": "https://www.linkedin.com/in/yara-ajjawi"
+      },
+      {
+        "name": "Jennifer Serrano",
+        "img": "/images/members/jenniferserrano.jpg",
+        "title": "",
+        "text": "",
+        "link": ""
+      },
+      {
+        "name": "Kat Bonomo",
+        "img": "https://miro.medium.com/max/7086/1*xcdwakgStLJQA4zgoRH3fQ.jpeg",
+        "title": "",
+        "text": "",
+        "link": ""
+      },
+      {
+        "name": "Victor Sandoval",
+        "img": "https://miro.medium.com/max/7086/1*xcdwakgStLJQA4zgoRH3fQ.jpeg",
+        "title": "",
+        "text": "",
+        "link": ""
+      },
+      {
+        "name": "Adrian Salgado Lopez",
+        "img": "https://miro.medium.com/max/7086/1*xcdwakgStLJQA4zgoRH3fQ.jpeg",
+        "title": "",
+        "text": "",
+        "link": "https://www.linkedin.com/in/adriansalgadocsula/"
+      }
+    ]
+  },
+  "2018-2019": {
+    "officers": [
+      {
+        "name": "Ricardo Medina",
+        "img": "/images/members/ricardo.jpg",
+        "title": "President",
+        "text": "Senior Cs Major and Team Lead for Senior Design",
+        "link": "https://www.ricardomedina.net"
+      },
+      {
+        "name": "Aren Petrossian",
+        "img": "/images/members/aren.jpg",
+        "title": "Vice-President",
+        "text": "Mechanical Engineer Student with a 4.0 gpa",
+        "link": "https://www.linkedin.com/in/aren-petrossian/"
+      },
+      {
+        "name": "Heriberto Gonzalez",
+        "img": "/images/members/gonzo.jpg",
+        "title": "Officer / Cv Lead",
+        "text": "God of CV",
+        "link": "https://www.linkedin.com/in/hg12/"
+      },
+      {
+        "name": "Eric Anthony",
+        "img": "/images/members/eric.jpg",
+        "title": "Officer / Treasurer",
+        "text": "God of ME",
+        "link": "https://www.linkedin.com/in/ewaengineering/"
+      },
+      {
+        "name": "Saul Loza",
+        "img": "/images/members/saul.jpg",
+        "title": "Officer / Outreach",
+        "text": "Actuated Systems Lead",
+        "link": "https://www.linkedin.com/"
+      }
+    ],
+    "members": [
+      {
+        "name": "Yara Ajjawi",
+        "img": "/images/members/yara.jpg",
+        "title": "",
+        "text": "",
+        "link": "https://www.linkedin.com/in/yara-ajjawi"
+      },
+      {
+        "name": "Jennifer Serrano",
+        "img": "/images/members/jenniferserrano.jpg",
+        "title": "",
+        "text": "",
+        "link": ""
+      },
+      {
+        "name": "Kat Bonomo",
+        "img": "https://miro.medium.com/max/7086/1*xcdwakgStLJQA4zgoRH3fQ.jpeg",
+        "title": "",
+        "text": "",
+        "link": ""
+      },
+      {
+        "name": "Victor Sandoval",
+        "img": "https://miro.medium.com/max/7086/1*xcdwakgStLJQA4zgoRH3fQ.jpeg",
+        "title": "",
+        "text": "",
+        "link": ""
+      },
+      {
+        "name": "Adrian Salgado Lopez",
+        "img": "https://miro.medium.com/max/7086/1*xcdwakgStLJQA4zgoRH3fQ.jpeg",
+        "title": "",
+        "text": "",
+        "link": "https://www.linkedin.com/in/adriansalgadocsula/"
+      }
+    ]
+  }
 }
