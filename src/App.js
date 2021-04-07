@@ -8,6 +8,7 @@ import Navbar from './components/Navbar'
 import Members from './components/pages/Members'
 import Resources from './components/pages/Resources'
 import Gyarados from './components/pages/subpages/Gyarados';
+import Magikarp from './components/pages/subpages/Magikarp'
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path='/resources' component={Resources} />
           <Route path='/sign-up' component={SignUp} />
           <Route path='/gyarados' exact component={Gyarados} />
+          <Route path='/magikarp' exact component={Magikarp} />
         </Switch>
       </Router>
     </>
