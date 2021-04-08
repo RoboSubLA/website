@@ -7,6 +7,10 @@
   text-align: center;
 }
 
+.figure-container {
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
 
 .flip-figure {
   background-color: transparent;

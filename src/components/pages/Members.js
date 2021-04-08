@@ -14,7 +14,7 @@ const Members = () => {
     <Container>
       <h1>Officers</h1>
       <Row>
-        <Col sm>
+        <Col className='figure-container' sm>
           <div className='flip-figure'>
             <div className='flip-figure-inner'>
               <div className='flip-figure-front'>
@@ -48,7 +48,7 @@ const Members = () => {
 
         </Col>
 
-        <Col sm>
+        <Col className='figure-container' sm>
           <div className='flip-figure'>
             <div className='flip-figure-inner'>
               <div className='flip-figure-front'>
@@ -81,7 +81,7 @@ const Members = () => {
           </div>
 
         </Col>
-        <Col sm>
+        <Col className='figure-container' sm>
           <div className='flip-figure'>
             <div className='flip-figure-inner'>
               <div className='flip-figure-front'>
@@ -114,7 +114,7 @@ const Members = () => {
           </div>
 
         </Col>
-        <Col sm>
+        <Col className='figure-container' sm>
           <div className='flip-figure'>
             <div className='flip-figure-inner'>
               <div className='flip-figure-front'>
@@ -147,7 +147,7 @@ const Members = () => {
           </div>
 
         </Col>
-        <Col sm>
+        <Col className='figure-container' sm>
           <div className='flip-figure'>
             <div className='flip-figure-inner'>
               <div className='flip-figure-front'>
