@@ -4,6 +4,7 @@ import Figure from "react-bootstrap/Figure";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+
 import MemberSection from "../MemberSection";
 
 const Members = () => {
@@ -14,74 +15,171 @@ const Members = () => {
       <h1>Officers</h1>
       <Row>
         <Col sm>
-          <Figure className="members-container">
-            <Figure.Image
-              className="members-img"
-              width={171}
-              height={180}
-              alt="171x180"
-              src={json.officers[0].img}
-            />
-            <Figure.Caption>{json.officers[0].name}</Figure.Caption>
-            <Figure.Caption>{json.officers[0].title}</Figure.Caption>
-          </Figure>
+          <div className='flip-figure'>
+            <div className='flip-figure-inner'>
+              <div className='flip-figure-front'>
+                <Figure className="members-container">
+                  <Figure.Image
+                    className="members-img"
+                    width={171}
+                    height={180}
+                    alt="171x180"
+                    src={json.officers[0].img}
+                  />
+                  <Figure.Caption>{json.officers[0].name}</Figure.Caption>
+                  <Figure.Caption>{json.officers[0].title}</Figure.Caption>
+                </Figure>
+              </div>
+
+              <div className='flip-figure-back'>
+                <div className='flip-figure-back-content'>
+                  <p>More Info</p>
+                  <a className='fig-back-icon' href='/'>
+                    <i className="fas fa-info-circle"></i>
+                  </a>
+                  <a className='fig-back-icon' href={json.officers[0].link}>
+                    <i className="fas fa-user-circle"></i>
+                  </a>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+
         </Col>
 
         <Col sm>
-          <Figure className="members-container">
-            <Figure.Image
-              className="members-img"
-              width={171}
-              height={180}
-              alt="171x180"
-              src={json.officers[1].img}
-            />
-            <Figure.Caption>{json.officers[1].name}</Figure.Caption>
-            <Figure.Caption>{json.officers[1].title}</Figure.Caption>
-          </Figure>
-        </Col>
+          <div className='flip-figure'>
+            <div className='flip-figure-inner'>
+              <div className='flip-figure-front'>
+                <Figure className="members-container">
+                  <Figure.Image
+                    className="members-img"
+                    width={171}
+                    height={180}
+                    alt="171x180"
+                    src={json.officers[1].img}
+                  />
+                  <Figure.Caption>{json.officers[1].name}</Figure.Caption>
+                  <Figure.Caption>{json.officers[1].title}</Figure.Caption>
+                </Figure>
+              </div>
 
-        <Col sm>
-          <Figure className="members-container">
-            <Figure.Image
-              className="members-img"
-              width={171}
-              height={180}
-              alt="171x180"
-              src={json.officers[2].img}
-            />
-            <Figure.Caption>{json.officers[2].name}</Figure.Caption>
-            <Figure.Caption>{json.officers[2].title}</Figure.Caption>
-          </Figure>
-        </Col>
+              <div className='flip-figure-back'>
+                <div className='flip-figure-back-content'>
+                  <p>More Info</p>
+                  <a className='fig-back-icon' href='/'>
+                    <i className="fas fa-info-circle"></i>
+                  </a>
+                  <a className='fig-back-icon' href={json.officers[1].link}>
+                    <i className="fas fa-user-circle"></i>
+                  </a>
+                </div>
+                
+              </div>
+            </div>
+          </div>
 
-        <Col sm>
-          <Figure className="members-container">
-            <Figure.Image
-              className="members-img"
-              width={171}
-              height={180}
-              alt="171x180"
-              src={json.officers[3].img}
-            />
-            <Figure.Caption>{json.officers[3].name}</Figure.Caption>
-            <Figure.Caption>{json.officers[3].title}</Figure.Caption>
-          </Figure>
         </Col>
+        <Col sm>
+          <div className='flip-figure'>
+            <div className='flip-figure-inner'>
+              <div className='flip-figure-front'>
+                <Figure className="members-container">
+                  <Figure.Image
+                    className="members-img"
+                    width={171}
+                    height={180}
+                    alt="171x180"
+                    src={json.officers[2].img}
+                  />
+                  <Figure.Caption>{json.officers[2].name}</Figure.Caption>
+                  <Figure.Caption>{json.officers[2].title}</Figure.Caption>
+                </Figure>
+              </div>
 
-        <Col sm>
-          <Figure className="members-container">
-            <Figure.Image
-              className="members-img"
-              width={171}
-              height={180}
-              alt="171x180"
-              src={json.officers[4].img}
-            />
-            <Figure.Caption>{json.officers[4].name}</Figure.Caption>
-            <Figure.Caption>{json.officers[4].title}</Figure.Caption>
-          </Figure>
+              <div className='flip-figure-back'>
+                <div className='flip-figure-back-content'>
+                  <p>More Info</p>
+                  <a className='fig-back-icon' href='/'>
+                    <i className="fas fa-info-circle"></i>
+                  </a>
+                  <a className='fig-back-icon' href={json.officers[2].link}>
+                    <i className="fas fa-user-circle"></i>
+                  </a>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+
         </Col>
+        <Col sm>
+          <div className='flip-figure'>
+            <div className='flip-figure-inner'>
+              <div className='flip-figure-front'>
+                <Figure className="members-container">
+                  <Figure.Image
+                    className="members-img"
+                    width={171}
+                    height={180}
+                    alt="171x180"
+                    src={json.officers[3].img}
+                  />
+                  <Figure.Caption>{json.officers[3].name}</Figure.Caption>
+                  <Figure.Caption>{json.officers[3].title}</Figure.Caption>
+                </Figure>
+              </div>
+
+              <div className='flip-figure-back'>
+                <div className='flip-figure-back-content'>
+                  <p>More Info</p>
+                  <a className='fig-back-icon' href='/'>
+                    <i className="fas fa-info-circle"></i>
+                  </a>
+                  <a className='fig-back-icon' href={json.officers[3].link}>
+                    <i className="fas fa-user-circle"></i>
+                  </a>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+
+        </Col>
+        <Col sm>
+          <div className='flip-figure'>
+            <div className='flip-figure-inner'>
+              <div className='flip-figure-front'>
+                <Figure className="members-container">
+                  <Figure.Image
+                    className="members-img"
+                    width={171}
+                    height={180}
+                    alt="171x180"
+                    src={json.officers[4].img}
+                  />
+                  <Figure.Caption>{json.officers[4].name}</Figure.Caption>
+                  <Figure.Caption>{json.officers[4].title}</Figure.Caption>
+                </Figure>
+              </div>
+
+              <div className='flip-figure-back'>
+                <div className='flip-figure-back-content'>
+                  <p>More Info</p>
+                  <a className='fig-back-icon' href='/'>
+                    <i className="fas fa-info-circle"></i>
+                  </a>
+                  <a className='fig-back-icon' href={json.officers[4].link}>
+                    <i className="fas fa-user-circle"></i>
+                  </a>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+
+        </Col>        
       </Row>
 
       <h1>Club Members</h1>
