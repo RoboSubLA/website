@@ -1,14 +1,20 @@
-import React from 'react';
-import './App.css';
-import Home from './components/pages/Home';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import SignUp from './components/pages/SignUp';
-import TheFleet from './components/pages/TheFleet'
-import Navbar from './components/Navbar'
-import Members from './components/pages/Members'
-import Resources from './components/pages/Resources'
-import Gyarados from './components/pages/subpages/Gyarados';
-import Magikarp from './components/pages/subpages/Magikarp'
+import React from "react";
+import "./App.css";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Navbar from "./components/Navbar";
+
+// pages import
+import Home from "./components/pages/Home";
+import SignUp from "./components/pages/SignUp";
+import TheFleet from "./components/pages/TheFleet";
+import Members from "./components/pages/Members";
+import Resources from "./components/pages/Resources";
+
+// sub pages import
+import Lanturn from "./components/pages/subpages/Lanturn";
+import Donphan from "./components/pages/subpages/Donphan";
+import Gyarados from "./components/pages/subpages/Gyarados";
+import Magikarp from "./components/pages/subpages/Magikarp";
 
 function App() {
   return (
@@ -16,13 +22,16 @@ function App() {
       <Router>
         <Navbar />
         <Switch>
-          <Route path='/' exact component={Home} />
-          <Route path='/thefleet' component={TheFleet} />
-          <Route path='/members' component={Members} />
-          <Route path='/resources' component={Resources} />
-          <Route path='/sign-up' component={SignUp} />
-          <Route path='/gyarados' exact component={Gyarados} />
-          <Route path='/magikarp' exact component={Magikarp} />
+          <Route path="/" exact component={Home} />
+          <Route path="/thefleet" component={TheFleet} />
+          <Route path="/members" component={Members} />
+          <Route path="/resources" component={Resources} />
+          <Route path="/sign-up" component={SignUp} />
+
+          {/* routes to sub pages */}
+          <Route path="/lanturn" componenet={Lanturn} />
+          <Route path="/donphan" componenet={Donphan} />
+          <Route path="/gyarados" component={Gyarados} />
         </Switch>
       </Router>
     </>
