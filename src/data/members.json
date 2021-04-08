@@ -14,14 +14,14 @@
     },{
         "name":"Heriberto Gonzalez",
         "img":"/images/members/gonzo.jpg",
-        "title":"Officer / Cv Lead",
-        "text":"God of CV",
+        "title":"Officer / IT",
+        "text":"",
         "link":"https://www.linkedin.com/in/hg12/"
     },{
         "name":"Eric Anthony",
         "img":"/images/members/eric.jpg",
         "title":"Officer / Treasurer",
-        "text":"God of ME",
+        "text":"",
         "link":"https://www.linkedin.com/in/ewaengineering/"
     },{
         "name":"Saul Loza",
@@ -43,22 +43,86 @@
         "text":"",
         "link":""
     },{
-        "name":"Kat Bonomo",
-        "img":"https://miro.medium.com/max/7086/1*xcdwakgStLJQA4zgoRH3fQ.jpeg",
+        "name":"Katherine Bonomo",
+        "img":"/images/members/kat.jpg",
         "title":"",
         "text":"",
         "link":""
     },{
-        "name":"Victor Sandoval",
-        "img":"https://miro.medium.com/max/7086/1*xcdwakgStLJQA4zgoRH3fQ.jpeg",
+        "name":"Victor Solis",
+        "img":"/images/members/victorsolis.jpg",
         "title":"",
         "text":"",
         "link":""
     },{
         "name":"Adrian Salgado Lopez",
-        "img":"https://miro.medium.com/max/7086/1*xcdwakgStLJQA4zgoRH3fQ.jpeg",
+        "img":"/images/members/adriansalgado.jpg",
         "title":"",
         "text":"",
         "link":"https://www.linkedin.com/in/adriansalgadocsula/"
+    }],
+    "seniordesign":[{
+        "name":"Ricardo Medina",
+        "img":"/images/members/ricardo.jpg",
+        "title":"Software Lead",
+        "text":"Senior Cs Major and Team Lead for Senior Design",
+        "link":"https://www.ricardomedina.net"
+    },{
+        "name":"Heriberto Gonzalez",
+        "img":"/images/members/gonzo.jpg",
+        "title":"Computer Vision Lead",
+        "link":"https://www.linkedin.com/in/hg12/"
+    },{
+        "name":"Sana Shaikh",
+        "img":"/images/sponsors/csula.png",
+        "title":"Controls",
+        "link":""
+    },{
+        "name":"Gabriela Cortes-Mejia",
+        "img":"/images/sponsors/csula.png",
+        "title":"Controls",
+        "link":""
+    },{
+        "name":"Albert Chew",
+        "img":"/images/sponsors/csula.png",
+        "title":"Controls",
+        "link":""
+    },{
+        "name":"Wilson Weng",
+        "img":"/images/sponsors/csula.png",
+        "title":"Mission Planning Lead",
+        "link":""
+    },{
+        "name":"Brandon Pham",
+        "img":"/images/sponsors/csula.png",
+        "title":"Mission Planning",
+        "link":""
+    },{
+        "name":"Horacio Mondragon",
+        "img":"/images/sponsors/csula.png",
+        "title":"Computer Vision",
+        "link":""
+    },{
+        "name":"Kevin Williams",
+        "img":"/images/sponsors/csula.png",
+        "title":"Computer Vision",
+        "link":""
+    }],
+    "advisors":[{
+        "name":"Richard Cross",
+        "img":"/images/sponsors/csula.png",
+        "title":"Advisor",
+        "text":"Senior Cs Major and Team Lead for Senior Design",
+        "link":""
+    },{
+        "name":"Dr. He Shen",
+        "img":"/images/sponsors/csula.png",
+        "title":"Advisor",
+        "link":""
+    },{
+        "name":"Mark Tufenkjian",
+        "img":"/images/sponsors/csula.png",
+        "title":"Advisor",
+        "link":""
     }]
 }

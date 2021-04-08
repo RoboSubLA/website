@@ -1,24 +1,11 @@
+.members-img {
+  border-radius: 50%;
+}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.members-container {
+  text-align: center;
+}
 
 
 @media screen and (max-width: 650px) {
