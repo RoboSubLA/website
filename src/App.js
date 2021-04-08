@@ -1,12 +1,12 @@
 import React from "react";
 import "./App.css";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Navbar from "./components/Navbar";
 
 // pages import
 import Home from "./components/pages/Home";
 import SignUp from "./components/pages/SignUp";
 import TheFleet from "./components/pages/TheFleet";
-import Navbar from "./components/Navbar";
 import Members from "./components/pages/Members";
 import Resources from "./components/pages/Resources";
 
