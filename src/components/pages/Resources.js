@@ -64,7 +64,7 @@ const Resources = () => {
           <Col sm={9} className="resource-container">
             <Tab.Content>
               <Tab.Pane eventKey="getstarted">
-                <h1 className="resource-text-title">Get Started</h1>
+                
                 <GetStarted />
               </Tab.Pane>
               <Tab.Pane eventKey="arduino">

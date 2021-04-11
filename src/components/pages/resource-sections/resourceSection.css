@@ -1,0 +1,47 @@
+/* Get Started */
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+
+.getstarted-jumbo-container {
+    text-align: center;
+    background-color: rgb(255, 252, 252)
+
+}
+
+.getstarted-h1 {
+    font-size:50px;
+
+}
+
+.getstarted-h3 {
+
+}
+
+.getstarted-p, .getstarted-cap{
+    font-family: 'Source Code Pro', monospace;
+    font-weight: bold;
+}
+
+.getstarted-figure {
+
+}
+
+#figure-getstarted{
+    justify-content: space-evenly;
+}
+
+.accent-color {
+    color: rgb(57, 119, 242);
+}
+
+.robosub-accent-color {
+    color: rgb(55, 156, 96);
+}
+
+.getstarted-card {
+    background-color: #26292b;
+}
+
+.getstarted-card-p{
+    color: white;
+}
