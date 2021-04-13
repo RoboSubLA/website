@@ -11,25 +11,25 @@ const GetStarted = () => {
     <>
       <Jumbotron className='getstarted-jumbo-container' fluid>
         <Container>
-          <h1 className='getstarted-h1'>Welcome Members & RoboSub Teams</h1>
+          <h1 className='resources-section-h1'>Welcome Members & RoboSub Teams</h1>
 
-          <p className='getstarted-p'> 
+          <p className='resources-section-p'> 
             Here at <span className='accent-color'>RoboSub LA </span> we are passionate about Robotics and 
             we want to share what we know with our community of Robotic 
             enthusiast.
           </p>
 
-          <h1 className='getstarted-h1' ><span className='robosub-accent-color'>RoboSub International Competition</span></h1>
+          <h1 className='resources-section-h1' ><span className='robosub-accent-color'>RoboSub International Competition</span></h1>
 
-          <h3 className='getstarted-h3'>What is RoboSub?</h3>
-          <p className='getstarted-p'>
+          <h3 className='resources-section-h3'>What is RoboSub?</h3>
+          <p className='resources-section-p'>
           RoboSub is an international student competition. Student teams from around the world design and build robotic submarines, otherwise known as Autonomous Underwater Vehicles (AUV). The behaviors demonstrated by these experimental AUVs mimics those of real-world systems, currently deployed around the world for underwater exploration, seafloor mapping, and sonar localization, amongst many others.
           </p>
 
-          <h3 className='getstarted-h3'>The Competition</h3>
-          <p className='getstarted-p'>Assemble your team and get busy designing, building and testing the sub-systems of your AUV. Now put it all together and demonstrate your vehicles autonomy by completing a series of tasks through a pre-defined mission.</p>
+          <h3 className='resources-section-h3'>The Competition</h3>
+          <p className='resources-section-p'>Assemble your team and get busy designing, building and testing the sub-systems of your AUV. Now put it all together and demonstrate your vehicles autonomy by completing a series of tasks through a pre-defined mission.</p>
 
-          <h3 className='getstarted-h3'>Rules and Task</h3>
+          <h3 className='resources-section-h3'>Rules and Task</h3>
 
           <Row id='figure-getstarted'>
             <Figure className='getstarted-figure'>
@@ -81,10 +81,10 @@ const GetStarted = () => {
         </Container>
 
         <Container>
-          <h1 className='getstarted-h1' ><span className='accent-color'>RoboSub LA Team</span></h1>
-          <p className='getstarted-p'>Our team is split up into two project teams, the student organization and the senior design team. The senior design team builds one vehicle, and the club members build a separate vehicle while being mentored by senior design members. Both vehicles are intended for use in the competition and strategies will be carefully considered based on the capabilities of both vehicles. Members have the opportunity to design advanced robotics systems and work on an interdisciplinary project to gain experience working with a team. Please see the progress tab for a better idea of what our members are working on and what tasks and projects are available to new members</p>
+          <h1 className='resources-section-h1' ><span className='accent-color'>RoboSub LA Team</span></h1>
+          <p className='resources-section-p'>Our team is split up into two project teams, the student organization and the senior design team. The senior design team builds one vehicle, and the club members build a separate vehicle while being mentored by senior design members. Both vehicles are intended for use in the competition and strategies will be carefully considered based on the capabilities of both vehicles. Members have the opportunity to design advanced robotics systems and work on an interdisciplinary project to gain experience working with a team. Please see the progress tab for a better idea of what our members are working on and what tasks and projects are available to new members</p>
           
-          <h3 className='getstarted-h3'>
+          <h3 className='resources-section-h3'>
             Team Breakdown Subteams:
           </h3>
 
