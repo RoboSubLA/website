@@ -38,8 +38,7 @@
   margin-top: 8px;
   color: #fff;
   font-size: 32px;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-    'Lucida Sans', Arial, sans-serif;
+  font-family: 'Audiowide';
 }
 
 .video-btns {
@@ -54,10 +53,25 @@
   margin-left: 4px;
 }
 
+#under-p {
+  font-family: 'Audiowide';
+  color: rgb(255, 255, 255);
+  font-size: 35px;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgb(7, 0, 14);
+}
+
 @media screen and (max-width: 960px) {
   .video-container > h1 {
-    font-size: 70px;
+    font-size: 90px;
     margin-top: -150px;
+  }
+  #under-p {
+    font-family: 'Audiowide';
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(7, 0, 14);
   }
 }
 
@@ -78,6 +92,13 @@
 
   .btn {
     width: 100%;
+  }
+  #under-p {
+    font-family: 'Audiowide';
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    -webkit-text-stroke-width: 0px;
+    font-weight: 500;
   }
 }
 
