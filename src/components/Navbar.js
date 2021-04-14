@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Button } from './Button';
 import { Link } from 'react-router-dom';
+import Image from 'react-bootstrap/Image'
 import './Navbar.css';
 
 function Navbar() {
@@ -31,6 +32,11 @@ function Navbar() {
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
             AUV
             <i class="fas fa-water" />
+            {/* <Image
+              src='./images/robosublogo.png'
+              width='60'
+              height='60'
+            /> */}
           </Link>
           <div className='menu-icon' onClick={handleClick}>
             <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
