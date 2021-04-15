@@ -1,6 +1,5 @@
 import React from "react";
 // import VideoSection from "../VideoSection";
-import Footer from "../../components/Footer";
 import { Button } from "../../components/Button";
 import Jumbotron from "react-bootstrap/Jumbotron";
 import Container from "react-bootstrap/Container";
@@ -119,7 +118,6 @@ function Home() {
         </div>
       </VideoSection>
       <About />
-      <Footer />
     </>
   );
 }

@@ -4,7 +4,6 @@ import Col from "react-bootstrap/Col";
 import Tab from "react-bootstrap/Tab";
 import Nav from "react-bootstrap/Nav";
 import "./resources.css";
-import Footer from "../../components/Footer";
 
 // import resource sections
 import Arduino from "../resource-sections/Arduino";
@@ -105,7 +104,6 @@ const Resources = () => {
           </Col>
         </Row>
       </Tab.Container>
-      <Footer />
     </div>
   );
 };
