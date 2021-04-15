@@ -30,9 +30,11 @@ function App() {
           <Route path="/sign-up" component={SignUp} />
 
           {/* routes to sub pages */}
-          <Route path="/lanturn" componenet={Lanturn} />
-          <Route path="/donphan" componenet={Donphan} />
+          <Route path="/lanturn" component={Lanturn} />
+          <Route path="/donphan" component={Donphan} />
           <Route path="/gyarados" component={Gyarados} />
+          <Route path="/magikarp" component={Magikarp} />
+          
         </Switch>
         <Footer />
       </Router>

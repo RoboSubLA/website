@@ -15,7 +15,7 @@ const Magikarp = () => {
 
       <Tabs
         className="sub-tabs"
-        defaultActiveKey="profile"
+        defaultActiveKey="team"
         id="uncontrolled-tab-example"
       >
         <Tab eventKey="team" title="Team">
@@ -223,7 +223,7 @@ const Magikarp = () => {
           </p>
         </Tab>
       </Tabs>
-      <Footer />
+      
     </div>
   );
 };
