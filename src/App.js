@@ -2,6 +2,7 @@ import React from "react";
 import "./App.css";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 // pages import
 import Home from "./pages/main_pages/Home";
@@ -33,6 +34,7 @@ function App() {
           <Route path="/donphan" componenet={Donphan} />
           <Route path="/gyarados" component={Gyarados} />
         </Switch>
+        <Footer />
       </Router>
     </>
   );

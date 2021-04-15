@@ -332,7 +332,6 @@ const Members = () => {
           </Col>
         </Row>
       </Container>
-      <Footer />
     </div>
   );
 };
