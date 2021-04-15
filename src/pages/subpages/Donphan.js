@@ -11,12 +11,11 @@ import "./sub.css";
 const Donphan = () => {
   return (
     <div className="sub-container">
-      {/* <Image src={process.env.PUBLIC_URL + '/images/subs/gyarados/gyarados.png'}></Image> */}
-      <h1 className="sub-header"> GYARADOS </h1>
+      <h1 className="sub-header"> Donphan </h1>
 
       <Tabs
         className="sub-tabs"
-        defaultActiveKey="profile"
+        defaultActiveKey="team"
         id="uncontrolled-tab-example"
       >
         <Tab eventKey="team" title="Team">
@@ -439,7 +438,6 @@ const Donphan = () => {
           <br />
         </Tab>
       </Tabs>
-      <Footer />
     </div>
   );
 };

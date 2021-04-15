@@ -1,278 +1,144 @@
 import React from "react";
-import Tabs from "react-bootstrap/Tabs";
-import Tab from "react-bootstrap/Tab";
-import Table from "react-bootstrap/Table";
-import Image from "react-bootstrap/Image";
-import Carousel from "react-bootstrap/Carousel";
+import {Tabs, Tab, Jumbotron, Image, Carousel, Row, Figure, Col, Container }from "react-bootstrap";
 
 import "./sub.css";
+const Member = (props) => {
+  return (
+    <Col className="figure-container" sm>
+      <div className="flip-figure">
+        <div className="flip-figure-inner">
+          <div className="flip-figure-front">
+            <Figure className="members-container">
+              <Figure.Image
+                className="members-img"
+                width={171}
+                height={180}
+                alt="171x180"
+                src={props.json.img}
+              />
+              <Figure.Caption>{props.json.name}</Figure.Caption>
+              <Figure.Caption>{props.json.title}</Figure.Caption>
+            </Figure>
+          </div>
+
+          <div className="flip-figure-back">
+            <div className="flip-figure-back-content">
+              <p className="flip-figure-back-text">More Info</p>
+              <a className="fig-back-icon" href="/">
+                <i className="fas fa-info-circle"></i>
+              </a>
+              <a className="fig-back-icon" href={props.json.link}>
+                <i className="fas fa-user-circle"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </Col>
+  );
+};
+
+const MemberSection = (props) => {
+  return (
+    <>
+      {props.list.map((item) => {
+        return <Member json={item} key={item.name} />;
+      })}
+    </>
+  );
+};
 
 const Lanturn = () => {
+  let obj = require("../../data/members.json");
+  let json = obj[Object.keys(obj)[0]];
   return (
     <div className="gyarados-container">
-      {/* <Image src={process.env.PUBLIC_URL + '/images/subs/gyarados/gyarados.png'}></Image> */}
-      <h1> GYARADOS </h1>
-      <Image></Image>
-
-      <Tabs defaultActiveKey="profile" id="uncontrolled-tab-example">
+        <Tabs defaultActiveKey="team" className='sub-tabs' id="uncontrolled-tab-example">
+        
         <Tab eventKey="team" title="Team">
-          <Table striped bordered hover>
-            <thead>
-              <tr>
-                <th>Position</th>
-                <th>Name</th>
-                <th>Major</th>
-                <th>Linkedin</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Team Captian</td>
-                <td>Sidra Gibeault</td>
-                <td>Electrical Engineer</td>
-                <td>
-                  <a href="https://www.linkedin.com/in/sidra-gibeault-269387172/">
-                    {" "}
-                    More Info
-                  </a>
-                </td>
-              </tr>
-
-              <tr>
-                <td>Team Captian</td>
-                <td>Joseph Iorio</td>
-                <td>Mechanical Engineer</td>
-                <td>
-                  <a href="https://www.linkedin.com/in/joseph-daniel-iorio-ab543085/">
-                    {" "}
-                    More Info
-                  </a>
-                </td>
-              </tr>
-
-              <tr>
-                <td>Engineering Team</td>
-                <td>Kevin Ma</td>
-                <td>Mechanical Engineer</td>
-                <td>
-                  <a> More Info</a>
-                </td>
-              </tr>
-
-              <tr>
-                <td>Engineering Team</td>
-                <td>Stephanie Godina</td>
-                <td>Mechanical Engineer</td>
-                <td>
-                  <a href="https://www.linkedin.com/in/stephaniegodina/">
-                    {" "}
-                    More Info
-                  </a>
-                </td>
-              </tr>
-
-              <tr>
-                <td>Engineering Team</td>
-                <td>Arnold Morales</td>
-                <td>Electrical Engineer</td>
-                <td>
-                  <a> More Info</a>
-                </td>
-              </tr>
-
-              <tr>
-                <td>Engineering Team</td>
-                <td>Danny Huynh</td>
-                <td>Electrical Engineer</td>
-                <td>
-                  <a> More Info</a>
-                </td>
-              </tr>
-
-              <tr>
-                <td>Computer Science Team</td>
-                <td> Carlos Gomez </td>
-                <td>Computer Science</td>
-                <td>
-                  <a> More Info</a>
-                </td>
-              </tr>
-
-              <tr>
-                <td>Computer Science Team</td>
-                <td>Viraj Bhakta </td>
-                <td>Computer Science</td>
-                <td>
-                  <a href="https://www.linkedin.com/in/viraj-bhakta/">
-                    {" "}
-                    More Info
-                  </a>
-                </td>
-              </tr>
-
-              <tr>
-                <td>Computer Science Team</td>
-                <td>Daniel Gomez </td>
-                <td>Computer Science</td>
-                <td>
-                  <a> More Info</a>
-                </td>
-              </tr>
-
-              <tr>
-                <td>Computer Science Team</td>
-                <td>Ethan Cha </td>
-                <td>Computer Science</td>
-                <td>
-                  <a href="https://www.linkedin.com/in/ethan-cha-7a7796180/">
-                    {" "}
-                    More Info
-                  </a>
-                </td>
-              </tr>
-
-              <tr>
-                <td>Computer Science Team</td>
-                <td>Andres Lopez-Ruiz </td>
-                <td>Computer Science</td>
-                <td>
-                  <a href="https://www.linkedin.com/in/andreslpzr/">
-                    {" "}
-                    More Info
-                  </a>
-                </td>
-              </tr>
-
-              <tr>
-                <td>Computer Science Team</td>
-                <td>Levi </td>
-                <td>Computer Science</td>
-                <td>
-                  <a> More Info</a>
-                </td>
-              </tr>
-            </tbody>
-          </Table>
-
-          <Carousel className="carousel-container" fade>
-            <Carousel.Item>
-              <img
-                className="carousel-images"
-                src={
-                  process.env.PUBLIC_URL + "/images/subs/lanturn/lanturn.png"
-                }
-                alt="First slide"
-              />
-            </Carousel.Item>
-
-            <Carousel.Item>
-              <img
-                className="carousel-images"
-                src={
-                  process.env.PUBLIC_URL + "/images/subs/gyarados/gyarados.png"
-                }
-                alt="Second slide"
-              />
-            </Carousel.Item>
-
-            <Carousel.Item>
-              <img
-                className="carousel-images"
-                src={
-                  process.env.PUBLIC_URL +
-                  "/images/subs/gyarados/gyaradoscadframe.png"
-                }
-                alt="Third slide"
-              />
-            </Carousel.Item>
-
-            <Carousel.Item>
-              <img
-                className="carousel-images"
-                src={
-                  process.env.PUBLIC_URL +
-                  "/images/subs/gyarados/gyaradoscadhull.png"
-                }
-                alt="Fourth slide"
-              />
-            </Carousel.Item>
-
-            <Carousel.Item>
-              <img
-                className="carousel-images"
-                src={
-                  process.env.PUBLIC_URL +
-                  "/images/subs/gyarados/gyaradoscrane.jpg"
-                }
-                alt="Fifth slide"
-              />
-            </Carousel.Item>
-          </Carousel>
+          <Jumbotron>
+            <Container>
+              <h1>The Team</h1>
+              <Row className="members-row">
+                <MemberSection list={json.seniordesign} />
+              </Row>
+              <h1>Advisors</h1>
+              <Row className="members-row">
+                <MemberSection list={json.advisors} />
+              </Row>
+            </Container>
+          </Jumbotron>
         </Tab>
 
         <Tab eventKey="ME" title="Mechanical">
-          <h1>Mechanical</h1>
+          <Jumbotron>
+            <Container>
 
-          <p>
-            ​ Gyarados consists of a mechanical frame and hull, as well as a
-            servo controlled mechanical arm, torpedoes, and dropper
-            mechanism.The frame consists of waterjet and anodized aluminum,
-            along with 3D printed brackets for mounting waterproof enclosures,
-            thrusters, and the DVL. The frame includes 4 aluminum t-slot rails
-            that are used as corner brackets for mounting together the
-            baseplates and the sides. The rails duly function as a mounting
-            point for the other sub-systems.
-          </p>
-          <br />
-          <p>
-            ​ The waterproof hull was manufactured in 2018 and consists of two
-            8" diameter acrylic tubes connected to a custom machined aluminum
-            bulkhead. The bulkhead contains 18 SEACON connectors for electrical
-            interfacing. On each end are aluminum endcaps, and several 3D
-            printed parts are used on the hull for mounting latches. The latches
-            serve as an extra degree of leakage protection, in addition to the
-            double o-ring seals on either side of the bulkhead. The tubes on
-            each end of the sub can be removed from the bulkhead, leaving the
-            electronics stack exposed. Gyarados hull​Two 4" diameter acrylic
-            tubes are also present on either end of the submarine to serve as
-            the waterproof enclosures for the cameras and batteries.
-          </p>
-          <br />
-          <p>
-            In 2018, the electronics shelving was a simple acrylic shelving
-            system held together by nuts and bolts. In 2019, this shelving
-            system was redesigned to consist of a custom manufactured aluminum
-            flange for the inside of the bulkhead and 6061 t-slot aluminum to
-            hold acrylic sheets in place to serve as shelves. These shelves
-            utilized more of the available space inside the hull, allowing the
-            addition of extra electronic components for Gyarados' second year
-            competing. The updated shelving is shown below.
-          </p>
-          <br />
-          <p>
-            ​Gyarados did not feature a working claw or dropper, but its torpedo
-            system was functional.The torpedo system was a servo mechanism that
-            would launch the torpedo on command. The team waterproofed its own
-            servo motors using several commercially available products.
-          </p>
-          <br />
-          <p>
-            ​While it was unsuccessful, the 2019 team worked on the development
-            of a mechanical claw with a small waterproof enclosure for a linear
-            actuator and a dynamic o-ring seal. The waterproofing of this system
-            failed, but the system was functional outside of water. Future
-            systems opted to waterproof the servos/actuators themselves rather
-            than creating enclosures, since waterproofing a shaft opening is
-            difficult and prone to failure. The team is still investigating ways
-            to create waterproof enclosures for servo motors and actuators.
-          </p>
+              <h1>2020-2021</h1>
+              <Row>
+                <Col>
+                  {/* 2019-2020 */}
+                  <h1>Frame & Haul</h1>
+                  <Row> 
+                    <Image src='./images/subs/lanturn/lanturn2.png ' width='400px' height='400px' />
+                    <Image src='./images/subs/lanturn/lanturnframe.png ' width='400px' height='400px' />
+                  </Row> 
+                  <p>The mechanical design for CSULA’s Lanturn submarine was focused on ease of manufacture and maintenance. Key design features are a box-shaped hull with a removable electronics shelving unit and a frame with slotted mounting points for modular mounting of subassemblies. Lanturn’s hull primary structure is formed by TIG welded sheets of AL 6061-T6. The lid is made of transparent acrylic, and seals to the hull primary structure through a peripheral nitrile gasket compressed by latches. Lanturn is outfitted with forward and downward Lanturn framefacing cameras and features a rear connector plate populated with a standardized set of Seacon connectors. The electronics shelving unit is made of acrylic sheets laser cut to shape/size with equally spaced mounting holes that span each sheet. An internal connector plate and connectorized electronics allow the shelving unit to be unplugged and removed from the hull. 90 degree snapping latches allow the shelves to be laid flat outside of the sub for easy maintenance and troubleshooting.</p>
+                </Col>
+              </Row>
+
+              <Row>
+                <Col>
+                 
+                  <h1>Actuated Systems</h1>
+                  <Row> 
+                    <Image  src='./images/subs/lanturn/lanturntopview.png ' width='400px' height='400px' />
+                    <Image src='./images/subs/lanturn/lanturntrans.png' width='400px' height='400px' />
+                  </Row> 
+                  <p>The mechanical design for CSULA’s Lanturn submarine was focused on ease of manufacture and maintenance. Key design features are a box-shaped hull with a removable electronics shelving unit and a frame with slotted mounting points for modular mounting of subassemblies. Lanturn’s hull primary structure is formed by TIG welded sheets of AL 6061-T6. The lid is made of transparent acrylic, and seals to the hull primary structure through a peripheral nitrile gasket compressed by latches. Lanturn is outfitted with forward and downward Lanturn framefacing cameras and features a rear connector plate populated with a standardized set of Seacon connectors. The electronics shelving unit is made of acrylic sheets laser cut to shape/size with equally spaced mounting holes that span each sheet. An internal connector plate and connectorized electronics allow the shelving unit to be unplugged and removed from the hull. 90 degree snapping latches allow the shelves to be laid flat outside of the sub for easy maintenance and troubleshooting.</p>
+                </Col>
+              </Row>
+
+            </Container>
+
+
+            <Container>
+              <h1>2019-2020</h1>
+              <Row>
+                <Col>
+                  {/* 2019-2020 */}
+                  <h1>Frame & Haul</h1>
+                  <Row> 
+                    <Image src='./images/subs/lanturn/2019lanturninsidehaul.png' width='400px' height='400px' />
+                    <Image src='./images/subs/lanturn/2019lanturnframe.jpg' width='400px' height='400px' />
+                  </Row> 
+                  <p>The mechanical design for CSULA’s Lanturn submarine was focused on ease of manufacture and maintenance. Key design features are a box-shaped hull with a removable electronics shelving unit and a frame with slotted mounting points for modular mounting of subassemblies. Lanturn’s hull primary structure is formed by TIG welded sheets of AL 6061-T6. The lid is made of transparent acrylic, and seals to the hull primary structure through a peripheral nitrile gasket compressed by latches. Lanturn is outfitted with forward and downward Lanturn framefacing cameras and features a rear connector plate populated with a standardized set of Seacon connectors. The electronics shelving unit is made of acrylic sheets laser cut to shape/size with equally spaced mounting holes that span each sheet. An internal connector plate and connectorized electronics allow the shelving unit to be unplugged and removed from the hull. 90 degree snapping latches allow the shelves to be laid flat outside of the sub for easy maintenance and troubleshooting.</p>
+                </Col>
+              </Row>
+                {/* 2019-2020 */}
+                <h1>Actuated Systems</h1>
+                <Row>
+                  <Col>
+                    <Row> 
+                      <Image src='./images/subs/lanturn/2019lanturntorpedo.png' width='300px' height='300px'/>
+                      <Image src='./images/subs/lanturn/2019lanturnclaw.png' width='300px' height='300px'/>
+                      <Image src='./images/subs/lanturn/2019lanturndropper.png' width='300px' height='300px'/>
+                    </Row> 
+                    <p>One design criteria requires that components such as sensors and thrusters be easily added and removed in few steps to minimize time spent on maintenance, in return allocating more time to underwater testing. This requirement was met by creating a modular frame that acts as a hub for mounting components, as shown in the frame image. The design uses a combination of 6061-t6 aluminum t-slot extrusions and flat bars Clawto avoid complex machining, which contributes to ease of scaling if more mounting surfaces are needed. Components are slid into the t-slot fixture brackets then held in place by tightening one or more set screws.In addition to the frame and hull, lanturn features a claw, pneumatic torpedo system, and a DC motor controlled dropper. The claw uses a servo motor to rotate the gears, which are used to open and close the grippers. The grippers hold the objects in place after picking them up. The torpedo system uses a CO2 bucket changer for easy replacement of CO2 cartridges, an ASA regulator Dropper​to decrease the CO2 pressure to the desired value, a solenoid valve to release the CO2 to launch the torpedo, and the 3D printed torpedoes themselves. The dropper uses a DC motor to rotate the platform 90 degrees at a time to release 3 markers one at a time. The lid is used to replace the markers after each run. </p>
+                  </Col>               
+                </Row>
+            </Container>
+          </Jumbotron>
         </Tab>
+
         <Tab eventKey="EE" title="Electrical">
-          <h1>Electrical</h1>
+          
         </Tab>
+      
         <Tab eventKey="CS" title="Software">
-          <h1>Software</h1>
+          
         </Tab>
+        
       </Tabs>
     </div>
   );

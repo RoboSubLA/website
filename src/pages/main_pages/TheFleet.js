@@ -51,7 +51,7 @@ const TheFleet = () => {
             </Card.Title>
             <Card.Text className="fleet-card-text">Club Team</Card.Text>
           </Card.Body>
-          <Link className="fleet-link" to="/donphan2">
+          <Link className="fleet-link" to="/donphan">
             More Info
           </Link>
         </Card>
