@@ -4,16 +4,15 @@ import Col from "react-bootstrap/Col";
 import Tab from "react-bootstrap/Tab";
 import Nav from "react-bootstrap/Nav";
 import "./resources.css";
-import Footer from "../Footer";
+import Footer from "../../components/Footer";
 
 // import resource sections
-import Arduino from "./resource-sections/Arduino";
-import ComputerVision from "./resource-sections/ComputerVision";
-import ROS from "./resource-sections/ROS";
-import Linux from "./resource-sections/Linux";
-import GetStarted from "./resource-sections/GetStarted";
-import Github from "./resource-sections/Github";
-
+import Arduino from "../resource-sections/Arduino";
+import ComputerVision from "../resource-sections/ComputerVision";
+import ROS from "../resource-sections/ROS";
+import Linux from "../resource-sections/Linux";
+import GetStarted from "../resource-sections/GetStarted";
+import Github from "../resource-sections/Github";
 
 const Resources = () => {
   return (
@@ -65,7 +64,6 @@ const Resources = () => {
 
           <Col sm={9} className="resource-container">
             <Tab.Content>
-
               <Tab.Pane eventKey="getstarted">
                 <GetStarted />
               </Tab.Pane>
@@ -85,7 +83,7 @@ const Resources = () => {
               </Tab.Pane>
 
               <Tab.Pane eventKey="github">
-                <Github/>
+                <Github />
               </Tab.Pane>
 
               <Tab.Pane eventKey="linux">

@@ -1,11 +1,11 @@
 import React from "react";
-import Footer from "../Footer";
+import Footer from "../../components/Footer";
 import Card from "react-bootstrap/Card";
 import CardDeck from "react-bootstrap/CardDeck";
 import Button from "react-bootstrap/Button";
 import Jumbotron from "react-bootstrap/Jumbotron";
 import { Link } from "react-router-dom";
-import "../pages/fleet.css";
+import "./fleet.css";
 
 const TheFleet = () => {
   return (

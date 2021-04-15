@@ -4,11 +4,11 @@ import Tab from "react-bootstrap/Tab";
 import Table from "react-bootstrap/Table";
 import Image from "react-bootstrap/Image";
 import Carousel from "react-bootstrap/Carousel";
-import Footer from "../../Footer";
+import Footer from "../../components/Footer";
 
 import "./sub.css";
 
-const Donphan = () => {
+const Gyarados = () => {
   return (
     <div className="sub-container">
       {/* <Image src={process.env.PUBLIC_URL + '/images/subs/gyarados/gyarados.png'}></Image> */}
@@ -16,7 +16,7 @@ const Donphan = () => {
 
       <Tabs
         className="sub-tabs"
-        defaultActiveKey="profile"
+        defaultActiveKey="team"
         id="uncontrolled-tab-example"
       >
         <Tab eventKey="team" title="Team">
@@ -444,4 +444,4 @@ const Donphan = () => {
   );
 };
 
-export default Donphan;
+export default Gyarados;
