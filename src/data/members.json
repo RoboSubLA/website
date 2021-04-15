@@ -6,7 +6,7 @@
         "img": "/images/members/ricardo.jpg",
         "title": "President",
         "text": "Senior Cs Major and Team Lead for Senior Design",
-        "link": "https://www.ricardomedina.net"
+        "link": "https://www.linkedin.com/in/ricardo-medina-ba7b2416b/"
       },
       {
         "name": "Aren Petrossian",
@@ -80,7 +80,7 @@
         "img": "/images/members/ricardo.jpg",
         "title": "Software Lead",
         "text": "Senior Cs Major and Team Lead for Senior Design",
-        "link": "https://www.ricardomedina.net"
+        "link": "https://www.linkedin.com/in/ricardo-medina-ba7b2416b/"
       },
       {
         "name": "Heriberto Gonzalez",
@@ -90,7 +90,7 @@
       },
       {
         "name": "Sana Shaikh",
-        "img": "/images/sponsors/csula.png",
+        "img": "/images/members/sana.png",
         "title": "Controls",
         "link": ""
       },
@@ -190,7 +190,6 @@
         "title": "Engineer",
         "link": ""
       }
-      
     ],
     "advisors": [
       {
