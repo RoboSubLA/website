@@ -4,17 +4,17 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 
 // pages import
-import Home from "./components/pages/Home";
-import SignUp from "./components/pages/SignUp";
-import TheFleet from "./components/pages/TheFleet";
-import Members from "./components/pages/Members";
-import Resources from "./components/pages/Resources";
+import Home from "./pages/main_pages/Home";
+import SignUp from "./pages/main_pages/SignUp";
+import TheFleet from "./pages/main_pages/TheFleet";
+import Members from "./pages/main_pages/Members";
+import Resources from "./pages/main_pages/Resources";
 
 // sub pages import
-import Lanturn from "./components/pages/subpages/Lanturn";
-import Donphan from "./components/pages/subpages/Donphan";
-import Gyarados from "./components/pages/subpages/Gyarados";
-import Magikarp from "./components/pages/subpages/Magikarp";
+import Lanturn from "./pages/subpages/Lanturn";
+import Donphan from "./pages/subpages/Donphan";
+import Gyarados from "./pages/subpages/Gyarados";
+import Magikarp from "./pages/subpages/Magikarp";
 
 function App() {
   return (
