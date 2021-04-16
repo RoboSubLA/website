@@ -175,12 +175,12 @@ const Gyarados = () => {
           </Carousel>
         </Tab>
 
-        <Tab className="sub-me-container" eventKey="ME" title="Mechanical">
+        <Tab className="sub-me-container-gyarados" eventKey="ME" title="Mechanical">
           <Image
-            className="sub-img"
+            className="sub-img-gyarados"
             src={process.env.PUBLIC_URL + "/images/subs/gyarados/gyarados.png"}
           ></Image>
-          <p className="sub-p">
+          <p className="sub-p-gyarados">
             ​ Gyarados consists of a mechanical frame and hull, as well as a
             servo controlled mechanical arm, torpedoes, and dropper
             mechanism.The frame consists of waterjet and anodized aluminum,
@@ -192,12 +192,12 @@ const Gyarados = () => {
           </p>
           <br />
           <Image
-            className="sub-img"
+            className="sub-img-gyarados"
             src={
               process.env.PUBLIC_URL + "/images/subs/gyarados/gyaradosframe.png"
             }
           ></Image>
-          <p className="sub-p">
+          <p className="sub-p-gyarados">
             ​ The waterproof hull was manufactured in 2018 and consists of two
             8" diameter acrylic tubes connected to a custom machined aluminum
             bulkhead. The bulkhead contains 18 SEACON connectors for electrical
@@ -212,20 +212,20 @@ const Gyarados = () => {
           </p>
           <br />
           <Image
-            className="sub-img"
+            className="sub-img-gyarados"
             src={
               process.env.PUBLIC_URL +
               "/images/subs/gyarados/gyaradosinsidehull.png"
             }
           ></Image>
           <Image
-            className="sub-img"
+            className="sub-img-gyarados"
             src={
               process.env.PUBLIC_URL +
               "/images/subs/gyarados/gyaradosinside.png"
             }
           ></Image>
-          <p className="sub-p">
+          <p className="sub-p-gyarados">
             In 2018, the electronics shelving was a simple acrylic shelving
             system held together by nuts and bolts. In 2019, this shelving
             system was redesigned to consist of a custom manufactured aluminum
@@ -237,20 +237,20 @@ const Gyarados = () => {
           </p>
           <br />
 
-          <p className="sub-p">
+          <p className="sub-p-gyarados">
             ​Gyarados did not feature a working claw or dropper, but its torpedo
             system was functional.The torpedo system was a servo mechanism that
             would launch the torpedo on command. The team waterproofed its own
             servo motors using several commercially available products.
           </p>
           <Image
-            className="sub-img"
+            className="sub-img-gyarados"
             src={
               process.env.PUBLIC_URL + "/images/subs/gyarados/gyaradosclaw.png"
             }
           ></Image>
           <br />
-          <p className="sub-p">
+          <p className="sub-p-gyarados">
             ​While it was unsuccessful, the 2019 team worked on the development
             of a mechanical claw with a small waterproof enclosure for a linear
             actuator and a dynamic o-ring seal. The waterproofing of this system
@@ -262,15 +262,15 @@ const Gyarados = () => {
           </p>
         </Tab>
 
-        <Tab className="sub-ee-container" eventKey="EE" title="Electrical">
+        <Tab className="sub-ee-container-gyarados" eventKey="EE" title="Electrical">
           <Image
-            className="sub-img"
+            className="sub-img-gyarados"
             src={
               process.env.PUBLIC_URL +
               "/images/subs/gyarados/gyaradoselectricaldiagram.png"
             }
           ></Image>
-          <p className="sub-p">
+          <p className="sub-p-gyarados">
             ​The electrical system on the 2019 version of Gyarados features more
             custom electronics than on Eagle I, allowing for more efficient use
             of hull space. Custom PCBs include a thruster ESC board, a power
@@ -285,13 +285,13 @@ const Gyarados = () => {
           <br />
 
           <Image
-            className="sub-img"
+            className="sub-img-gyarados"
             src={
               process.env.PUBLIC_URL +
               "/images/subs/gyarados/gyaradospowerboard.jpg"
             }
           ></Image>
-          <p className="sub-p">
+          <p className="sub-p-gyarados">
             ​The thruster control board, shown to the top, has relays, fuses and
             ESCs, and serves to provide power and PWM signals to the thrusters
             after the controllers have provided the proper PWM signals to the
@@ -303,7 +303,7 @@ const Gyarados = () => {
 
           <br />
 
-          <p className="sub-p">
+          <p className="sub-p-gyarados">
             The custom control board (shown below) incorporates custom circuits
             that are capable of adding different functions to the AUV without
             compromising space within the hull. Control boardThe servo board
@@ -315,7 +315,7 @@ const Gyarados = () => {
             servos and actuators.
           </p>
           <Image
-            className="sub-img"
+            className="sub-img-gyarados"
             src={
               process.env.PUBLIC_URL +
               "/images/subs/gyarados/gyaradoscustomboard.png"
@@ -323,7 +323,7 @@ const Gyarados = () => {
           ></Image>
           <br />
 
-          <p className="sub-p">
+          <p className="sub-p-gyarados">
             ​Within the AUV, there are several electronics that need regulated
             power from the batteries; hence the need for a power distribution
             board. The power board is coupled with a low voltage automatic
@@ -334,14 +334,14 @@ const Gyarados = () => {
             power distribution board is depicted on the right.
           </p>
           <Image
-            className="sub-img"
+            className="sub-img-gyarados"
             src={
               process.env.PUBLIC_URL +
               "/images/subs/gyarados/gyaradosblockdiagram.png"
             }
           ></Image>
           <Image
-            className="sub-img"
+            className="sub-img-gyarados"
             src={
               process.env.PUBLIC_URL + "/images/subs/gyarados/gyaradosboard.png"
             }
@@ -351,13 +351,13 @@ const Gyarados = () => {
 
         <Tab className="sub-cs-container" eventKey="CS" title="Software">
           <Image
-            className="sub-img"
+            className="sub-img-gyarados"
             src={
               process.env.PUBLIC_URL +
               "/images/subs/gyarados/gyaradossoftwarediagram.png"
             }
           ></Image>
-          <p className="sub-p">
+          <p className="sub-p-gyarados">
             ​In the ROS architecture running on the Gyarados motherboard,
             different nodes are used to control different parts of the vehicle.
             These nodes communicate with each other through ROS; each node can
@@ -367,7 +367,7 @@ const Gyarados = () => {
           </p>
           <br />
 
-          <p className="sub-p">
+          <p className="sub-p-gyarados">
             Object detection is handled by the computer vision node, which uses
             OpenCV for preprocessing and detection. First, the images are
             labelled, then features are extracted using HOG. These images are

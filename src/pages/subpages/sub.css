@@ -21,14 +21,23 @@
     margin: auto;
 }
 
+.sub-name {
+    color: rgb(0, 132, 255);
+    text-align: center;
+    font-size: 70px;
+    outline-style: dotted;
+    outline-width: thick;
+    -webkit-text-stroke: 2px black;
+}
+
 .sub-h1 {
     color: rgb(0, 132, 255);
     border: 4px solid #ffffff;
-    border-top: 4px solid #0384fd;
-    border-bottom: 4px solid #0384fd;
-    
+    border-top: 5px solid #0384fd;
+    border-bottom: 5px solid #0384fd;
+    font-size: 50px;
     border-radius: 25px;
-    padding: 10px;
+    padding: 5px;
     width:max-content;
     margin-left: auto;
     margin-right: auto;
@@ -83,23 +92,10 @@
     font-size: 40px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.sub-img {
+    width: 400px;
+    height: 400px
+}
 
 /* .sub-container {
     text-align: center;
@@ -157,16 +153,56 @@
 } */
 
   /* iPhone X, iPhone 6/7/8 Plus, */
-  @media only screen 
+@media only screen 
   and (min-device-width: 375px) 
   and (max-device-width: 812px) 
   and (-webkit-min-device-pixel-ratio: 3) { 
+    .sub-jumbo {
+        background-color: white;
+        justify-content: center;
+    }
+    .sub-container {
+        text-align: center;
+        width: 90%;
+        margin: auto;
+    }
+    .sub-name {
+        font-size: 40px;
+        -webkit-text-stroke: 1.3px black;
+    }
+
+    .sub-year {
+        font-family: 'Source Code Pro';
+        font-weight: bolder;
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    .sub-year-animated {
+        font-family: 'Source Code Pro';
+        font-weight: bolder;
+        font-size: 20px;
+    }
+
+    .sub-h1 {
+        font-size: 20px;
+    }
+
     .sub-img {
+        width: 220px;
+        height: 220px
+    }
+
+    .sub-p {
+        font-size: 12px;
+    }
+
+    .sub-img-gyarados {
         width: 270px;
         height: 200px;
         margin-bottom: 10px;
     }
-    .sub-p {
+    .sub-p-gyarados {
         font-size: 14px;
         line-height: 25px;
         font-family:Georgia, 'Times New Roman', Times, serif;
@@ -175,17 +211,17 @@
         overflow-wrap: break-word;
         hyphens: auto;
     }
-    .sub-me-container {
+    .sub-me-container-gyarados {
         margin-right: 5%;
         margin-left: 5%;
       
     }
-    .sub-ee-container {
+    .sub-ee-container-gyarados {
         margin-right: 5%;
         margin-left: 5%;
       
     }
-    .sub-cs-container {
+    .sub-cs-container-gyarados {
         margin-right: 5%;
         margin-left: 5%;
       
@@ -197,12 +233,51 @@
   and (min-device-width: 375px) 
   and (max-device-width: 667px) 
   and (-webkit-min-device-pixel-ratio: 2) { 
+    .sub-jumbo {
+        background-color: white;
+        justify-content: center;
+    }
+    .sub-container {
+        text-align: center;
+        width: 90%;
+        margin: auto;
+    }
+    .sub-name {
+        font-size: 40px;
+        -webkit-text-stroke: 1.3px black;
+    }
+    .sub-year {
+        font-family: 'Source Code Pro';
+        font-weight: bolder;
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    .sub-year-animated {
+        font-family: 'Source Code Pro';
+        font-weight: bolder;
+        font-size: 20px;
+    }
+
+    .sub-h1 {
+        font-size: 20px;
+    }
+
     .sub-img {
+        width: 220px;
+        height: 220px
+    }
+
+    .sub-p {
+        font-size: 12px;
+    }
+
+    .sub-img-gyarados {
         max-width: 270px;
         max-height: 200px;
         margin-bottom: 10px;
     }
-    .sub-p {
+    .sub-p-gyarados {
         font-size: 14px;
         line-height: 25px;
         font-family:Georgia, 'Times New Roman', Times, serif;
@@ -211,17 +286,17 @@
         overflow-wrap: break-word;
         hyphens: auto;
     }
-    .sub-me-container {
+    .sub-me-container-gyarados {
         margin-right: 5%;
         margin-left: 5%;
       
     }
-    .sub-ee-container {
+    .sub-ee-container-gyarados {
         margin-right: 5%;
         margin-left: 5%;
       
     }
-    .sub-cs-container {
+    .sub-cs-container-gyarados {
         margin-right: 5%;
         margin-left: 5%;
       
@@ -237,12 +312,51 @@
   and (device-width: 360px) 
   and (device-height: 640px) 
   and (-webkit-device-pixel-ratio: 2) {
+    .sub-jumbo {
+        background-color: white;
+        justify-content: center;
+    }
+    .sub-container {
+        text-align: center;
+        width: 90%;
+        margin: auto;
+    }
+    .sub-name {
+        font-size: 40px;
+        -webkit-text-stroke: 1.3px black;
+    }
+    .sub-year {
+        font-family: 'Source Code Pro';
+        font-weight: bolder;
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    .sub-year-animated {
+        font-family: 'Source Code Pro';
+        font-weight: bolder;
+        font-size: 20px;
+    }
+
+    .sub-h1 {
+        font-size: 20px;
+    }
+
     .sub-img {
+        width: 220px;
+        height: 220px
+    }
+
+    .sub-p {
+        font-size: 12px;
+    }
+
+    .sub-img-gyarados {
         width: 200px;
         height: 200px;
         margin-bottom: 10px;
     }
-    .sub-p {
+    .sub-p-gyarados {
         font-size: 14px;
         line-height: 25px;
         font-family:Georgia, 'Times New Roman', Times, serif;
@@ -251,17 +365,17 @@
         overflow-wrap: break-word;
         hyphens: auto;
     }
-    .sub-me-container {
+    .sub-me-container-gyarados {
         margin-right: 5%;
         margin-left: 5%;
       
     }
-    .sub-ee-container {
+    .sub-ee-container-gyarados {
         margin-right: 5%;
         margin-left: 5%;
       
     }
-    .sub-cs-container {
+    .sub-cs-container-gyarados {
         margin-right: 5%;
         margin-left: 5%;
       
@@ -275,12 +389,51 @@
   and (device-width: 360px) 
   and (device-height: 640px) 
   and (-webkit-device-pixel-ratio: 3) {
+    .sub-jumbo {
+        background-color: white;
+        justify-content: center;
+    }
+    .sub-container {
+        text-align: center;
+        width: 90%;
+        margin: auto;
+    }
+    .sub-name {
+        font-size: 40px;
+        -webkit-text-stroke: 1.3px black;
+    }
+    .sub-year {
+        font-family: 'Source Code Pro';
+        font-weight: bolder;
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    .sub-year-animated {
+        font-family: 'Source Code Pro';
+        font-weight: bolder;
+        font-size: 20px;
+    }
+
+    .sub-h1 {
+        font-size: 20px;
+    }
+
     .sub-img {
+        width: 220px;
+        height: 220px
+    }
+
+    .sub-p {
+        font-size: 12px;
+    }
+
+    .sub-img-gyarados {
         width: 200px;
         height: 200px;
         margin-bottom: 10px;
     }
-    .sub-p {
+    .sub-p-gyarados {
         font-size: 14px;
         line-height: 25px;
         font-family:Georgia, 'Times New Roman', Times, serif;
@@ -289,17 +442,17 @@
         overflow-wrap: break-word;
         hyphens: auto;
     }
-    .sub-me-container {
+    .sub-me-container-gyarados {
         margin-right: 5%;
         margin-left: 5%;
       
     }
-    .sub-ee-container {
+    .sub-ee-container-gyarados {
         margin-right: 5%;
         margin-left: 5%;
       
     }
-    .sub-cs-container {
+    .sub-cs-container-gyarados {
         margin-right: 5%;
         margin-left: 5%;
       
@@ -313,12 +466,51 @@
   and (min-device-width: 768px) 
   and (max-device-width: 1024px) 
   and (-webkit-min-device-pixel-ratio: 1) {
+    .sub-jumbo {
+        background-color: white;
+        justify-content: center;
+    }
+    .sub-container {
+        text-align: center;
+        width: 90%;
+        margin: auto;
+    }
+    .sub-name {
+        font-size: 60px;
+        -webkit-text-stroke: 2px black;
+    }
+    .sub-year {
+        font-family: 'Source Code Pro';
+        font-weight: bolder;
+        font-size: 30px;
+        text-align: center;
+    }
+    
+    .sub-year-animated {
+        font-family: 'Source Code Pro';
+        font-weight: bolder;
+        font-size: 30px;
+    }
+
+    .sub-h1 {
+        font-size: 30px;
+    }
+
     .sub-img {
+        width: 300px;
+        height: 300px
+    }
+
+    .sub-p {
+        font-size: 16px;
+    }
+
+    .sub-img-gyarados {
         width: 300px;
         height: 200px;
         margin-bottom: 10px;
     }
-    .sub-p {
+    .sub-p-gyarados {
         font-size: 24px;
         line-height: 35px;
         font-family:Georgia, 'Times New Roman', Times, serif;
@@ -327,17 +519,17 @@
         overflow-wrap: break-word;
         hyphens: auto;
     }
-    .sub-me-container {
+    .sub-me-container-gyarados {
         margin-right: 5%;
         margin-left: 5%;
       
     }
-    .sub-ee-container {
+    .sub-ee-container-gyarados {
         margin-right: 5%;
         margin-left: 5%;
       
     }
-    .sub-cs-container {
+    .sub-cs-container-gyarados {
         margin-right: 5%;
         margin-left: 5%;
       
