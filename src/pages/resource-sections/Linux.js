@@ -81,6 +81,10 @@ const Linux = () => {
                 allowfullscreen
               ></iframe>
             </p>
+
+            <a href="https://ubuntu.com/tutorials/install-ubuntu-desktop#1-overview">
+              Install Linux using bootable USB
+            </a>
           </Jumbotron>
 
 
@@ -109,9 +113,7 @@ export default Linux;
     //         <h4>Create a Bootable USB Windows</h4>
     //         <br></br>
 
-    //         <a href="https://ubuntu.com/tutorials/install-ubuntu-desktop#1-overview">
-    //           Install Linux using bootable USB
-    //         </a>
+  
     //         <p>
     //           Make sure when selecting the hard drive to install Linux it is the
     //           external drive and not your host OS.
