@@ -14,8 +14,6 @@ const Person = (props) => {
             <Figure className="members-container">
               <Figure.Image
                 className="members-img"
-                width={171}
-                height={180}
                 alt="171x180"
                 src={props.data.img}
               />

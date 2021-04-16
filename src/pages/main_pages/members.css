@@ -24,6 +24,8 @@
 
 .members-img {
   border-radius: 50%;
+  height: 171px;
+  width: 171px;
 }
 
 .members-header {
