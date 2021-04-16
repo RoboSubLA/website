@@ -1,27 +1,31 @@
 import React from "react";
-import { Accordion, Card, Button } from "react-bootstrap";
+import { Jumbotron, Col, Row, Container, Card, Button, Image, ListGroup } from "react-bootstrap";
 
 const Linux = () => {
   return (
-    <Accordion>
-      <Card>
-        <Card.Header>
-          <Accordion.Toggle as={Button} variant="link" eventKey="0">
-            Installing Linux
-          </Accordion.Toggle>
-        </Card.Header>
-        <Accordion.Collapse eventKey="0">
-          <Card.Body>
-            <h1>Installing Linux </h1>
-            <p>When it comes to installing ross there are 3 main options</p>
+      <Jumbotron className='linux-jumbo'>
+        <Container className='linux-container'>
+          <Image className='linux-logo' src='https://1000logos.net/wp-content/uploads/2017/03/Symbol-Linux.jpg'/>
+          <p className='linux-h1'> What is Linux </p>
+          <p className='linux-p'> Just like Windows, iOS, and Mac OS, Linux is an operating system. In fact, one of the most popular platforms on the planet, Android, is powered by the Linux operating system. An operating system is software that manages all of the hardware resources associated with your desktop or laptop. To put it simply, the operating system manages the communication between your software and your hardware. Without the operating system (OS), the software wouldnt function? </p>
+          <p className='linux-h3'>The Linux operating system comprises several different pieces:</p>
 
-            <li>Virtualization</li>
-            <li>Native Install on External Hard Drive</li>
-            <li>Hard Drive Partitioning</li>
-            <br></br>
+          <ListGroup>
+            <ListGroup.Item>Bootloader –  The software that manages the boot process of your computer. For most users, this will simply be a splash screen that pops up and eventually goes away to boot into the operating system.</ListGroup.Item>
+            <ListGroup.Item>Kernel – This is the one piece of the whole that is actually called ?Linux?. The kernel is the core of the system and manages the CPU, memory, and peripheral devices. The kernel is the lowest level of the OS.</ListGroup.Item>
+            <ListGroup.Item>Init system – This is a sub-system that bootstraps the user space and is charged with controlling daemons. One of the most widely used init systems is systemd? which also happens to be one of the most controversial. It is the init system that manages the boot process, once the initial booting is handed over from the bootloader (i.e., GRUB or GRand Unified Bootloader).</ListGroup.Item>
+            <ListGroup.Item>Daemons – These are background services (printing, sound, scheduling, etc.) that either start up during boot or after you log into the desktop.</ListGroup.Item>
+            <ListGroup.Item>Graphical server – This is the sub-system that displays the graphics on your monitor. It is commonly referred to as the X server or just X.</ListGroup.Item>
+            <ListGroup.Item>Desktop environment – This is the piece that the users actually interact with. There are many desktop environments to choose from (GNOME, Cinnamon, Mate, Pantheon, Enlightenment, KDE, Xfce, etc.). Each desktop environment includes built-in applications (such as file managers, configuration tools, web browsers, and games).</ListGroup.Item>
+            <ListGroup.Item>Applications – Desktop environments do not offer the full array of apps. Just like Windows and macOS, Linux offers thousands upon thousands of high-quality software titles that can be easily found and installed. Most modern Linux distributions (more on this below) include App Store-like tools that centralize and simplify application installation. For example, Ubuntu Linux has the Ubuntu Software Center (a rebrand of GNOME Software? Figure 1) which allows you to quickly search among the thousands of apps and install them from one centralized location.</ListGroup.Item>
+          </ListGroup>
 
-            <h2>Virtualization</h2>
-            <p>
+          <p className='linux-h1'>Installing Linux </p>
+          <p className='linux-p'>When it comes to installing ross there are 3 main options</p>
+          <Col>
+            <Jumbotron>
+              <p className='linux-h1'> Virtualization </p>
+              <p className='linux-p'>
               Virtualization involves installing an emulator to run an instance
               of the Linux os inside a window on a host computer. The main
               benifit of this type of install is the ability to add and remove
@@ -34,27 +38,27 @@ const Linux = () => {
               might produce unexpected results, or refuse to run altogether.
               Still a great choice if Linus is new to you and want to try it out
               risk free.
-            </p>
-
-            <a href="https://www.makeuseof.com/tag/install-linux-windows-vmware-virtual-machine/">
+              </p>
+              <a href="https://www.makeuseof.com/tag/install-linux-windows-vmware-virtual-machine/">
               Install Linux on windows
             </a>
             <br></br>
             <a href="https://www.imore.com/how-use-linux-your-mac-using-virtual-machine">
               Install Linux on MAC
             </a>
-            <br></br>
+            </Jumbotron>
 
-            <h2>External Hard Drive Install</h2>
-            <p>
-              Installing on an external hard drive is the easiest way to have
-              your host computer nativily boot linux. The only required material
-              is an additional hard drive (internal or external) and a bootable
-              USB
-            </p>
-            <h4>Create a Bootable USB Windows</h4>
-            <p className="iframe-align">
-              <iframe
+            <Jumbotron>
+              <p className='linux-h1'> External Hard Drive Install </p>
+                <p>
+                Installing on an external hard drive is the easiest way to have
+                your host computer nativily boot linux. The only required material
+                is an additional hard drive (internal or external) and a bootable
+                USB
+              </p>
+              <p className='linux-h3'>Create a Bootable USB Windows</p>
+              <p className="iframe-align">
+              <iframe 
                 width="560"
                 height="315"
                 src="https://www.youtube.com/embed/xnisuFk-cDg"
@@ -62,9 +66,10 @@ const Linux = () => {
                 frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen
-              ></iframe>
+              >
+              </iframe>
             </p>
-            <h4>Create a Bootable USB MAC</h4>
+            <p className='linux-h3'>Create a Bootable USB MAC</p>
             <p className="iframe-align">
               <iframe
                 width="560"
@@ -76,56 +81,78 @@ const Linux = () => {
                 allowfullscreen
               ></iframe>
             </p>
-            <br></br>
+          </Jumbotron>
 
-            <a href="https://ubuntu.com/tutorials/install-ubuntu-desktop#1-overview">
-              Install Linux using bootable USB
-            </a>
-            <p>
-              Make sure when selecting the hard drive to install Linux it is the
-              external drive and not your host OS.
-            </p>
-            <h2>Hard Drive Partitioning</h2>
-            <p>
-              This method involves partitioning your hard drive on the host
-              computer to allow seperate OS's to be installed on the same drive.
-              It has the least computer requirements, as Linux is installed on
-              the hard drive and uses all host resources. Partitioning is
-              potentially risky as there is a possibility of deleting your
-              operating system but as long as you are paying attention and
-              following steps there should be no problems.
-            </p>
-            <a href="https://itsfoss.com/install-ubuntu-1404-dual-boot-mode-windows-8-81-uefi/">
-              Partition Install on Windows
-            </a>
-            <br></br>
-            <a href="https://www.makeuseof.com/tag/install-linux-macbook-pro/">
-              Partition Install on Mac
-            </a>
-          </Card.Body>
-        </Accordion.Collapse>
-      </Card>
-      <Card>
-        <Card.Header>
-          <Accordion.Toggle as={Button} variant="link" eventKey="1">
-            Terminal
-          </Accordion.Toggle>
-        </Card.Header>
-        <Accordion.Collapse eventKey="1">
-          <Card.Body>
-            <p>
-              ROS uses the terminal commands so getting comfortable with
-              terminal is important. The tutorial will introduce you to the
-              basic terminal commands used in Ubuntu.
-            </p>
-            <a href="https://ubuntu.com/tutorials/command-line-for-beginners#1-overview">
-              Begginer Terminal
-            </a>
-          </Card.Body>
-        </Accordion.Collapse>
-      </Card>
-    </Accordion>
+
+            <Jumbotron>
+              <p className='linux-h1'>Create a Bootable USB Windows </p>
+
+            </Jumbotron>
+          </Col>
+        </Container>
+
+
+
+      </Jumbotron>
   );
 };
 
 export default Linux;
+
+    //         <h2>External Hard Drive Install</h2>
+    //         <p>
+    //           Installing on an external hard drive is the easiest way to have
+    //           your host computer nativily boot linux. The only required material
+    //           is an additional hard drive (internal or external) and a bootable
+    //           USB
+    //         </p>
+    //         <h4>Create a Bootable USB Windows</h4>
+    //         <br></br>
+
+    //         <a href="https://ubuntu.com/tutorials/install-ubuntu-desktop#1-overview">
+    //           Install Linux using bootable USB
+    //         </a>
+    //         <p>
+    //           Make sure when selecting the hard drive to install Linux it is the
+    //           external drive and not your host OS.
+    //         </p>
+    //         <h2>Hard Drive Partitioning</h2>
+    //         <p>
+    //           This method involves partitioning your hard drive on the host
+    //           computer to allow seperate OS's to be installed on the same drive.
+    //           It has the least computer requirements, as Linux is installed on
+    //           the hard drive and uses all host resources. Partitioning is
+    //           potentially risky as there is a possibility of deleting your
+    //           operating system but as long as you are paying attention and
+    //           following steps there should be no problems.
+    //         </p>
+    //         <a href="https://itsfoss.com/install-ubuntu-1404-dual-boot-mode-windows-8-81-uefi/">
+    //           Partition Install on Windows
+    //         </a>
+    //         <br></br>
+    //         <a href="https://www.makeuseof.com/tag/install-linux-macbook-pro/">
+    //           Partition Install on Mac
+    //         </a>
+    //       </Card.Body>
+    //     </Accordion.Collapse>
+    //   </Card>
+    //   <Card>
+    //     <Card.Header>
+    //       <Accordion.Toggle as={Button} variant="link" eventKey="1">
+    //         Terminal
+    //       </Accordion.Toggle>
+    //     </Card.Header>
+    //     <Accordion.Collapse eventKey="1">
+    //       <Card.Body>
+    //         <p>
+    //           ROS uses the terminal commands so getting comfortable with
+    //           terminal is important. The tutorial will introduce you to the
+    //           basic terminal commands used in Ubuntu.
+    //         </p>
+    //         <a href="https://ubuntu.com/tutorials/command-line-for-beginners#1-overview">
+    //           Begginer Terminal
+    //         </a>
+    //       </Card.Body>
+    //     </Accordion.Collapse>
+    //   </Card>
+    // </Accordion>

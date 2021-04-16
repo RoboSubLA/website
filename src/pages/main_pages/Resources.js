@@ -86,7 +86,6 @@ const Resources = () => {
               </Tab.Pane>
 
               <Tab.Pane eventKey="linux">
-                <h2 className="resource-text-title">Linux</h2>
                 <Linux />
               </Tab.Pane>
 
