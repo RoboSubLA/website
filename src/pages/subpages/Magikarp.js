@@ -4,7 +4,6 @@ import Tab from "react-bootstrap/Tab";
 import Table from "react-bootstrap/Table";
 import Image from "react-bootstrap/Image";
 import Carousel from "react-bootstrap/Carousel";
-import Footer from "../../components/Footer";
 
 import "./sub.css";
 
@@ -223,7 +222,6 @@ const Magikarp = () => {
           </p>
         </Tab>
       </Tabs>
-      
     </div>
   );
 };
