@@ -10,6 +10,7 @@ import SignUp from "./pages/main_pages/SignUp";
 import TheFleet from "./pages/main_pages/TheFleet";
 import Members from "./pages/main_pages/Members";
 import Resources from "./pages/main_pages/Resources";
+import Events from "./pages/main_pages/Events";
 
 // sub pages import
 import Lanturn from "./pages/subpages/Lanturn";
@@ -27,19 +28,17 @@ function App() {
           <Route path="/thefleet" component={TheFleet} />
           <Route path="/members" component={Members} />
           <Route path="/resources" component={Resources} />
+          <Route path="/events" component={Events} />
           <Route path="/sign-up" component={SignUp} />
-
           {/* routes to sub pages */}
           <Route path="/lanturn" component={Lanturn} />
           <Route path="/donphan" component={Donphan} />
           <Route path="/gyarados" component={Gyarados} />
-          <Route path="/magikarp" component={Magikarp} />
-          
+          <Route path="/magikarp" component={Magikarp} /> */}
         </Switch>
         <Footer />
       </Router>
     </>
   );
 }
-
 export default App;
