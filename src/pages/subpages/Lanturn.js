@@ -18,7 +18,7 @@ const Lanturn = () => {
   let obj = require("../../data/members.json");
   let json = obj[Object.keys(obj)[0]];
   return (
-    <div className="">
+    <div className="sub-outmost-container">
       <p className="sub-name"> LANTURN </p>
       <Tabs
         defaultActiveKey="team"
@@ -51,7 +51,7 @@ const Lanturn = () => {
               <Row>
                 {/* Frame and Haul */}
                 <Col>
-                  <p className="sub-h1">FRAME & HAUL</p>
+                  <p className="sub-h1">FRAME & HULL</p>
                   <Row className="sub-row-imgs">
                     <Image
                       className="sub-img"
@@ -74,6 +74,35 @@ const Lanturn = () => {
                     made merry over her, biting her firm, round arms and nipping
                     at her bare insteps.
                   </p>
+                    <Carousel fade className='sub-carousel'>
+                      <Carousel.Item interval={5000}>
+                        <p className='sub-carousel-title'>Hull Stress Test</p>
+                        <img
+                          className='sub-carousel-img'
+                          src="./images/subs/lanturn/2021lanturnstresstest.png"
+                          alt="First slide"
+                        />
+                      </Carousel.Item>
+
+                      <Carousel.Item interval={5000}>
+                        <p className='sub-carousel-title'>Thermal Model Simulation </p>
+                        <img
+                          className='sub-carousel-img'
+                          src="./images/subs/lanturn/2021lanturnthermals.png"
+                          alt="Second slide"
+                        />
+                      </Carousel.Item>
+
+                      <Carousel.Item interval={5000}>
+                        <p className='sub-carousel-title'>Thermal Model Simulation: Flow Trajectories</p>
+                        <img
+                          className='sub-carousel-img'
+                          src="./images/subs/lanturn/2021lanturnthermalflow.png"
+                          alt="Third slide"
+                        />
+                      </Carousel.Item>
+
+                  </Carousel>
                 </Col>
               </Row>
 
@@ -84,11 +113,11 @@ const Lanturn = () => {
                   <Row className="sub-row-imgs">
                     <Image
                       className="sub-img"
-                      src="./images/subs/lanturn/2019lanturntorpedo.png"
+                      src="./images/subs/lanturn/2021lanturnTorpedo.gif"
                     />
                     <Image
                       className="sub-img"
-                      src="./images/subs/lanturn/2019lanturnclaw.png"
+                      src="./images/subs/lanturn/2021lanturntopedodrag.gif"
                     />
                     <Image
                       className="sub-img"
