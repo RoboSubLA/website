@@ -73,6 +73,42 @@
         "text": "",
         "link": "https://www.linkedin.com/in/adriansalgadocsula/"
       }
+      ,
+      {
+        "name": "Forrest Hale",
+        "img": "/images/sponsors/csula.png",
+        "title": "",
+        "text": "",
+        "link": "https://www.linkedin.com/in/adriansalgadocsula/"
+      },
+      {
+        "name": "Vanessa Carrillo",
+        "img": "/images/sponsors/csula.png",
+        "title": "",
+        "text": "",
+        "link": ""
+      },
+      {
+        "name": "Ashley Tran",
+        "img": "/images/sponsors/csula.png",
+        "title": "",
+        "text": "",
+        "link": ""
+      },
+      {
+        "name": "Charlie Martinez",
+        "img": "/images/sponsors/csula.png",
+        "title": "",
+        "text": "",
+        "link": ""
+      },
+      {
+        "name": "Irvin",
+        "img": "/images/sponsors/csula.png",
+        "title": "",
+        "text": "",
+        "link": ""
+      }
     ],
     "seniordesign": [
       {
@@ -90,25 +126,25 @@
       },
       {
         "name": "Sana Shaikh",
-        "img": "/images/sponsors/csula.png",
+        "img": "/images/members/sana.png",
         "title": "Controls",
         "link": ""
       },
       {
         "name": "Gabriela Cortes-Mejia",
-        "img": "/images/sponsors/csula.png",
+        "img": "/images/members/gaby.jpg",
         "title": "Controls",
-        "link": ""
+        "link": "https://www.linkedin.com/in/gabriela-cortes-mejia/"
       },
       {
         "name": "Albert Chew",
-        "img": "/images/members/albert.png",
+        "img": "/images/members/albert3.png",
         "title": "Controls",
         "link": "alchew2000@gmail.com"
       },
       {
         "name": "Wilson Weng",
-        "img": "/images/sponsors/csula.png",
+        "img": "/images/members/wilson.jpg",
         "title": "Mission Planning Lead",
         "link": ""
       },
@@ -126,8 +162,8 @@
       },
       {
         "name": "Kevin Williams",
-        "img": "/images/sponsors/csula.png",
-        "title": "Computer Vision",
+        "img": "/images/members/kevin.png",
+        "title": "Navigation/Cv",
         "link": ""
       },
       {
@@ -194,20 +230,20 @@
     "advisors": [
       {
         "name": "Richard Cross",
-        "img": "/images/sponsors/csula.png",
+        "img": "/images/advisors/richard.png",
         "title": "Advisor",
         "text": "Senior Cs Major and Team Lead for Senior Design",
-        "link": ""
+        "link": "https://www.linkedin.com/in/richard-k-j-cross-8ab65431/"
       },
       {
         "name": "Dr. He Shen",
-        "img": "/images/sponsors/csula.png",
+        "img": "/images/advisors/heshen.jpg",
         "title": "Advisor",
-        "link": ""
+        "link": "https://www.linkedin.com/in/he-shen-16148878/"
       },
       {
         "name": "Mark Tufenkjian",
-        "img": "/images/sponsors/csula.png",
+        "img": "/images/advisors/tuf.png",
         "title": "Advisor",
         "link": ""
       }
