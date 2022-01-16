@@ -31,7 +31,7 @@ const About = () => {
     <div className="about-container">
       <Jumbotron className="about-jumbotron" fluid>
         <Container>
-          <h1 className="about-header">About Us!!</h1>
+          <h1 className="about-header">About Us!</h1>
           <p className="about-p">
             Welcome to our team! The RoboSub team at California State
             University, Los Angeles is an engineering team that builds
