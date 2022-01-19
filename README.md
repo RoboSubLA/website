@@ -17,7 +17,7 @@ When you have downloaded the repository to your local machine create a new branc
 
     The `--force` tag is needed because currently the website is using some dependencies that have been deprecated, and we will get an error if just using `npm install`.
 
-    (See Troubleshooting if you have problem with this step.)
+    (See **Troubleshooting** if you have problem with this step.)
 
 3. After all the packages are installed we use
 
