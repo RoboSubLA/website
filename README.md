@@ -3,6 +3,9 @@ This is the website for the Robosub team at Cal State LA. The website is used fo
 The website is used to showcase the different Robosubs that have been built, this is also part of the Robosub competition requirements.
 On the website you can also find useful information regarding events and on working with the Robosub.
 
+The website is created with React. See [React Docs](https://reactjs.org/docs/getting-started.html) for more information on working with React.
+
+You can see the website at https://robosubla.com
 ## Getting started
 1. To work with this website download this repository to your local machine.
 When you have downloaded the repository to your local machine create a new branch with:
@@ -13,11 +16,8 @@ When you have downloaded the repository to your local machine create a new branc
 
 2. The website is using `npm` as package manager, so we need to download all the  packages that the websites is dependent on. You do this by running the following command in the project folder:
 
-    `npm install --force`
+    `npm install`
 
-    The `--force` tag is needed because currently the website is using some dependencies that have been deprecated, and we will get an error if just using `npm install`.
-
-    (See **Troubleshooting** if you have problem with this step.)
 
 3. After all the packages are installed we use
 
@@ -26,10 +26,7 @@ When you have downloaded the repository to your local machine create a new branc
     This will start a local development server on the location `http://localhost:3000`.
     Open this site in the browser and you can see the website and make changes.
 
-
+4. If you make changes to the `master` branch in the github repository, it will reflect these changes on the actual website that is displayed online.
 
 ## Website Hosting
 ...
-
-## Troubleshooting
-When running `npm install --force` it did not work at first. I had to remove `package-lock.json` and then run the command again for it to work.
