@@ -7,26 +7,24 @@ The website is created with React. See [React Docs](https://reactjs.org/docs/get
 
 You can see the website at https://robosubla.com
 ## Getting started
-1. To work with this website download this repository to your local machine.
-When you have downloaded the repository to your local machine create a new branch with:
-
-    `git checkout -b <Branch Name>`
-
-    The branch name should reflect the update you are doing to the website.
-
-2. The website is using `npm` as package manager, so we need to download all the  packages that the websites is dependent on. You do this by running the following command in the project folder:
+1. The website is using `npm` as package manager, so we need to download all the  packages that the websites is dependent on. You do this by running the following command in the project folder:
 
     `npm install`
 
-
-3. After all the packages are installed we use
+2. After all the packages are installed we use
 
     `npm start`
 
     This will start a local development server on the location `http://localhost:3000`.
     Open this site in the browser and you can see the website and make changes.
 
-4. If you make changes to the `master` branch in the github repository, it will reflect these changes on the actual website that is displayed online.
+3. When making changes to the website you should to this in another branch than `master` and make a pull request to merge your feature branch with the `master` branch. To make a new branch use the command:
+
+    `git checkout -b <Branch Name>`
+
+    The branch name should reflect the update you are doing to the website.
+
+4. When you have made your changes on the new branch you can create a pull request to merge it into the `master` branch. It is the `master` branch that are getting built and displayed on the actual website. 
 
 ## Website Hosting
 ...
