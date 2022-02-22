@@ -14,16 +14,15 @@ function Footer() {
               <i class="fas fa-water" />
             </Link>
           </div>
-          <small class="website-rights">Robosub © 2020</small>
+          <small class="website-rights">Robosub © 2022</small>
           <div class="social-icons">
-            <Link
-              class="social-icon-link instagram"
-              to="/"
-              target="_blank"
+            <a
+              className="social-icon-link instagram"
+			  href="https://www.instagram.com/auvcalstatela/?hl=en"
               aria-label="Instagram"
             >
               <i class="fab fa-instagram" />
-            </Link>
+            </a>
             <a
               className="social-icon-link youtube"
               href="https://www.youtube.com/channel/UC4nhzXkauvCcCjmJ-_1YL3Q"
@@ -31,14 +30,6 @@ function Footer() {
             >
               <i class="fab fa-youtube" />
             </a>
-            <Link
-              class="social-icon-link twitter"
-              to="/"
-              target="_blank"
-              aria-label="Twitter"
-            >
-              <i class="fab fa-twitter" />
-            </Link>
           </div>
         </div>
       </section>

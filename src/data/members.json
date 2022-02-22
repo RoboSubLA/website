@@ -6,6 +6,7 @@
         "img": "/images/members/ricardo.jpg",
         "title": "President",
         "text": "Senior Cs Major and Team Lead for Senior Design",
+		"linkI": "",
         "link": "https://www.linkedin.com/in/ricardo-medina-ba7b2416b/"
       },
       {
@@ -13,6 +14,7 @@
         "img": "/images/members/aren.jpg",
         "title": "Vice-President",
         "text": "Mechanical Engineer Student with a 4.0 gpa",
+		"linkI": "",
         "link": "https://www.linkedin.com/in/aren-petrossian/"
       },
       {
@@ -20,6 +22,7 @@
         "img": "/images/members/gonzo.jpg",
         "title": "Officer / IT",
         "text": "",
+		"linkI": "",
         "link": "https://www.linkedin.com/in/hg12/"
       },
       {
@@ -27,6 +30,7 @@
         "img": "/images/members/eric.jpg",
         "title": "Officer / Treasurer",
         "text": "",
+		"linkI": "",
         "link": "https://www.linkedin.com/in/ewaengineering/"
       },
       {
@@ -34,6 +38,7 @@
         "img": "/images/members/saul.jpg",
         "title": "Officer / Outreach",
         "text": "Actuated Systems Lead",
+		"linkI": "",
         "link": "https://www.linkedin.com/"
       }
     ],
@@ -42,7 +47,8 @@
         "name": "Yara Ajjawi",
         "img": "/images/members/yara.jpg",
         "title": "",
-        "text": "",
+		"text": "",
+		"linkI": "",
         "link": "https://www.linkedin.com/in/yara-ajjawi"
       },
       {
@@ -50,6 +56,7 @@
         "img": "/images/members/jenniferserrano.jpg",
         "title": "",
         "text": "",
+		"linkI": "",
         "link": ""
       },
       {
@@ -57,6 +64,7 @@
         "img": "/images/members/katherine.jpg",
         "title": "",
         "text": "",
+		"linkI": "",
         "link": ""
       },
       {
@@ -64,6 +72,7 @@
         "img": "/images/members/victorsolis.jpg",
         "title": "",
         "text": "",
+		"linkI": "",
         "link": ""
       },
       {
@@ -71,6 +80,7 @@
         "img": "/images/members/adriansalgado.jpg",
         "title": "",
         "text": "",
+		"linkI": "",
         "link": "https://www.linkedin.com/in/adriansalgadocsula/"
       }
       ,
@@ -79,6 +89,7 @@
         "img": "/images/sponsors/csula.png",
         "title": "",
         "text": "",
+		"linkI": "",
         "link": "https://www.linkedin.com/in/adriansalgadocsula/"
       },
       {
@@ -86,6 +97,7 @@
         "img": "/images/sponsors/csula.png",
         "title": "",
         "text": "",
+		"linkI": "",
         "link": ""
       },
       {
@@ -93,6 +105,7 @@
         "img": "/images/sponsors/csula.png",
         "title": "",
         "text": "",
+		"linkI": "",
         "link": ""
       },
       {
@@ -100,6 +113,7 @@
         "img": "/images/sponsors/csula.png",
         "title": "",
         "text": "",
+		"linkI": "",
         "link": ""
       },
       {
@@ -107,144 +121,157 @@
         "img": "/images/sponsors/csula.png",
         "title": "",
         "text": "",
+		"linkI": "",
         "link": ""
       }
     ],
-    "seniordesign": [
+    "seniordesignCS": [
       {
-        "name": "Ricardo Medina",
-        "img": "/images/members/ricardo.jpg",
-        "title": "Software Lead",
+        "name": "Carl Solli",
+        "img": "/images/members/Carl.jpg",
+        "title": "Software Leader",
         "text": "Senior Cs Major and Team Lead for Senior Design",
-        "link": "https://www.linkedin.com/in/ricardo-medina-ba7b2416b/"
+		"linkI": "",
+        "link": "https://www.linkedin.com/in/carl-christian-solli-237378171/"
       },
       {
-        "name": "Heriberto Gonzalez",
-        "img": "/images/members/gonzo.jpg",
-        "title": "Computer Vision Lead",
-        "link": "https://www.linkedin.com/in/hg12/"
-      },
-      {
-        "name": "Sana Shaikh",
-        "img": "/images/members/sana.png",
-        "title": "Controls",
+        "name": "Ashkan Aledavoud",
+        "img": "/images/members/Ashkan.jpg",
+        "title": "Mission Planning Leader",
+		"linkI": "",
         "link": ""
       },
       {
-        "name": "Gabriela Cortes-Mejia",
-        "img": "/images/members/gaby.jpg",
-        "title": "Controls",
-        "link": "https://www.linkedin.com/in/gabriela-cortes-mejia/"
-      },
-      {
-        "name": "Albert Chew",
-        "img": "/images/members/albert3.png",
-        "title": "Controls",
-        "link": "alchew2000@gmail.com"
-      },
-      {
-        "name": "Wilson Weng",
-        "img": "/images/members/wilson.jpg",
-        "title": "Mission Planning Lead",
+        "name": "Christian Castillo",
+        "img": "/images/members/Christian.jpg",
+        "title": "CV Leader & Sensors",
+		"linkI": "",
         "link": ""
       },
       {
-        "name": "Brandon Pham",
+        "name": "Leslie Araujo",
         "img": "/images/sponsors/csula.png",
-        "title": "Mission Planning",
+        "title": "Controls Leader & Sensors",
+		"linkI": "",
         "link": ""
       },
       {
-        "name": "Horacio Mondragon",
-        "img": "/images/sponsors/csula.png",
+        "name": "Alan Chan",
+        "img": "/images/members/Alan.jpg",
+        "title": "Website Leader & Mission Planning",
+		"linkI": "",
+        "link": ""
+      },
+      {
+        "name": "Daniel Valadez",
+        "img": "/images/members/Daniel.jpg",
+        "title": "Computer Vision & Mission Planning",
+		"linkI": "",
+        "link": ""
+      },
+      {
+        "name": "Bryan Sanchez",
+        "img": "/images/members/Bryan.jpg",
         "title": "Computer Vision",
+		"linkI": "",
         "link": ""
       },
       {
-        "name": "Kevin Williams",
-        "img": "/images/members/kevin.png",
-        "title": "Navigation/Cv",
+        "name": "Robin Romero",
+        "img": "/images/members/Robin.jpg",
+        "title": "Computer Vision",
+		"linkI": "",
         "link": ""
       },
-      {
-        "name": "Angel Toribio",
+	  {
+        "name": "Edwin Tran",
         "img": "/images/sponsors/csula.png",
-        "title": "Engineer",
+        "title": "Controls & Sensors",
+		"linkI": "",
+        "link": ""
+      },
+	  {
+        "name": "Jeanie Jeon",
+        "img": "/images/members/Jeanie.jpg",
+        "title": "Website",
+		"linkI": "",
+        "link": ""
+      }
+    ],
+	    "seniordesignME": [
+      {
+        "name": "Forrest Hale",
+        "img": "/images/sponsors/csula.png",
+        "title": "Mechanical Engineer",
+		"linkI": "",
         "link": ""
       },
       {
-        "name": "Eddie Hernandez",
+        "name": "Zachary Beatti",
         "img": "/images/sponsors/csula.png",
-        "title": "Engineer",
+        "title": "Mechanical Engineer",
+		"linkI": "",
         "link": ""
       },
       {
-        "name": "Jose Barrera",
+        "name": "Damien Ramos",
         "img": "/images/sponsors/csula.png",
-        "title": "Engineer",
+        "title": "Mechanical Engineer",
+		"linkI": "",
+        "link": ""
+      }
+    ],
+	    "seniordesignEE": [
+      {
+        "name": "Victor Sandoval",
+        "img": "/images/sponsors/csula.png",
+        "title": "Electrical Engineer",
+		"linkI": "",
         "link": ""
       },
       {
-        "name": "Louis Carlin",
+        "name": "Andrew Maravilla",
         "img": "/images/sponsors/csula.png",
-        "title": "Engineer",
+        "title": "Electrical Engineer",
+		"linkI": "",
         "link": ""
       },
       {
-        "name": "Yongjie Li",
+        "name": "Edward Komperda",
         "img": "/images/sponsors/csula.png",
-        "title": "Engineer",
+        "title": "Electrical Engineer",
+		"linkI": "",
         "link": ""
       },
       {
-        "name": "Anthony Gonzalez",
+        "name": "Emigdio Alaniz",
         "img": "/images/sponsors/csula.png",
-        "title": "Engineer",
-        "link": ""
-      },
-      {
-        "name": "Brian Sager",
-        "img": "/images/sponsors/csula.png",
-        "title": "Engineer",
-        "link": ""
-      },
-      {
-        "name": "Charles Vidal",
-        "img": "/images/sponsors/csula.png",
-        "title": "Engineer",
-        "link": ""
-      },
-      {
-        "name": "Christopher Reza Nakonechny",
-        "img": "/images/sponsors/csula.png",
-        "title": "Engineer",
-        "link": ""
-      },
-      {
-        "name": "Daniel Romero",
-        "img": "/images/sponsors/csula.png",
-        "title": "Engineer",
+        "title": "Electrical Engineer",
+		"linkI": "",
         "link": ""
       }
     ],
     "advisors": [
       {
         "name": "Richard Cross",
-        "img": "/images/advisors/richard.png",
+        "img": "/images/advisors/Richard.jpg",
         "title": "Advisor",
         "text": "Senior Cs Major and Team Lead for Senior Design",
+		"linkI": "",
         "link": "https://www.linkedin.com/in/richard-k-j-cross-8ab65431/"
       },
       {
         "name": "Dr. He Shen",
         "img": "/images/advisors/heshen.jpg",
         "title": "Advisor",
+		"linkI": "",
         "link": "https://www.linkedin.com/in/he-shen-16148878/"
       },
       {
         "name": "Mark Tufenkjian",
         "img": "/images/advisors/tuf.png",
         "title": "Advisor",
+		"linkI": "",
         "link": ""
       }
     ]
