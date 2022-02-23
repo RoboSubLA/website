@@ -24,7 +24,7 @@ const Person = (props) => {
           <div className="flip-figure-back">
             <div className="flip-figure-back-content">
               <p className="flip-figure-back-text">More Info</p>
-              <a className="fig-back-icon" href="/">
+              <a className="fig-back-icon" href="/files/MemberInformation.pdf">
                 <i className="fas fa-info-circle"></i>
               </a>
               <a className="fig-back-icon" href={props.data.link}>

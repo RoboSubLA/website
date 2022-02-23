@@ -14,8 +14,10 @@ const Members = () => {
     <div className="cont">
       <Container className="main-container">
         <GroupSection heading="Officers" list={json.officers} />
-        <GroupSection heading="Club Team" list={json.members} />
-        <GroupSection heading="Senior Design Team" list={json.seniordesign} />
+        <GroupSection heading="Club Team (Out of date)" list={json.members} />
+        <GroupSection heading="Senior Design Team - CS" list={json.seniordesignCS} />
+		<GroupSection heading="Senior Design Team - ME" list={json.seniordesignME} />
+		<GroupSection heading="Senior Design Team - EE" list={json.seniordesignEE} />
         <GroupSection heading="Advisors" list={json.advisors} />
       </Container>
     </div>
