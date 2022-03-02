@@ -25,7 +25,7 @@ export default function SignUp() {
           className="sign-up"
           scrolling="yes"
           title="signup"
-          src="https://docs.google.com/forms/d/e/1FAIpQLSd0S6yAdk5D2GvYlf4TOg63J2iFdzuhVVrX0mBcAlliadeL5Q/viewform?embedded=true"
+          src="https://docs.google.com/forms/d/e/1FAIpQLSe1l1lPIYWP9Wpd0aA0bOTjSVitDO4iYSPvNKmwpBHbvHLo_Q/viewform?embedded=true"
         >
           Loading…
         </iframe>

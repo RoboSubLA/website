@@ -9,14 +9,62 @@ import "./fleet.css";
 const TheFleet = () => {
   return (
     <div className="fleet-container">
-      {/* 2020-2021 */}
+	 {/* 2021-2022 */}
       <Jumbotron fluid className="jumbotron-container">
-        <h1 className="jumbotron-h1">ROBOSUB 2020-2021 (Online-Competition)</h1>
+        <h1 className="jumbotron-h1">ROBOSUB 2021-2022</h1>
         <h2 className="jumbotron-h2">Rankings:</h2>
         <p className="jumbotron-p">Overall: ~ </p>
         <p className="jumbotron-p">Video: ~ </p>
         <p className="jumbotron-p">Website: ~ </p>
         <p className="jumbotron-p">Technical-Design Report: ~</p>
+        <div className="button-container">
+          <Button className="jumbotron-button" href="/">
+            Team Video
+          </Button>
+          <Button className="jumbotron-button" href="/">
+            Design Report
+          </Button>
+        </div>
+      </Jumbotron>
+	
+      <CardDeck className="fleet-carddeck">
+        <Card className="fleet-card" border="dark">
+          <Card.Img variant="top" src={"/images/subs/QuestionMark.png"} />
+          <Card.Body className="fleet-card-body">
+            <Card.Title className="fleet-card-title">
+              Being Designed
+            </Card.Title>
+            <Card.Text className="fleet-card-text">
+              Senior Design Team
+            </Card.Text>
+          </Card.Body>
+          <Link className="fleet-link" to="/">
+            More Info
+          </Link>
+        </Card>
+
+        <Card className="fleet-card" border="dark">
+          <Card.Img variant="top" src={"/images/subs/QuestionMark.png"} />
+          <Card.Body className="fleet-card-body">
+            <Card.Title className="fleet-card-title">
+              Being Designed
+            </Card.Title>
+            <Card.Text className="fleet-card-text">Club Team</Card.Text>
+          </Card.Body>
+          <Link className="fleet-link" to="/">
+            More Info
+          </Link>
+        </Card>
+      </CardDeck>
+	
+      {/* 2020-2021 */}
+      <Jumbotron fluid className="jumbotron-container">
+        <h1 className="jumbotron-h1">ROBOSUB 2020-2021 (Online-Competition)</h1>
+        <h2 className="jumbotron-h2">Rankings:</h2>
+        <p className="jumbotron-p">Overall: ~ </p>
+        <p className="jumbotron-p">Video: 22nd</p>
+        <p className="jumbotron-p">Website: 28th</p>
+        <p className="jumbotron-p">Technical-Design Report: 36th</p>
         <div className="button-container">
           <Button className="jumbotron-button" href="/">
             Team Video
@@ -38,7 +86,7 @@ const TheFleet = () => {
               Senior Design Team
             </Card.Text>
           </Card.Body>
-          <Link className="fleet-link" to="/lanturn">
+          <Link className="fleet-link" to="/">
             More Info
           </Link>
         </Card>
@@ -51,7 +99,7 @@ const TheFleet = () => {
             </Card.Title>
             <Card.Text className="fleet-card-text">Club Team</Card.Text>
           </Card.Body>
-          <Link className="fleet-link" to="/donphan">
+          <Link className="fleet-link" to="/">
             More Info
           </Link>
         </Card>
@@ -95,7 +143,7 @@ const TheFleet = () => {
               Senior Design Team
             </Card.Text>
           </Card.Body>
-          <Link className="fleet-link" to="/lanturn">
+          <Link className="fleet-link" to="/">
             More Info
           </Link>
         </Card>
@@ -111,7 +159,7 @@ const TheFleet = () => {
             </Card.Title>
             <Card.Text className="fleet-card-text">Club Team</Card.Text>
           </Card.Body>
-          <Link className="fleet-link" to="/donphan">
+          <Link className="fleet-link" to="/">
             More Info
           </Link>
         </Card>
