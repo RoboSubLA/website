@@ -49,13 +49,16 @@ const TheFleet = () => {
             <Card.Title className="fleet-card-title">
               Being Designed
             </Card.Title>
-            <Card.Text className="fleet-card-text">Club Team</Card.Text>
+            <Card.Text className="fleet-card-text">
+			  Club Team
+			</Card.Text>
           </Card.Body>
           <Link className="fleet-link" to="/">
             More Info
           </Link>
         </Card>
       </CardDeck>
+	  
 	
       {/* 2020-2021 */}
       <Jumbotron fluid className="jumbotron-container">
