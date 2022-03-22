@@ -5,7 +5,7 @@ import Table from "react-bootstrap/Table";
 import Image from "react-bootstrap/Image";
 import Carousel from "react-bootstrap/Carousel";
 
-import "./sub.css";
+import "./Magikarp.css";
 
 const Magikarp = () => {
   return (

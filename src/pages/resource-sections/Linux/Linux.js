@@ -1,4 +1,5 @@
 import React from "react";
+import './Linux.css'
 import { Jumbotron, Col, Row, Container, Card, Button, Image, ListGroup } from "react-bootstrap";
 
 const Linux = () => {

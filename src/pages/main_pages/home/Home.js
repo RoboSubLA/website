@@ -1,6 +1,6 @@
 import React from "react";
 // import VideoSection from "../VideoSection";
-import { Button } from "../../components/Button";
+import { Button } from "../../../components/Button";
 import Jumbotron from "react-bootstrap/Jumbotron";
 import Container from "react-bootstrap/Container";
 import Image from "react-bootstrap/Image";

@@ -5,18 +5,18 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 
 // pages import
-import Home from "./pages/main_pages/Home";
-import SignUp from "./pages/main_pages/SignUp";
-import TheFleet from "./pages/main_pages/TheFleet";
-import Members from "./pages/main_pages/Members";
-import Resources from "./pages/main_pages/Resources";
-import Events from "./pages/main_pages/Events";
+import Home from "./pages/main_pages/home/Home";
+import SignUp from "./pages/main_pages/signup/SignUp";
+import TheFleet from "./pages/main_pages/fleet/TheFleet";
+import Members from "./pages/main_pages/members/Members";
+import Resources from "./pages/main_pages/resources/Resources";
+import Events from "./pages/main_pages/events/Events";
 
 // sub pages import
 import Lanturn from "./pages/subpages/Lanturn";
 import Donphan from "./pages/subpages/Donphan";
-import Gyarados from "./pages/subpages/Gyarados";
-import Magikarp from "./pages/subpages/Magikarp";
+import Gyarados from "./pages/subpages/Gyarados/Gyarados";
+import Magikarp from "./pages/subpages/Magikarp/Magikarp";
 
 function App() {
   return (

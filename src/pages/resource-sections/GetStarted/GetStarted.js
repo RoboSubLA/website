@@ -1,10 +1,6 @@
 import React from "react";
 import {Row,Figure, Container,Jumbotron, Accordion, Button, Card } from "react-bootstrap";
-
-import './resourceSection.css'
-
-
-
+import './GetStarted.css'
 
 const GetStarted = () => {
   return (

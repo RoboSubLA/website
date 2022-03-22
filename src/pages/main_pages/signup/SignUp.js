@@ -1,9 +1,9 @@
 import React from "react";
 import "./signup.css";
 import Sky from "react-sky";
-import magikarp from "../img/magikarp.png";
-import gyarados from "../img/gyarados.png";
-import lanturn from "../img/lanturn.png";
+import magikarp from "../../img/magikarp.png";
+import gyarados from "../../img/gyarados.png";
+import lanturn from "../../img/lanturn.png";
 
 export default function SignUp() {
   return (

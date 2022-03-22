@@ -6,12 +6,12 @@ import Nav from "react-bootstrap/Nav";
 import "./resources.css";
 
 // import resource sections
-import Arduino from "../resource-sections/Arduino";
-import ComputerVision from "../resource-sections/ComputerVision";
-import ROS from "../resource-sections/ROS";
-import Linux from "../resource-sections/Linux";
-import GetStarted from "../resource-sections/GetStarted";
-import Github from "../resource-sections/Github";
+import Arduino from "../../resource-sections/Arduino/Arduino";
+import ComputerVision from "../../resource-sections/ComputerVision/ComputerVision";
+import ROS from "../../resource-sections/ROS/ROS";
+import Linux from "../../resource-sections/Linux/Linux";
+import GetStarted from "../../resource-sections/GetStarted/GetStarted";
+import Github from "../../resource-sections/GitHub/GitHub";
 
 const Resources = () => {
   return (
@@ -44,7 +44,7 @@ const Resources = () => {
               </Nav.Item>
 
               <Nav.Item className="resource-item">
-                <Nav.Link eventKey="github">Git/Github</Nav.Link>
+                <Nav.Link eventKey="github">Git & GitHub</Nav.Link>
               </Nav.Item>
 
               <Nav.Item className="resource-item">

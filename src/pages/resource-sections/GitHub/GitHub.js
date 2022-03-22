@@ -1,7 +1,7 @@
 import React from "react";
 import {Card , CardDeck,Image, Row, Col, Container,Jumbotron, Accordion, Button} from "react-bootstrap";
 
-import './resourceSection.css'
+import './GitHub.css'
 
 
 const GetStarted = () => {
@@ -9,7 +9,7 @@ const GetStarted = () => {
     <>
       <Jumbotron className='getstarted-jumbo-container' fluid>
           <Container>
-            <Image className='github-logo' src='https://opensheetmusicdisplay.org/wp-content/uploads/2020/08/pinpng.com-github-logo-png-945585.png'/>
+            <Image className='github-logo' src='/images/other/GitHubLogo.png'/>
             <p className='resources-section-p'>At a high level, GitHub is a website and cloud-based service that helps developers store and manage their code, as well as track and control changes to their code. To understand exactly what GitHub is, you need to know two connected principles:</p>  
             
             <h3 className='resources-section-h3'> Version Control:</h3>
@@ -31,8 +31,8 @@ const GetStarted = () => {
               </Row>
             
               <Row className='git-links-row'>
-                <h3 className='resources-section-h3'> Github:</h3>
-                <a className='git-links' href='https://github.com/'><i class="fab fa-github fa-2x"> Github </i></a>
+                <h3 className='resources-section-h3'> GitHub:</h3>
+                <a className='git-links' href='https://github.com/'><i class="fab fa-github fa-2x"> GitHub </i></a>
               </Row>
 
               <h1>Git Cheat Sheet:</h1>

@@ -1,7 +1,7 @@
 import React from "react";
 import {Tabs, Tab, Table, Image, Carousel }from "react-bootstrap";
 
-import "./sub.css";
+import "./Gyarados.css";
 
 const Gyarados = () => {
   return (

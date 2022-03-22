@@ -2,7 +2,7 @@ import React from "react";
 import Figure from "react-bootstrap/Figure";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import "../pages/main_pages/members.css";
+import "../pages/main_pages/members/members.css";
 
 const Person = (props) => {
   return (
