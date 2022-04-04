@@ -5,7 +5,7 @@ import Jumbotron from "react-bootstrap/Jumbotron";
 import Container from "react-bootstrap/Container";
 import Image from "react-bootstrap/Image";
 import Typical from "react-typical";
-import "./home.css";
+import "./Home.css";
 
 function VideoSection(props) {
   return (

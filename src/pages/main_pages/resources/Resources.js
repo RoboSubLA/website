@@ -3,7 +3,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Tab from "react-bootstrap/Tab";
 import Nav from "react-bootstrap/Nav";
-import "./resources.css";
+import "./Resources.css";
 
 // import resource sections
 import Arduino from "../../resource-sections/Arduino/Arduino";

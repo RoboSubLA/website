@@ -1,5 +1,5 @@
 import React from "react";
-import "./members.css";
+import "./Members.css";
 import Figure from "react-bootstrap/Figure";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";

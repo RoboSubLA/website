@@ -5,12 +5,12 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 
 // pages import
-import Home from "./pages/main_pages/home/Home";
-import SignUp from "./pages/main_pages/signup/SignUp";
-import TheFleet from "./pages/main_pages/fleet/TheFleet";
-import Members from "./pages/main_pages/members/Members";
-import Resources from "./pages/main_pages/resources/Resources";
-import Events from "./pages/main_pages/events/Events";
+import Home from "./pages/main_pages/Home/Home";
+import SignUp from "./pages/main_pages/SignUp/SignUp";
+import TheFleet from "./pages/main_pages/TheFleet/TheFleet";
+import Members from "./pages/main_pages/Members/Members";
+import Resources from "./pages/main_pages/Resources/Resources";
+import Events from "./pages/main_pages/Events/Events";
 
 // sub pages import
 import Lanturn from "./pages/subpages/Lanturn";
@@ -25,16 +25,16 @@ function App() {
         <Navbar />
         <Switch>
           <Route path="/" exact component={Home} />
-          <Route path="/thefleet" component={TheFleet} />
-          <Route path="/members" component={Members} />
-          <Route path="/resources" component={Resources} />
-          <Route path="/events" component={Events} />
+          <Route path="/TheFleet" component={TheFleet} />
+          <Route path="/Members" component={Members} />
+          <Route path="/Resources" component={Resources} />
+          <Route path="/Events" component={Events} />
           <Route path="/sign-up" component={SignUp} />
           {/* routes to sub pages */}
-          <Route path="/lanturn" component={Lanturn} />
-          <Route path="/donphan" component={Donphan} />
-          <Route path="/gyarados" component={Gyarados} />
-          <Route path="/magikarp" component={Magikarp} /> */}
+          <Route path="/Lanturn" component={Lanturn} />
+          <Route path="/Donphan" component={Donphan} />
+          <Route path="/Gyarados" component={Gyarados} />
+          <Route path="/Magikarp" component={Magikarp} /> */}
         </Switch>
         <Footer />
       </Router>

@@ -4,7 +4,7 @@ import CardDeck from "react-bootstrap/CardDeck";
 import Button from "react-bootstrap/Button";
 import Jumbotron from "react-bootstrap/Jumbotron";
 import { Link } from "react-router-dom";
-import "./fleet.css";
+import "./TheFleet.css";
 
 const TheFleet = () => {
   return (

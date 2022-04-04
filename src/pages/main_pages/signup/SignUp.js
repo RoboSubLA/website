@@ -1,5 +1,5 @@
 import React from "react";
-import "./signup.css";
+import "./SignUp.css";
 import Sky from "react-sky";
 import magikarp from "../../img/magikarp.png";
 import gyarados from "../../img/gyarados.png";

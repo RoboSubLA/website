@@ -1,6 +1,6 @@
 import React from "react";
 import Sky from "react-sky";
-import "./events.css";
+import "./Events.css";
 import Jumbotron from "react-bootstrap/Jumbotron";
 import Container from "react-bootstrap/Container";
 import Image from "react-bootstrap/Image";
