@@ -17,6 +17,8 @@ import Lanturn from "./pages/subpages/Lanturn";
 import Donphan from "./pages/subpages/Donphan";
 import Gyarados from "./pages/subpages/Gyarados/Gyarados";
 import Magikarp from "./pages/subpages/Magikarp/Magikarp";
+import ThisYear from "./pages/subpages/ThisYear/ThisYear";
+import ThisYear1 from "./pages/subpages/ThisYear1/ThisYear1";
 
 function App() {
   return (
@@ -34,7 +36,9 @@ function App() {
           <Route path="/Lanturn" component={Lanturn} />
           <Route path="/Donphan" component={Donphan} />
           <Route path="/Gyarados" component={Gyarados} />
-          <Route path="/Magikarp" component={Magikarp} /> */}
+          <Route path="/Magikarp" component={Magikarp} /> 
+		  <Route path="/ThisYear" component={ThisYear} />
+		  <Route path="/ThisYear1" component={ThisYear1} /> */}
         </Switch>
         <Footer />
       </Router>

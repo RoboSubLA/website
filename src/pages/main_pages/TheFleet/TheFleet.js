@@ -38,7 +38,7 @@ const TheFleet = () => {
               Senior Design Team
             </Card.Text>
           </Card.Body>
-          <Link className="fleet-link" to="/">
+          <Link className="fleet-link" to="/thisyear">
             More Info
           </Link>
         </Card>
@@ -53,7 +53,7 @@ const TheFleet = () => {
 			  Club Team
 			</Card.Text>
           </Card.Body>
-          <Link className="fleet-link" to="/">
+          <Link className="fleet-link" to="/thisyear1">
             More Info
           </Link>
         </Card>
