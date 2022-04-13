@@ -1,30 +1,12 @@
 import React from "react";
-// import VideoSection from "../VideoSection";
-import { Button } from "../../../components/Button";
+import VideoSection from '../../../components/VideoSection/VideoSection';
+import Button  from "../../../components/Button/Button";
 import Jumbotron from "react-bootstrap/Jumbotron";
 import Container from "react-bootstrap/Container";
 import Image from "react-bootstrap/Image";
 import Typical from "react-typical";
 import "./Home.css";
 
-function VideoSection(props) {
-  return (
-    <div className="video-container">
-      <img alt="gonzo was here" className="splashpage-img" src={props.src} />
-      <h1 className="title">{props.heading}</h1>
-      <p id="under-p">
-        {" "}
-        <Typical
-          steps={["Design | Code | Build | Test | Compete", 5000, "", 2000]}
-          loop={Infinity}
-          wrapper="b"
-          id="under-p"
-        />
-      </p>
-      {props.children}
-    </div>
-  );
-}
 
 const About = () => {
   return (
@@ -96,6 +78,7 @@ function Home() {
             buttonStyle="btn--outline"
             buttonSize="btn--large"
             onClick={onClick}
+            path="/"
           >
             WATCH TRAILER <i className="far fa-play-circle" />
           </Button>

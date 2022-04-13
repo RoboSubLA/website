@@ -8,7 +8,7 @@ import GroupSection from "../../../components/GroupSection";
 
 const Members = () => {
   //this will pull the first object in the data file as the default for display on members page
-  let obj = require("../../../data/members.json");
+  let obj = require("../../../assets/members.json");
   let json = obj[Object.keys(obj)[0]];
   return (
     <div className="cont">

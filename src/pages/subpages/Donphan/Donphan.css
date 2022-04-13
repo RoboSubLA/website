@@ -134,7 +134,7 @@
     background-color: #0a0d0f9a;
 } */
 
-/* 
+/*
 .sub-header {
     vertical-align: middle;
     padding-top: 12px;
@@ -148,7 +148,7 @@
     word-wrap: break-word;
     overflow-wrap: break-word;
     hyphens: auto;
-    
+
 }
 
 .sub-img {
@@ -161,24 +161,24 @@
 .sub-me-container {
     margin-right: 10%;
     margin-left: 10%;
-  
+
 }
 .sub-ee-container {
     margin-right: 10%;
     margin-left: 10%;
-  
+
 }
 .sub-cs-container {
     margin-right: 10%;
     margin-left: 10%;
-  
+
 } */
 
   /* iPhone X, iPhone 6/7/8 Plus, */
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3) { 
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 812px)
+  and (-webkit-min-device-pixel-ratio: 3) {
     .sub-jumbo {
         background-color: white;
         justify-content: center;
@@ -199,7 +199,7 @@
         font-size: 20px;
         text-align: center;
     }
-    
+
     .sub-year-animated {
         font-family: 'Source Code Pro';
         font-weight: bolder;
@@ -226,42 +226,13 @@
         font-size: 12px;
     }
 
-    .sub-img-gyarados {
-        width: 270px;
-        height: 200px;
-        margin-bottom: 10px;
-    }
-    .sub-p-gyarados {
-        font-size: 14px;
-        line-height: 25px;
-        font-family:Georgia, 'Times New Roman', Times, serif;
-        font-weight:bolder;
-        word-wrap: break-word;
-        overflow-wrap: break-word;
-        hyphens: auto;
-    }
-    .sub-me-container-gyarados {
-        margin-right: 5%;
-        margin-left: 5%;
-      
-    }
-    .sub-ee-container-gyarados {
-        margin-right: 5%;
-        margin-left: 5%;
-      
-    }
-    .sub-cs-container-gyarados {
-        margin-right: 5%;
-        margin-left: 5%;
-      
-    }
 }
 
 /* ----------- iPhone 6, 6S, 7 and 8 ----------- */
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 667px) 
-  and (-webkit-min-device-pixel-ratio: 2) { 
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2) {
     .sub-jumbo {
         background-color: white;
         justify-content: center;
@@ -281,7 +252,7 @@
         font-size: 20px;
         text-align: center;
     }
-    
+
     .sub-year-animated {
         font-family: 'Source Code Pro';
         font-weight: bolder;
@@ -308,35 +279,6 @@
         font-size: 12px;
     }
 
-    .sub-img-gyarados {
-        max-width: 270px;
-        max-height: 200px;
-        margin-bottom: 10px;
-    }
-    .sub-p-gyarados {
-        font-size: 14px;
-        line-height: 25px;
-        font-family:Georgia, 'Times New Roman', Times, serif;
-        font-weight:bolder;
-        word-wrap: break-word;
-        overflow-wrap: break-word;
-        hyphens: auto;
-    }
-    .sub-me-container-gyarados {
-        margin-right: 5%;
-        margin-left: 5%;
-      
-    }
-    .sub-ee-container-gyarados {
-        margin-right: 5%;
-        margin-left: 5%;
-      
-    }
-    .sub-cs-container-gyarados {
-        margin-right: 5%;
-        margin-left: 5%;
-      
-    }
 }
 
 
@@ -344,9 +286,9 @@
 /* ----------- Galaxy S3 ----------- */
 
 /* Portrait and Landscape */
-@media screen 
-  and (device-width: 360px) 
-  and (device-height: 640px) 
+@media screen
+  and (device-width: 360px)
+  and (device-height: 640px)
   and (-webkit-device-pixel-ratio: 2) {
     .sub-jumbo {
         background-color: white;
@@ -367,7 +309,7 @@
         font-size: 20px;
         text-align: center;
     }
-    
+
     .sub-year-animated {
         font-family: 'Source Code Pro';
         font-weight: bolder;
@@ -393,44 +335,14 @@
     .sub-p {
         font-size: 12px;
     }
-
-    .sub-img-gyarados {
-        width: 200px;
-        height: 200px;
-        margin-bottom: 10px;
-    }
-    .sub-p-gyarados {
-        font-size: 14px;
-        line-height: 25px;
-        font-family:Georgia, 'Times New Roman', Times, serif;
-        font-weight:bolder;
-        word-wrap: break-word;
-        overflow-wrap: break-word;
-        hyphens: auto;
-    }
-    .sub-me-container-gyarados {
-        margin-right: 5%;
-        margin-left: 5%;
-      
-    }
-    .sub-ee-container-gyarados {
-        margin-right: 5%;
-        margin-left: 5%;
-      
-    }
-    .sub-cs-container-gyarados {
-        margin-right: 5%;
-        margin-left: 5%;
-      
-    }
 }
 
 /* ----------- Galaxy S4, S5 and Note 3 ----------- */
 
 /* Portrait and Landscape */
-@media screen 
-  and (device-width: 360px) 
-  and (device-height: 640px) 
+@media screen
+  and (device-width: 360px)
+  and (device-height: 640px)
   and (-webkit-device-pixel-ratio: 3) {
     .sub-jumbo {
         background-color: white;
@@ -451,7 +363,7 @@
         font-size: 20px;
         text-align: center;
     }
-    
+
     .sub-year-animated {
         font-family: 'Source Code Pro';
         font-weight: bolder;
@@ -478,43 +390,14 @@
         font-size: 12px;
     }
 
-    .sub-img-gyarados {
-        width: 200px;
-        height: 200px;
-        margin-bottom: 10px;
-    }
-    .sub-p-gyarados {
-        font-size: 14px;
-        line-height: 25px;
-        font-family:Georgia, 'Times New Roman', Times, serif;
-        font-weight:bolder;
-        word-wrap: break-word;
-        overflow-wrap: break-word;
-        hyphens: auto;
-    }
-    .sub-me-container-gyarados {
-        margin-right: 5%;
-        margin-left: 5%;
-      
-    }
-    .sub-ee-container-gyarados {
-        margin-right: 5%;
-        margin-left: 5%;
-      
-    }
-    .sub-cs-container-gyarados {
-        margin-right: 5%;
-        margin-left: 5%;
-      
-    }
 }
 
 /* ----------- iPad 1, 2, Mini and Air ----------- */
 
 /* Portrait and Landscape */
-@media only screen 
-  and (min-device-width: 768px) 
-  and (max-device-width: 1024px) 
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
   and (-webkit-min-device-pixel-ratio: 1) {
     .sub-jumbo {
         background-color: white;
@@ -535,7 +418,7 @@
         font-size: 30px;
         text-align: center;
     }
-    
+
     .sub-year-animated {
         font-family: 'Source Code Pro';
         font-weight: bolder;
@@ -559,38 +442,9 @@
     .sub-carousel-title {
         font-size: 23px;
     }
-    
+
     .sub-p {
         font-size: 16px;
     }
 
-    .sub-img-gyarados {
-        width: 300px;
-        height: 200px;
-        margin-bottom: 10px;
-    }
-    .sub-p-gyarados {
-        font-size: 24px;
-        line-height: 35px;
-        font-family:Georgia, 'Times New Roman', Times, serif;
-        font-weight:bolder;
-        word-wrap: break-word;
-        overflow-wrap: break-word;
-        hyphens: auto;
-    }
-    .sub-me-container-gyarados {
-        margin-right: 5%;
-        margin-left: 5%;
-      
-    }
-    .sub-ee-container-gyarados {
-        margin-right: 5%;
-        margin-left: 5%;
-      
-    }
-    .sub-cs-container-gyarados {
-        margin-right: 5%;
-        margin-left: 5%;
-      
-    }
 }

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Button } from "./Button";
+import Button from "../Button/Button";
 import { Link } from "react-router-dom";
 import Image from "react-bootstrap/Image";
 import "./Navbar.css";
@@ -31,7 +31,7 @@ function Navbar() {
         <div className="navbar-container">
           <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
             AUV
-            <i class="fas fa-water" />
+            <i className="fas fa-water" />
             {/* <Image
               src='./images/robosublogo.png'
               width='60'
@@ -44,7 +44,7 @@ function Navbar() {
           <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li className="nav-item">
               <Link to="/" className="nav-links" onClick={closeMobileMenu}>
-                Home Port <i class="fas fa-anchor"></i>
+                Home Port <i className="fas fa-anchor"></i>
               </Link>
             </li>
             <li className="nav-item">
@@ -53,7 +53,7 @@ function Navbar() {
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
-                The Fleet <i class="fas fa-ship"></i>
+                The Fleet <i className="fas fa-ship"></i>
               </Link>
             </li>
 
@@ -63,7 +63,7 @@ function Navbar() {
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
-                Crew Deck <i class="fas fa-id-card"></i>
+                Crew Deck <i className="fas fa-id-card"></i>
               </Link>
             </li>
             <li className="nav-item">
@@ -72,7 +72,7 @@ function Navbar() {
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
-                Resources <i class="fas fa-id-card"></i>
+                Resources <i className="fas fa-id-card"></i>
               </Link>
             </li>
             <li className="nav-item">
@@ -81,7 +81,7 @@ function Navbar() {
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
-                Events <i class="fas fa-calendar-alt" />
+                Events <i className="fas fa-calendar-alt" />
               </Link>
             </li>
             <li>

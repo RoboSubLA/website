@@ -4,9 +4,9 @@ import Tab from "react-bootstrap/Tab";
 import Table from "react-bootstrap/Table";
 import Image from "react-bootstrap/Image";
 import Carousel from "react-bootstrap/Carousel";
-import Footer from "../../components/Footer";
+import Footer from "../../../components/Footer/Footer";
 
-import "./sub.css";
+import "./Donphan.css";
 
 const Donphan = () => {
   return (

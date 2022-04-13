@@ -11,11 +11,11 @@ import {
   Container,
 } from "react-bootstrap";
 import Typical from "react-typical";
-import "./sub.css";
-import GroupSection from "../../components/GroupSection";
+import "./Lanturn.css";
+import GroupSection from "../../../components/GroupSection";
 
 const Lanturn = () => {
-  let obj = require("../../data/members.json");
+  let obj = require("../../../assets/members.json");
   let json = obj[Object.keys(obj)[0]];
   return (
     <div className="sub-outmost-container">
@@ -67,7 +67,7 @@ const Lanturn = () => {
                     300 series SS Brass and the viewports made of Acrylic. Materials were chosen by last year's team
                     for their corrosive resistance, machinability, cost, and weight. The design of the hull was also
                     carried over from last year’s team which features a box-like design to allow ease of access for the
-                    electronics inside. 
+                    electronics inside.
                     23
                     The design of the hull was verified using SolidWorks’ static-stress analysis. The deepest
                     the Robo-sub will have to go is 16 feet or 5 meters which corresponds to a pressure of 49,000
@@ -110,10 +110,10 @@ const Lanturn = () => {
                           its four corners. Production was not completed. The bars and slots that make up the top section
                           and undercarriage of the frame have been fabricated. However, standoffs and their appropriate
                           screws are needed to fully assemble the frame. Moreover, the CAD of the t-slot was altered to an
-                          extruded t-slot which gives access to mounting points for handlebars. The t-slot will serve to also 
+                          extruded t-slot which gives access to mounting points for handlebars. The t-slot will serve to also
                           30
                           join the frame to the hull. An aluminum bracket is to be welded onto the lower body of the hull
-                          and will attach to the frame with a latch. 
+                          and will attach to the frame with a latch.
                         </p>
                       </Carousel.Item>
 
@@ -159,7 +159,7 @@ const Lanturn = () => {
                             . We have not been able to test the
                             torpedo system due to our inability to meet in person. Lucky with the use of fluid simulation in
                             SolidWorks and we were able to use it simulate the flow as if the torpedo were going through
-                            water. We ended up with drag coefficient of 0.33. 
+                            water. We ended up with drag coefficient of 0.33.
                           </p>
 
                           <img
@@ -211,7 +211,7 @@ const Lanturn = () => {
                           />
                           <p className="sub-p">
                             The purpose of the grabber system is to pick up and move objects underwater to obtain
-                            points in the competition. As Robosub is a multi-year and multi-team project the team looked at 
+                            points in the competition. As Robosub is a multi-year and multi-team project the team looked at
                             35
                             what was left for us in terms of the grabber design. We found that the design left was a placeholder
                             which meant a new design needed to be made from scratch. The most common actuators used for
@@ -226,7 +226,7 @@ const Lanturn = () => {
                             aluminum linkages and tightened with hex nuts. A servo horn will be connected to the gears of the
                             motor to have a larger surface area to better distribute the pressure created when moving the claw
                             and/or arm. Furthermore, the servo horn functions to connect the arm and claw to the motor at
-                            multiple points providing better support and motion. 
+                            multiple points providing better support and motion.
                           </p>
 
                           <p className="sub-p">
@@ -238,7 +238,7 @@ const Lanturn = () => {
                             criteria for the dimensions of the objects in the competition ranging in diameter from 2 inches to
                             0.5 inches and predominantly being cylindrical. At the depths of the competition which is 5 meters
                             (16.4 feet) the grabber will experience pressure of 7.11 psi. Under these specifications the grabber
-                            will have no issues performing its tasks. 
+                            will have no issues performing its tasks.
                           </p>
 
                           <img
@@ -286,7 +286,7 @@ const Lanturn = () => {
                   </p>*/}
                 </Col>
               </Row>
-            </div> 
+            </div>
 
             {/* 2019-2020 */}
             <div className="sub-container">
