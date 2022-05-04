@@ -29,7 +29,7 @@ const GetStarted = () => {
 
           <Row id='figure-getstarted'>
             <Figure className='getstarted-figure'>
-              <a className='' href='https://robonation.org/app/uploads/sites/4/2021/03/RoboSub-2021-Mission-and-Rules_V1.pdf'>
+              <a className='' href='https://robonation.org/app/uploads/sites/4/2022/01/2022-RoboSub_Team-Handbook_v1.0.pdf'>
               <Figure.Image
               width={171}
               height={180}
@@ -39,7 +39,7 @@ const GetStarted = () => {
               <Figure.Caption className='getstarted-cap'>
                 <br></br>
                 <br></br>
-                2021 Mission and Rules
+                2022 RoboSub Handbook
               </Figure.Caption>
               </a>
             </Figure>
@@ -72,10 +72,7 @@ const GetStarted = () => {
               </a>
             </Figure>
           </Row>
-          
-
         </Container>
-
         <Container>
           <h1 className='resources-section-h1' ><span className='accent-color'>RoboSub LA Team</span></h1>
           <p className='resources-section-p'>Our team is split up into two project teams, the student organization and the senior design team. The senior design team builds one vehicle, and the club members build a separate vehicle while being mentored by senior design members. Both vehicles are intended for use in the competition and strategies will be carefully considered based on the capabilities of both vehicles. Members have the opportunity to design advanced robotics systems and work on an interdisciplinary project to gain experience working with a team. Please see the progress tab for a better idea of what our members are working on and what tasks and projects are available to new members</p>
@@ -93,19 +90,10 @@ const GetStarted = () => {
               </Card.Header>
               <Accordion.Collapse eventKey="0">
                 <Card.Body  className='getstarted-card-p'>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non
-                  varius nulla, vitae ullamcorper tellus. Proin feugiat libero at mi
-                  congue tincidunt. Nulla facilisi. Proin feugiat accumsan
-                  sollicitudin. Quisque sed metus eget urna suscipit tristique.
-                  Morbi a blandit tellus. Duis condimentum eros a ex hendrerit,
-                  gravida pretium orci feugiat. Vestibulum a pharetra augue. Sed
-                  vulputate elementum elit et laoreet. Mauris pulvinar scelerisque
-                  est id feugiat. Nunc egestas lorem nec sapien sagittis, a mattis
-                  mauris hendrerit. Nam sed dolor ut lorem euismod varius eget quis
-                  tortor. Donec tempor scelerisque auctor. Sed quis velit nec felis
-                  eleifend euismod eget vitae justo. Etiam placerat libero id libero
-                  hendrerit, eget hendrerit dolor mollis. Duis vel lorem in ante
-                  bibendum maximus nec nec orci.
+                  The frame and hull team is responsible for making the actual design
+				  of the AUV itself. The hull and frame of the sub are the physical
+				  components of the AUV, which the mechanical engineering team will
+				  be responsbile for making.
                 </Card.Body>
               </Accordion.Collapse>
             </Card>
@@ -165,19 +153,11 @@ const GetStarted = () => {
               </Card.Header>
               <Accordion.Collapse eventKey="3">
                 <Card.Body className='getstarted-card-p'>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non
-                  varius nulla, vitae ullamcorper tellus. Proin feugiat libero at mi
-                  congue tincidunt. Nulla facilisi. Proin feugiat accumsan
-                  sollicitudin. Quisque sed metus eget urna suscipit tristique.
-                  Morbi a blandit tellus. Duis condimentum eros a ex hendrerit,
-                  gravida pretium orci feugiat. Vestibulum a pharetra augue. Sed
-                  vulputate elementum elit et laoreet. Mauris pulvinar scelerisque
-                  est id feugiat. Nunc egestas lorem nec sapien sagittis, a mattis
-                  mauris hendrerit. Nam sed dolor ut lorem euismod varius eget quis
-                  tortor. Donec tempor scelerisque auctor. Sed quis velit nec felis
-                  eleifend euismod eget vitae justo. Etiam placerat libero id libero
-                  hendrerit, eget hendrerit dolor mollis. Duis vel lorem in ante
-                  bibendum maximus nec nec orci.
+				  The Controls Team is responsible for making the AUV respond to movement
+				  instructions. Because the AUV is autonomous, the controls won't be manually
+				  operated by any person, but there will usually still be a GUI that either
+				  the Controls subteam or another computer science subteam must make, in order
+				  to debug the code and test the controls.
                 </Card.Body>
               </Accordion.Collapse>
             </Card>
@@ -189,19 +169,17 @@ const GetStarted = () => {
               </Card.Header>
               <Accordion.Collapse eventKey="4">
                 <Card.Body className='getstarted-card-p'>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non
-                  varius nulla, vitae ullamcorper tellus. Proin feugiat libero at mi
-                  congue tincidunt. Nulla facilisi. Proin feugiat accumsan
-                  sollicitudin. Quisque sed metus eget urna suscipit tristique.
-                  Morbi a blandit tellus. Duis condimentum eros a ex hendrerit,
-                  gravida pretium orci feugiat. Vestibulum a pharetra augue. Sed
-                  vulputate elementum elit et laoreet. Mauris pulvinar scelerisque
-                  est id feugiat. Nunc egestas lorem nec sapien sagittis, a mattis
-                  mauris hendrerit. Nam sed dolor ut lorem euismod varius eget quis
-                  tortor. Donec tempor scelerisque auctor. Sed quis velit nec felis
-                  eleifend euismod eget vitae justo. Etiam placerat libero id libero
-                  hendrerit, eget hendrerit dolor mollis. Duis vel lorem in ante
-                  bibendum maximus nec nec orci.
+				  The Mission Planning team is responsible for writing the state machine 
+				  of the AUV. The state machine determines what the AUV is doing at any time,
+				  and it's very important when deciding what to do next. For example,
+				  an AUV might have a state that tells it to follow a path. In this
+				  state, the AUV will continue to follow this path until the state is
+				  changed. Basically, the state machine determines when the AUV should
+				  transition to this state, when it should stick to this state, and when
+				  it should transition to another state. If the AUV has reached the end
+				  of a path, then something has to be called by the state machine to tell
+				  the AUV to transition to the next state, which might tell the AUV to stop
+				  or do another task, depending on what the competition wants the AUV to do.
                 </Card.Body>
               </Accordion.Collapse>
             </Card>
@@ -213,44 +191,17 @@ const GetStarted = () => {
               </Card.Header>
               <Accordion.Collapse eventKey="5">
                 <Card.Body className='getstarted-card-p'>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non
-                  varius nulla, vitae ullamcorper tellus. Proin feugiat libero at mi
-                  congue tincidunt. Nulla facilisi. Proin feugiat accumsan
-                  sollicitudin. Quisque sed metus eget urna suscipit tristique.
-                  Morbi a blandit tellus. Duis condimentum eros a ex hendrerit,
-                  gravida pretium orci feugiat. Vestibulum a pharetra augue. Sed
-                  vulputate elementum elit et laoreet. Mauris pulvinar scelerisque
-                  est id feugiat. Nunc egestas lorem nec sapien sagittis, a mattis
-                  mauris hendrerit. Nam sed dolor ut lorem euismod varius eget quis
-                  tortor. Donec tempor scelerisque auctor. Sed quis velit nec felis
-                  eleifend euismod eget vitae justo. Etiam placerat libero id libero
-                  hendrerit, eget hendrerit dolor mollis. Duis vel lorem in ante
-                  bibendum maximus nec nec orci.
+				  The Computer Vision team is responsible for making the AUV recognize objects 
+				  with its camera. So, one of the most important tasks of the CV team is object
+				  detection, which can be done with software. This year YOLO (You only look once)
+				  will be used for the CV software. YOLO is a machine learning (deep learning)
+				  algorithm that is used in object detection.
                 </Card.Body>
               </Accordion.Collapse>
             </Card>
           </Accordion>
-        
         </Container>
-      
       </Jumbotron>
-      
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-     
     </>
   );
 };

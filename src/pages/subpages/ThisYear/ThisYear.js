@@ -9,7 +9,8 @@ import "./ThisYear.css";
 
 const ThisYear = () => {
   return (
-    <div className="sub-container">
+  <div className="decoration">
+	<div className="sub-container">
       <h1 className="sub-header">ThisYear</h1>
 
       <Tabs
@@ -148,22 +149,25 @@ const ThisYear = () => {
           <p className="sub-p">
 			text when ready
           </p>
-         
+		  -
         </Tab>
 
         <Tab className="sub-ee-container" eventKey="EE" title="Electrical">
           <p className="sub-p">
             text when ready
           </p>
+		  -
         </Tab>
 
         <Tab className="sub-cs-container" eventKey="CS" title="Software">
           <p className="sub-p">
 			text when redy
           </p>
+		  -
         </Tab>
       </Tabs>
     </div>
+  </div>
   );
 };
 

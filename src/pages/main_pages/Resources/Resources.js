@@ -12,6 +12,7 @@ import ROS from "../../resource-sections/ROS/ROS";
 import Linux from "../../resource-sections/Linux/Linux";
 import GetStarted from "../../resource-sections/GetStarted/GetStarted";
 import Github from "../../resource-sections/GitHub/GitHub";
+import MissionPlanning from "../../resource-sections/MissionPlanning/MissionPlanning";
 
 const Resources = () => {
   return (
@@ -40,7 +41,7 @@ const Resources = () => {
               </Nav.Item>
 
               <Nav.Item className="resource-item">
-                <Nav.Link eventKey="electrical">Electrical</Nav.Link>
+                <Nav.Link eventKey="electrical">Mission Planning</Nav.Link>
               </Nav.Item>
 
               <Nav.Item className="resource-item">
@@ -78,7 +79,8 @@ const Resources = () => {
               </Tab.Pane>
 
               <Tab.Pane eventKey="electrical">
-                <h2 className="resource-text-title">Even More Stuff</h2>
+                <h2 className="resource-text-title">Mission Planning</h2>
+				<MissionPlanning />
               </Tab.Pane>
 
               <Tab.Pane eventKey="github">
