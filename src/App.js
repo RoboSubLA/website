@@ -38,7 +38,7 @@ function App() {
           <Route path="/Gyarados" component={Gyarados} />
           <Route path="/Magikarp" component={Magikarp} />
 		  <Route path="/ThisYear" component={ThisYear} />
-		  <Route path="/ThisYear1" component={ThisYear1} /> */}
+		  <Route path="/ThisYear1" component={ThisYear1} /> 
         </Switch>
         <Footer />
       </Router>
