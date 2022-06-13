@@ -231,7 +231,11 @@
       font-size: 30px;
     }
 }
-
+#email {
+  font-size: 0.85em;
+  text-align: center;
+  margin-top: 3.5em;
+}
 
 
 /* ----------- Galaxy S3 ----------- */

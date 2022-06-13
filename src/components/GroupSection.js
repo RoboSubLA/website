@@ -30,6 +30,7 @@ const Person = (props) => {
               <a className="fig-back-icon" href={props.data.link}>
                 <i className="fas fa-user-circle"></i>
               </a>
+              <div id = "email">{props.data.email}</div>
             </div>
           </div>
         </div>
