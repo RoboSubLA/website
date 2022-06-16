@@ -15,7 +15,7 @@ const Members = () => {
     <div className="cont">
       <Container className="main-container">
         <GroupSection heading="Officers" list={updated.officers} />
-        <GroupSection heading="Club Team 2021-22" list={updated.members} />
+        <GroupSection heading="Club Team" list={updated.members} />
         <GroupSection heading="Senior Design Team - CS" list={json.seniordesignCS} />
 		    <GroupSection heading="Senior Design Team - ME" list={json.seniordesignME} />
 		    <GroupSection heading="Senior Design Team - EE" list={json.seniordesignEE} />
