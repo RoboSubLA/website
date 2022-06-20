@@ -11,7 +11,7 @@ const ThisYear1 = () => {
   return (
   <div className="decoration">
 	<div className="sub-container">
-      <h1 className="sub-header">ThisYear1</h1>
+      <h1 className="sub-header">2021-2022</h1>
 
       <Tabs
         className="sub-tabs"
@@ -35,21 +35,21 @@ const ThisYear1 = () => {
 
         <Tab className="sub-me-container" eventKey="ME" title="Mechanical">
           <p className="sub-p">
-			text when ready
+            Coming Soon
           </p>
 		  -
         </Tab>
 
         <Tab className="sub-ee-container" eventKey="EE" title="Electrical">
           <p className="sub-p">
-			text when ready
+            Coming Soon
           </p>
 		  -
         </Tab>
 
         <Tab className="sub-cs-container" eventKey="CS" title="Software">
           <p className="sub-p">
-			text when ready
+            Coming Soon
           </p>
 		  -
         </Tab>

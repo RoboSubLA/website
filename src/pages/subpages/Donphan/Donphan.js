@@ -122,320 +122,82 @@ const Donphan = () => {
             </tbody>
           </Table>
 
-          <Carousel className="carousel-container" fade>
-            <Carousel.Item>
-              <img
-                className="carousel-images"
-                src={
-                  process.env.PUBLIC_URL +
-                  "/images/subs/gyarados/gyaradosteampic.jpg"
-                }
-                alt="First slide"
-              />
-            </Carousel.Item>
-
-            <Carousel.Item>
-              <img
-                className="carousel-images"
-                src={
-                  process.env.PUBLIC_URL + "/images/subs/gyarados/gyarados.png"
-                }
-                alt="Second slide"
-              />
-            </Carousel.Item>
-
-            <Carousel.Item>
-              <img
-                className="carousel-images"
-                src={
-                  process.env.PUBLIC_URL +
-                  "/images/subs/gyarados/gyaradosframe.png"
-                }
-                alt="Third slide"
-              />
-            </Carousel.Item>
-
-            <Carousel.Item>
-              <img
-                className="carousel-images"
-                src={
-                  process.env.PUBLIC_URL +
-                  "/images/subs/gyarados/gyaradoscadhull.png"
-                }
-                alt="Fourth slide"
-              />
-            </Carousel.Item>
-
-            <Carousel.Item>
-              <img
-                className="carousel-images"
-                src={
-                  process.env.PUBLIC_URL +
-                  "/images/subs/gyarados/gyaradoscrane.jpg"
-                }
-                alt="Fifth slide"
-              />
-            </Carousel.Item>
-          </Carousel>
         </Tab>
 
         <Tab className="sub-me-container" eventKey="ME" title="Mechanical">
           <Image
             className="sub-img"
-            src={process.env.PUBLIC_URL + "/images/subs/gyarados/gyarados.png"}
+            src={process.env.PUBLIC_URL + "/images/subs/donphan/donphan1.png"}
           ></Image>
           <p className="sub-p">
-            ​ Gyarados consists of a mechanical frame and hull, as well as a
-            servo controlled mechanical arm, torpedoes, and dropper
-            mechanism.The frame consists of waterjet and anodized aluminum,
-            along with 3D printed brackets for mounting waterproof enclosures,
-            thrusters, and the DVL. The frame includes 4 aluminum t-slot rails
-            that are used as corner brackets for mounting together the
-            baseplates and the sides. The rails duly function as a mounting
-            point for the other sub-systems.
+            Donphan consists of a single 8-inch diameter acrylic tube, which houses all electrical components; two machined aluminum side plates, 
+            for mounting the majority of external components; an additional base plate for mounting the downward facing camera and other equipment; 
+            two side mounts for the vertical thrusters; and a rear mount for the back-facing thrusters.
           </p>
           <br />
           <Image
             className="sub-img"
             src={
-              process.env.PUBLIC_URL + "/images/subs/gyarados/gyaradosframe.png"
+              process.env.PUBLIC_URL + "/images/subs/donphan/donphan3.png"
             }
           ></Image>
           <p className="sub-p">
-            ​ The waterproof hull was manufactured in 2018 and consists of two
-            8" diameter acrylic tubes connected to a custom machined aluminum
-            bulkhead. The bulkhead contains 18 SEACON connectors for electrical
-            interfacing. On each end are aluminum endcaps, and several 3D
-            printed parts are used on the hull for mounting latches. The latches
-            serve as an extra degree of leakage protection, in addition to the
-            double o-ring seals on either side of the bulkhead. The tubes on
-            each end of the sub can be removed from the bulkhead, leaving the
-            electronics stack exposed. Gyarados hull​Two 4" diameter acrylic
-            tubes are also present on either end of the submarine to serve as
-            the waterproof enclosures for the cameras and batteries.
-          </p>
-          <br />
-          <Image
-            className="sub-img"
-            src={
-              process.env.PUBLIC_URL +
-              "/images/subs/gyarados/gyaradosinsidehull.png"
-            }
-          ></Image>
-          <Image
-            className="sub-img"
-            src={
-              process.env.PUBLIC_URL +
-              "/images/subs/gyarados/gyaradosinside.png"
-            }
-          ></Image>
-          <p className="sub-p">
-            In 2018, the electronics shelving was a simple acrylic shelving
-            system held together by nuts and bolts. In 2019, this shelving
-            system was redesigned to consist of a custom manufactured aluminum
-            flange for the inside of the bulkhead and 6061 t-slot aluminum to
-            hold acrylic sheets in place to serve as shelves. These shelves
-            utilized more of the available space inside the hull, allowing the
-            addition of extra electronic components for Gyarados' second year
-            competing. The updated shelving is shown below.
+            The objectives of this design include 
+            modularity and reduction of drag in the water. To ensure easy access to all of the sub's internals, six nuts on the half-inch 
+            diameter threaded rods can be removed to quickly access all of the internal electrical components. The screws at the bottom 
+            have their threads filed off at the end so that they can slot into the base plate as pegs, while still being easily replaceable.
+            In addition, the surface area perpendicular to forward motion was minimized to achieve minimal drag.
+            During the prototyping phase, several of Donphan's mechanical components were 3D printed at a smaller scale and test fitted to 
+            ensure that the manufactured version would be modular as intended. 
           </p>
           <br />
 
-          <p className="sub-p">
-            ​Gyarados did not feature a working claw or dropper, but its torpedo
-            system was functional.The torpedo system was a servo mechanism that
-            would launch the torpedo on command. The team waterproofed its own
-            servo motors using several commercially available products.
-          </p>
-          <Image
-            className="sub-img"
-            src={
-              process.env.PUBLIC_URL + "/images/subs/gyarados/gyaradosclaw.png"
-            }
-          ></Image>
-          <br />
-          <p className="sub-p">
-            ​While it was unsuccessful, the 2019 team worked on the development
-            of a mechanical claw with a small waterproof enclosure for a linear
-            actuator and a dynamic o-ring seal. The waterproofing of this system
-            failed, but the system was functional outside of water. Future
-            systems opted to waterproof the servos/actuators themselves rather
-            than creating enclosures, since waterproofing a shaft opening is
-            difficult and prone to failure. The team is still investigating ways
-            to create waterproof enclosures for servo motors and actuators.
-          </p>
+
         </Tab>
 
         <Tab className="sub-ee-container" eventKey="EE" title="Electrical">
-          <Image
-            className="sub-img"
-            src={
-              process.env.PUBLIC_URL +
-              "/images/subs/gyarados/gyaradoselectricaldiagram.png"
-            }
-          ></Image>
           <p className="sub-p">
-            ​The electrical system on the 2019 version of Gyarados features more
-            custom electronics than on Eagle I, allowing for more efficient use
-            of hull space. Custom PCBs include a thruster ESC board, a power
-            distribution board, a battery shutoff board, and a servo control
-            board. In addition, the 2018 vehicle featured a low pass filter
-            circuit for hydrophones noise reduction and a custom control board.
-            These were later removed from the design. Below is the
-            communications network on the submarine. The sensors shown include
-            an IMU, barometer, hydrophones, DVL, and cameras.
+            The electrical system on Donphan consists of a Raspberry Pi, a thruster signal routing board, a buck converter, and a sensor suite, 
+            all powered by a single 14.8V, 10Ah LiPo battery. Its sensor suite includes an IMU, a barometer, and cameras. Donphan's electrical 
+            system is extremely compact, as all of its data acquisition, processing, and decision making is done on a single Raspberry Pi, as 
+            compared to most systems which use intermediate microcontrollers for data collection. The movement controls system is a standard 
+            multi-PID control system, with separate PID gains for yaw, pitch, depth, and forward/backward distance. 
           </p>
-
-          <br />
-
-          <Image
-            className="sub-img"
-            src={
-              process.env.PUBLIC_URL +
-              "/images/subs/gyarados/gyaradospowerboard.jpg"
-            }
-          ></Image>
-          <p className="sub-p">
-            ​The thruster control board, shown to the top, has relays, fuses and
-            ESCs, and serves to provide power and PWM signals to the thrusters
-            after the controllers have provided the proper PWM signals to the
-            thruster board. The thruster board uses fuses to protect individual
-            thrusters from overcurrent, provides easily accessible connectors
-            for signal/power connections on each thruster, and has a kill switch
-            relay, allowing us to power the motors off at any time.
-          </p>
-
-          <br />
-
-          <p className="sub-p">
-            The custom control board (shown below) incorporates custom circuits
-            that are capable of adding different functions to the AUV without
-            compromising space within the hull. Control boardThe servo board
-            connects to the control board via one of its expansion slots. The
-            servo expansion card (shown below) can control and power up to 16
-            servo motors and 5 actuators simultaneously. The reasoning behind
-            this board is because we intended to have several actuated systems,
-            such as a claw, dropper, and torpedoes, that all function off of
-            servos and actuators.
-          </p>
-          <Image
-            className="sub-img"
-            src={
-              process.env.PUBLIC_URL +
-              "/images/subs/gyarados/gyaradoscustomboard.png"
-            }
-          ></Image>
-          <br />
-
-          <p className="sub-p">
-            ​Within the AUV, there are several electronics that need regulated
-            power from the batteries; hence the need for a power distribution
-            board. The power board is coupled with a low voltage automatic
-            shutdown board, which means that if the battery goes below a certain
-            voltage, the board will stop providing power to the electronics
-            automatically. The board also features short circuit protection.
-            Below, the automatic shutoff board is seen on the left, and the
-            power distribution board is depicted on the right.
-          </p>
-          <Image
-            className="sub-img"
-            src={
-              process.env.PUBLIC_URL +
-              "/images/subs/gyarados/gyaradosblockdiagram.png"
-            }
-          ></Image>
-          <Image
-            className="sub-img"
-            src={
-              process.env.PUBLIC_URL + "/images/subs/gyarados/gyaradosboard.png"
-            }
-          ></Image>
           <br />
         </Tab>
 
         <Tab className="sub-cs-container" eventKey="CS" title="Software">
+          <p className="sub-p">
+            DONPHAN’s software architecture is split into modules. The mission planning module is responsible for monitoring data from 
+            all of the sensors as well as the computer vision module. It then decides the actions the submarine will take, depending on 
+            what objects it has seen as well as what tasks it has yet to complete, and sends the appropriate commands to the controls 
+            system. 
+          </p>
+          <p className="sub-p">
+            The state machine is responsible for the monitoring of sensors, tracking of specified tasks, and execution of task related 
+            activities. It is based on a loop of searching for an uncompleted task, approaching the task, executing the task, and 
+            disengaging/tracking completed tasks. Each state is responsible for obtaining relevant data from the sensor modules, as well
+            as controlling the submarine. Each approach and execution state is unique to the task, allowing the programming and testing of
+            a specific task without the need to have the entire state machine running. It also allows for setting a time limit on tasks, 
+            allowing the submarine to move on if the task takes too long to complete. The modularity of this system will allow for greater 
+            reuse of code, as well as faster modifications without disturbing the function of other task states.
+          </p>
+          <p className="sub-p">
+            The computer vision system on Donphan is a simple OpenCV Haar Cascade system. It was trained on several photos taken of the 
+            competition objects and can successfully classify several of the objects. 
+          </p>
           <Image
-            className="sub-img"
+            className="sub-img-s"
             src={
-              process.env.PUBLIC_URL +
-              "/images/subs/gyarados/gyaradossoftwarediagram.png"
+              process.env.PUBLIC_URL + "/images/subs/donphan/donphan4.png"
             }
           ></Image>
-          <p className="sub-p">
-            ​In the ROS architecture running on the Gyarados motherboard,
-            different nodes are used to control different parts of the vehicle.
-            These nodes communicate with each other through ROS; each node can
-            have several publishers and subscribers based on the function of the
-            node. Each Arduino board on the sub is a node that interfaces with
-            the hardware. The computer vision node is isolated for modularity.{" "}
-          </p>
-          <br />
-
-          <p className="sub-p">
-            Object detection is handled by the computer vision node, which uses
-            OpenCV for preprocessing and detection. First, the images are
-            labelled, then features are extracted using HOG. These images are
-            then used for training the real-time object detection system.
-            Real-time detection is based on image frames from a video feed that
-            are preprocessed, ROI determined, then classified. These
-            classifications are used to decide which movements the submarine
-            should take.{" "}
-          </p>
-          <br />
-          <Carousel fade>
-            <Carousel.Item>
-              <img
-                src={
-                  process.env.PUBLIC_URL +
-                  "/images/subs/gyarados/gyaradoscv1.png"
-                }
-                alt="First slide"
-              />
-              <Carousel.Caption>
-                <h3>Filtering Out Color</h3>
-              </Carousel.Caption>
-            </Carousel.Item>
-
-            <Carousel.Item>
-              <img
-                src={
-                  process.env.PUBLIC_URL +
-                  "/images/subs/gyarados/gyaradoscv2.png"
-                }
-                alt="First slide"
-              />
-              <Carousel.Caption>
-                <h3>Finding Contours</h3>
-              </Carousel.Caption>
-            </Carousel.Item>
-
-            <Carousel.Item>
-              <img
-                src={
-                  process.env.PUBLIC_URL +
-                  "/images/subs/gyarados/gyaradoscv3.png"
-                }
-                alt="First slide"
-              />
-              <Carousel.Caption>
-                <h3>Before Machine Learning</h3>
-              </Carousel.Caption>
-            </Carousel.Item>
-
-            <Carousel.Item>
-              <img
-                src={
-                  process.env.PUBLIC_URL +
-                  "/images/subs/gyarados/gyaradoscv4.png"
-                }
-                alt="First slide"
-              />
-              <Carousel.Caption>
-                <h3>After Applying ML</h3>
-              </Carousel.Caption>
-            </Carousel.Item>
-          </Carousel>
-          <br />
+          <Image
+            className="sub-img-s"
+            src={
+              process.env.PUBLIC_URL + "/images/subs/donphan/donphan5.png"
+            }
+          ></Image>
         </Tab>
       </Tabs>
     </div>

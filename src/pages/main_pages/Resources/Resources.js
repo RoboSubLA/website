@@ -45,7 +45,7 @@ const Resources = () => {
               </Nav.Item>
 
               <Nav.Item className="resource-item">
-                <Nav.Link eventKey="github">Git & GitHub</Nav.Link>
+                <Nav.Link eventKey="github">Git &amp; GitHub</Nav.Link>
               </Nav.Item>
 
               <Nav.Item className="resource-item">
