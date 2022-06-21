@@ -19,7 +19,10 @@ import Gyarados from "./pages/subpages/Gyarados/Gyarados";
 import Magikarp from "./pages/subpages/Magikarp/Magikarp";
 import ThisYear from "./pages/subpages/ThisYear/ThisYear";
 import ThisYear1 from "./pages/subpages/ThisYear1/ThisYear1";
-
+import Report2022 from "./pages/subpages/DesignReport/Report2022";
+import Report2019 from "./pages/subpages/DesignReport/Report2019";
+import Report2020 from "./pages/subpages/DesignReport/Report2020";
+import Lanturn2020 from "./pages/subpages/Lanturn/Lanturn2020";
 function App() {
   return (
     <>
@@ -37,8 +40,14 @@ function App() {
           <Route path="/Donphan" component={Donphan} />
           <Route path="/Gyarados" component={Gyarados} />
           <Route path="/Magikarp" component={Magikarp} />
+          <Route path="/Lanturn2020" component={Lanturn2020} />
+
 		  <Route path="/ThisYear" component={ThisYear} />
 		  <Route path="/ThisYear1" component={ThisYear1} /> 
+      <Route path="/Report2022" component={Report2022} /> 
+      <Route path="/Report2019" component={Report2019} /> 
+      <Route path="/Report2020" component={Report2020} /> 
+
         </Switch>
         <Footer />
       </Router>

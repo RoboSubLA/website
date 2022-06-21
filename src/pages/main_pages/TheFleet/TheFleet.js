@@ -18,10 +18,10 @@ const TheFleet = () => {
         <p className="jumbotron-p">Website: ~ </p>
         <p className="jumbotron-p">Technical-Design Report: ~</p>
         <div className="button-container">
-          <Button className="jumbotron-button" href="/">
+          <Button className="jumbotron-button" href="https://youtu.be/K124Y61hVNQ">
             Team Video
           </Button>
-          <Button className="jumbotron-button" href="/">
+          <Button className="jumbotron-button" href="/Report2022">
             Design Report
           </Button>
         </div>
@@ -29,7 +29,7 @@ const TheFleet = () => {
 	
       <CardDeck className="fleet-carddeck">
         <Card className="fleet-card" border="dark">
-          <Card.Img variant="top" src={"/images/subs/lanturn2022/AUV_2022_FINAL_4.jpg"} />
+          <Card.Img variant="top" src={"/images/subs/lanturn2022/lanturn.jpg"} />
           <Card.Body className="fleet-card-body">
             <Card.Title className="fleet-card-title">
               Lanturn 2021-2022
@@ -44,10 +44,10 @@ const TheFleet = () => {
         </Card>
 
         <Card className="fleet-card" border="dark">
-          <Card.Img variant="top" src={"/images/subs/QuestionMark.png"} />
+          <Card.Img variant="top" src={"/images/subs/blastoise/blastoise.jpg"} />
           <Card.Body className="fleet-card-body">
             <Card.Title className="fleet-card-title">
-              Being Designed
+              Blastoise
             </Card.Title>
             <Card.Text className="fleet-card-text">
 			  Club Team
@@ -69,10 +69,10 @@ const TheFleet = () => {
         <p className="jumbotron-p">Website: 28th</p>
         <p className="jumbotron-p">Technical-Design Report: 36th</p>
         <div className="button-container">
-          <Button className="jumbotron-button" href="/">
+          <Button className="jumbotron-button" href="https://youtu.be/tnsonTr7G5o">
             Team Video
           </Button>
-          <Button className="jumbotron-button" href="/">
+          <Button className="jumbotron-button" href="https://robonation.org/app/uploads/sites/4/2021/07/RoboSub_2021_Cal-State-Univ-LA_TDR.pdf">
             Design Report
           </Button>
         </div>
@@ -83,28 +83,28 @@ const TheFleet = () => {
           <Card.Img variant="top" src={"/images/subs/lanturn/lanturn.png"} />
           <Card.Body className="fleet-card-body">
             <Card.Title className="fleet-card-title">
-              Lanturn 2019-2021
+              Lanturn 2020-2021
             </Card.Title>
             <Card.Text className="fleet-card-text">
               Senior Design Team
             </Card.Text>
           </Card.Body>
-          <Link className="fleet-link" to="/">
+          {/* <Link className="fleet-link" to="/">
             More Info
-          </Link>
+          </Link> */}
         </Card>
 
         <Card className="fleet-card" border="dark">
           <Card.Img variant="top" src={"/images/subs/donphan/donphan2.jpg"} />
           <Card.Body className="fleet-card-body">
             <Card.Title className="fleet-card-title">
-              Donphan 2019-2021
+              Donphan 2020-2021
             </Card.Title>
             <Card.Text className="fleet-card-text">Club Team</Card.Text>
           </Card.Body>
-          <Link className="fleet-link" to="/">
+          {/* <Link className="fleet-link" to="/">
             More Info
-          </Link>
+          </Link> */}
         </Card>
       </CardDeck>
 
@@ -125,7 +125,7 @@ const TheFleet = () => {
           </Button>
           <Button
             className="jumbotron-button"
-            href={process.env.PUBLIC_URL + "/files/DesignReport2020.pdf"}
+            href="/Report2020"
           >
             Design Report
           </Button>
@@ -146,7 +146,7 @@ const TheFleet = () => {
               Senior Design Team
             </Card.Text>
           </Card.Body>
-          <Link className="fleet-link" to="/">
+          <Link className="fleet-link" to="/Lanturn2020">
             More Info
           </Link>
         </Card>
@@ -162,7 +162,7 @@ const TheFleet = () => {
             </Card.Title>
             <Card.Text className="fleet-card-text">Club Team</Card.Text>
           </Card.Body>
-          <Link className="fleet-link" to="/">
+          <Link className="fleet-link" to="/Donphan">
             More Info
           </Link>
         </Card>
@@ -183,7 +183,7 @@ const TheFleet = () => {
           </Button>
           <Button
             className="jumbotron-button"
-            href={process.env.PUBLIC_URL + "/files/DesignReport2019.pdf"}
+            href="/Report2019"
           >
             Design Report
           </Button>

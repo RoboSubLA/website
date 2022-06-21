@@ -11,7 +11,7 @@ const ThisYear = () => {
   return (
   <div className="decoration">
 	<div className="sub-container">
-      <h1 className="sub-header">ThisYear</h1>
+      <h1 className="sub-header">2021-2022</h1>
 
       <Tabs
         className="sub-tabs"

@@ -118,6 +118,11 @@
     width: 400px;
     height: 400px
 }
+.sub-img-s {
+    width: 400px;
+    height: 400px;
+    padding:1em;
+}
 
 /* .sub-container {
     text-align: center;

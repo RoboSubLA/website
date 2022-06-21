@@ -64,7 +64,7 @@ const Linux = () => {
                 <p className="iframe-align">
                 <iframe 
                   className='linux-yt'
-                  src="https://www.youtube.com/embed/xnisuFk-cDg"
+                  src="https://www.youtube.com/embed/X_fDdUgqIUQ"
                   title="YouTube video player"
                   frameborder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

@@ -168,6 +168,14 @@
         "email":"achan116@calstatela.edu"
       },
       {
+        "name": "Bryan Sanchez",
+        "img": "/images/members/Bryan.jpg",
+        "title": "Computer Vision",
+		"linkI": "",
+        "link": "",
+        "email":"bsanc115@calstatela.edu"
+      },
+      {
         "name": "Daniel Valadez",
         "img": "/images/members/Daniel.jpg",
         "title": "Computer Vision & Mission Planning",
@@ -175,14 +183,6 @@
 		"linkI": "",
         "link": "",
         "email":"dvalade9@calstatela.edu"
-      },
-      {
-        "name": "Bryan Sanchez",
-        "img": "/images/members/Bryan.jpg",
-        "title": "Computer Vision",
-		"linkI": "",
-        "link": "",
-        "email":"bsanc115@calstatela.edu"
       },
       {
         "name": "Robin Romero",
@@ -375,6 +375,15 @@
         "email":"preyes29@calstatela.edu"
       },
       {
+        "name": "Jose Rangel",
+        "img": "/images/members/joseRangel.jpg",
+        "title": "Frame & Hull",
+	    	"text": "",
+		    "linkI": "",
+        "link": "",
+        "email":"jrange53@calstatela.edu"
+      },
+      {
         "name": "Jazmin Reyes",
         "img": "/images/sponsors/csula.png",
         "title": "Frame & Hull",
@@ -393,14 +402,6 @@
         "email":"cmandta@calstatela.edu"
       },
       {
-        "name": "Jose Rangel",
-        "img": "/images/members/joseRangel.jpg",
-        "title": "Frame & Hull",
-	    	"text": "",
-		    "linkI": "",
-        "link": ""
-      },
-      {
         "name": "Jordan Doose",
         "img": "/images/members/jordan.jpg",
         "title": "Power Distribution",
@@ -416,7 +417,7 @@
 	    	"text": "",
 		    "linkI": "",
         "link": "",
-        "email":""
+        "email":"aye7@calstatela.edu"
       }
     ]
   }
