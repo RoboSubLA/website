@@ -12,19 +12,16 @@
   background-color: rgb(38, 41, 43);
   display: flex;
   justify-content: center;
-  padding-top: 4rem;
+  padding-top: 2rem;
+
 }
 
 .resource-item-container {
-  margin-top: 4rem;
   position: fixed;
-  margin-left: 2%;
-  margin-right: 2%;
 }
 
 .resource-item {
-  margin-top: 12px;
-  margin-bottom: 12px;
+  padding: .5em;
 }
 
 .resource-iframe {
@@ -101,6 +98,7 @@
   .resource-item {
     margin-top: 2px;
     margin-bottom: 2px;
+    position: unset;
   }
   .resource-iframe {
     width: 300px;

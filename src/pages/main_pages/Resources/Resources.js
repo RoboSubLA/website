@@ -3,6 +3,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Tab from "react-bootstrap/Tab";
 import Nav from "react-bootstrap/Nav";
+import StickyBox from "react-sticky-box";
 import "./Resources.css";
 
 // import resource sections
@@ -57,10 +58,11 @@ const Resources = () => {
               </Nav.Item>
 
               <Nav.Item className="resource-item">
-                <Nav.Link eventKey="ros">Ros</Nav.Link>
+                <Nav.Link eventKey="ros">ROS</Nav.Link>
               </Nav.Item>
             </Nav>
           </Col>
+
 
           <Col sm={9} className="resource-container">
             <Tab.Content>
@@ -92,7 +94,7 @@ const Resources = () => {
               </Tab.Pane>
 
               <Tab.Pane eventKey="mechanical">
-                <h2 className="resource-text-title">Less Stuff</h2>
+                <h2 className="resource-text-title">Mechanical</h2>
               </Tab.Pane>
 
               <Tab.Pane eventKey="ros">

@@ -11,7 +11,7 @@ const ThisYear1 = () => {
   return (
   <div className="decoration">
 	<div className="sub-container">
-      <h1 className="sub-header">2021-2022</h1>
+      <h1 className="sub-header">BLASTOISE 2021-2022</h1>
 
       <Tabs
         className="sub-tabs"
@@ -25,34 +25,81 @@ const ThisYear1 = () => {
                 <th>Position</th>
                 <th>Name</th>
                 <th>Major</th>
-                <th>Linkedin</th>
               </tr>
             </thead>
             <tbody>
+            <tr>
+                <td>President</td>
+                <td>Aren Petrossian</td>
+                <td>Mechanical Engineer</td>
+              </tr>
+              <tr>
+                <td>Vice-President</td>
+                <td>Katherine Bonomo</td>
+                <td>Civil Engineering</td>
+              </tr>
+              <tr>
+                <td>Computer Vision Co-Lead</td>
+                <td>Jennifer Serrano</td>
+                <td>Computer Science</td>
+              </tr>
+              <tr>
+                <td>Computer Vision Co-Lead</td>
+                <td>Adrian Salgado</td>
+                <td>Computer Science</td>
+              </tr>
+              <tr>
+                <td>Mission Planning</td>
+                <td>Victor Solis</td>
+                <td>Computer Science</td>
+              </tr>
+              <tr>
+                <td>Computer Vision</td>
+                <td>Ashley Tran</td>
+                <td>Computer Science</td>
+              </tr>
+              <tr>
+                <td>Computer Vision Lead</td>
+                <td>Perla Ramirez</td>
+                <td>Computer Science</td>
+              </tr>
+              <tr>
+                <td>Frame & Hull</td>
+                <td>Paola Reyes</td>
+                <td>Mechanical Engineering</td>
+              </tr>
+              <tr>
+                <td>Frame & Hull</td>
+                <td>Jose Rangel</td>
+                <td>Electrical Engineering</td>
+              </tr>
+              <tr>
+                <td>Power Distribution</td>
+                <td>Jordan Doose</td>
+                <td>Computer Science</td>
+              </tr>
+              <tr>
+                <td>Power Distribution</td>
+                <td>Andrew Ye</td>
+                <td>Mechanical Engineering</td>
+              </tr>
+              <tr>
+                <td>Frame & Hull</td>
+                <td>Jazmin Reyes</td>
+                <td>---</td>
+              </tr>
+              <tr>
+                <td>Frame & Hull</td>
+                <td>Chayuth Mandtanavonsin</td>
+                <td>---</td>
+              </tr>
+
+
             </tbody>
           </Table>
         </Tab>
 
-        <Tab className="sub-me-container" eventKey="ME" title="Mechanical">
-          <p className="sub-p">
-            Coming Soon
-          </p>
-		  -
-        </Tab>
-
-        <Tab className="sub-ee-container" eventKey="EE" title="Electrical">
-          <p className="sub-p">
-            Coming Soon
-          </p>
-		  -
-        </Tab>
-
-        <Tab className="sub-cs-container" eventKey="CS" title="Software">
-          <p className="sub-p">
-            Coming Soon
-          </p>
-		  -
-        </Tab>
+       
       </Tabs>
     </div>
   </div>

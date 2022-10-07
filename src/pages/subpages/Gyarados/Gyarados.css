@@ -12,6 +12,26 @@
     margin: auto;
 }
 
+.sub-p {
+    font-family: 'Source Code Pro', monospace;
+    background: #3b3434;
+    border: 1px solid #ddd;
+    border-left: 7px solid #0384fd;
+    border-right: 7px solid #0384fd;
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+    page-break-inside: avoid;
+    font-size: 20px;
+    line-height: 1.6;
+    margin-bottom: 1.6em;
+    font-weight: bold;
+    max-width: 100%;
+    overflow: auto;
+    padding: 1em 1.5em;
+    display: block;
+    word-wrap: break-word;
+}
+
 /* .sub-container {
     text-align: center;
     background-color: #0468ff;

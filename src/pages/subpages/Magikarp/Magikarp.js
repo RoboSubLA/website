@@ -10,7 +10,7 @@ import "./Magikarp.css";
 const Magikarp = () => {
   return (
     <div className="sub-container">
-      <h1 className="sub-header"> MAGIKARP </h1>
+      <h1 className="sub-header"> MAGIKARP 2018-2019</h1>
 
       <Tabs
         className="sub-tabs"
@@ -24,7 +24,6 @@ const Magikarp = () => {
                 <th>Position</th>
                 <th>Name</th>
                 <th>Major</th>
-                <th>Linkedin</th>
               </tr>
             </thead>
             <tbody>
@@ -32,91 +31,78 @@ const Magikarp = () => {
                 <td>Team Captian / President</td>
                 <td>J.Diego Santillan</td>
                 <td>Electrical Engineer</td>
-                <td> More Info</td>
               </tr>
 
               <tr>
                 <td>Frame and Motion</td>
                 <td> Kevin Tran </td>
                 <td>Mechanical Engineer</td>
-                <td> More Info </td>
               </tr>
 
               <tr>
                 <td>Torpedo System Lead</td>
                 <td>Andrew Lopez</td>
                 <td>Mechanical Engineer</td>
-                <td> More Info </td>
               </tr>
 
               <tr>
                 <td>Frame Design Lead</td>
                 <td>Alan Truong</td>
                 <td>Mechanical Engineer</td>
-                <td> More Info </td>
               </tr>
 
               <tr>
                 <td>Hull Design Lead</td>
                 <td>David Garcia</td>
                 <td>Mechanical Engineer</td>
-                <td>More Info</td>
               </tr>
 
               <tr>
                 <td>Communications Lead</td>
                 <td>Albert Le</td>
                 <td>Electrical Engineer</td>
-                <td> More Info</td>
               </tr>
 
               <tr>
                 <td>Hydrophones</td>
                 <td>Aldo Madrid</td>
                 <td>Electrical Engineer</td>
-                <td>More Info</td>
               </tr>
 
               <tr>
                 <td>Apprentice</td>
                 <td>Sidra Gibeault </td>
                 <td>Electrical Engineer</td>
-                <td> More Info </td>
               </tr>
 
               <tr>
                 <td>CS Lead </td>
                 <td>Olin Alvarez</td>
                 <td>Computer Science</td>
-                <td> More Info</td>
               </tr>
 
               <tr>
                 <td>Computer Science Team</td>
                 <td> Jonathan Song </td>
                 <td>Computer Science</td>
-                <td> More Info</td>
               </tr>
 
               <tr>
                 <td>Computer Science Team</td>
                 <td> Danny Padilla </td>
                 <td>Computer Science</td>
-                <td> More Info</td>
               </tr>
 
               <tr>
                 <td>Computer Science Team</td>
                 <td> Henry Ho </td>
                 <td>Computer Science</td>
-                <td>More Info</td>
               </tr>
 
               <tr>
                 <td>Computer Science Team</td>
                 <td>Ethan Cha </td>
                 <td>Computer Science</td>
-                <td> More Info</td>
               </tr>
             </tbody>
           </Table>

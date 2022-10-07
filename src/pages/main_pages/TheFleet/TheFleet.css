@@ -26,6 +26,10 @@
                     linear-gradient(to right top, #227ba8, #2270a8, #2267a8, #225ea8, #2253a8);
 }
 
+.jumbotron-h1 {
+  text-decoration:underline;
+}
+
 .fleet-carddeck {
   margin: 0px 0px 0px 0px;
   justify-content: center;

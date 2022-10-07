@@ -1,10 +1,10 @@
 .cont {
-  background: radial-gradient(1.5em 6.28571em at 1.95em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0.25) 55%, rgba(255, 255, 255, 0) 55%) 0 0, 
-                             radial-gradient(1.5em 6.28571em at -0.45em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0.25) 55%, rgba(255, 255, 255, 0) 55%) 1.5em 5.5em, 
-                             radial-gradient(2.3em 4.57143em at 2.99em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.3) 50%, rgba(255, 255, 255, 0.3) 55%, rgba(255, 255, 255, 0) 55%) 0 0, 
-                             radial-gradient(2.3em 4.57143em at -0.69em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.3) 50%, rgba(255, 255, 255, 0.3) 55%, rgba(255, 255, 255, 0) 55%) 2.3em 4em, 
-                             radial-gradient(3.5em 6.28571em at 4.55em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0.25) 55%, rgba(255, 255, 255, 0) 55%) 0 0, 
-                             radial-gradient(3.5em 6.28571em at -1.05em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0.25) 55%, rgba(255, 255, 255, 0) 55%) 3.5em 5.5em, 
+  background: radial-gradient(1.5em 6.28571em at 1.95em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0.25) 55%, rgba(255, 255, 255, 0) 55%) 0 0,
+                             radial-gradient(1.5em 6.28571em at -0.45em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0.25) 55%, rgba(255, 255, 255, 0) 55%) 1.5em 5.5em,
+                             radial-gradient(2.3em 4.57143em at 2.99em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.3) 50%, rgba(255, 255, 255, 0.3) 55%, rgba(255, 255, 255, 0) 55%) 0 0,
+                             radial-gradient(2.3em 4.57143em at -0.69em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.3) 50%, rgba(255, 255, 255, 0.3) 55%, rgba(255, 255, 255, 0) 55%) 2.3em 4em,
+                             radial-gradient(3.5em 6.28571em at 4.55em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0.25) 55%, rgba(255, 255, 255, 0) 55%) 0 0,
+                             radial-gradient(3.5em 6.28571em at -1.05em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0.25) 55%, rgba(255, 255, 255, 0) 55%) 3.5em 5.5em,
                              radial-gradient(#15fbff, #1582ff);
   background-color: DodgerBlue;
   background-size: 1.5em 11em, 1.5em 11em, 2.3em 8em, 2.3em 8em, 3.5em 11em, 3.5em 11em, 100% 100%;
@@ -130,13 +130,24 @@
 .fig-back-icon:hover{
   color:rgb(204, 201, 211);
 }
- 
+
+.past-teams{
+  font-size: 30px;
+  background-color: gray;
+}
+
+.sd-left{
+    text-align:left;
+    justify-content:left;
+    font-display: gray;
+}
+
 
   /* iPhone X, iPhone 6/7/8 Plus, */
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3) { 
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 812px)
+  and (-webkit-min-device-pixel-ratio: 3) {
     .main-container {
       text-align: center;
       background-color: white;
@@ -183,10 +194,10 @@
 }
 
 /* ----------- iPhone 6, 6S, 7 and 8 ----------- */
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 667px) 
-  and (-webkit-min-device-pixel-ratio: 2) { 
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2) {
     .main-container {
       text-align: center;
       background-color: white;
@@ -241,9 +252,9 @@
 /* ----------- Galaxy S3 ----------- */
 
 /* Portrait and Landscape */
-@media screen 
-  and (device-width: 360px) 
-  and (device-height: 640px) 
+@media screen
+  and (device-width: 360px)
+  and (device-height: 640px)
   and (-webkit-device-pixel-ratio: 2) {
     .main-container {
       text-align: center;
@@ -293,9 +304,9 @@
 /* ----------- Galaxy S4, S5 and Note 3 ----------- */
 
 /* Portrait and Landscape */
-@media screen 
-  and (device-width: 360px) 
-  and (device-height: 640px) 
+@media screen
+  and (device-width: 360px)
+  and (device-height: 640px)
   and (-webkit-device-pixel-ratio: 3) {
     .main-container {
       text-align: center;
@@ -345,9 +356,9 @@
 /* ----------- iPad 1, 2, Mini and Air ----------- */
 
 /* Portrait and Landscape */
-@media only screen 
-  and (min-device-width: 768px) 
-  and (max-device-width: 1024px) 
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
   and (-webkit-min-device-pixel-ratio: 1) {
     .main-container {
       text-align: center;
@@ -389,7 +400,7 @@
     .flip-figure-back-text {
       font-size: 12px;
     }
-  
+
 }
 
 

@@ -40,10 +40,9 @@ const Person = (props) => {
   );
 };
 
-const GroupSection = (props) => {
+const RowSection = (props) => {
   return (
     <>
-      <h1 className="members-header">{props.heading}</h1>
       <Row className="members-row">
         {props.list.map((item) => {
           return <Person data={item} />;
@@ -53,4 +52,4 @@ const GroupSection = (props) => {
   );
 };
 
-export default GroupSection;
+export default RowSection;
