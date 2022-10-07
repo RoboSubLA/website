@@ -721,7 +721,7 @@
         "email":"sebatianluna805@gmail.com"
       }
     ],
-    "seniordesignCS": [
+    "seniordesignCS1": [
       {
         "name": "Victor Solis",
         "img": "/images/members/victorsolis.jpg",
@@ -760,10 +760,12 @@
         "name": "Hector Mora-Silva",
         "img": "/images/members/hector.jpeg",
         "title": "Autonomy",
-    "linkI": "",
+        "linkI": "",
         "link": "",
         "email":"mora.hector247@gmail.com"
-      },
+      }
+    ], 
+    "seniordesignCS2": [
       {
         "name": "David Fernandez",
         "img": "/images/members/davidf.jpg",
@@ -776,7 +778,7 @@
         "name": "Milca Ucelo Paiz",
         "img": "/images/members/milca.jpeg",
         "title": "Computer Vision",
-         "linkI": "",
+       "linkI": "",
         "link": "",
         "email":""
       },
@@ -784,7 +786,7 @@
         "name": "Roberto Hernandez",
         "img": "/images/members/roberto.jpg",
         "title": "Autonomy",
-         "linkI": "",
+       "linkI": "",
         "link": "",
         "email":""
       },
@@ -792,7 +794,7 @@
         "name": "Andrew Marin Heusser",
         "img": "/images/members/andrewh.jpeg",
         "title": "Controls",
-         "linkI": "",
+      "linkI": "",
         "link": "",
         "email":"heusser.andrew@gmail.com"
       },
