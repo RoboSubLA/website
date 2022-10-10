@@ -21,11 +21,14 @@ const Members = () => {
   return (
     <div className="cont">
       <Container className="main-container">
-        <GroupSection heading="Officers" list={updated.officers} className="main-container" />
+        <GroupSection heading="Officers" list={updated.officers1} className="main-container" />
+        <RowSection list ={updated.officers2}></RowSection> 
         <p> </p>
         <GroupSection heading="Club Team" list={updated.members} className="main-container" />
-        <GroupSection heading="Senior Design Team - CS" list={updated.seniordesignCS}className="main-container" />
-		    <GroupSection heading="Senior Design Team - ME" list={updated.seniordesignME1} className="main-container"/>
+        <GroupSection heading="Senior Design Team - CS" list={updated.seniordesignCS1}className="main-container" />
+		    <RowSection list={updated.seniordesignCS2}/>
+
+        <GroupSection heading="Senior Design Team - ME" list={updated.seniordesignME1} className="main-container"/>
         <RowSection list={updated.seniordesignME2}/>
 
         <GroupSection heading="Senior Design Team - EE" list={updated.seniordesignEE}className="main-container" />
