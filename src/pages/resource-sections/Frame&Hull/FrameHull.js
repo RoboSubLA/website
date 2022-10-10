@@ -22,56 +22,28 @@ Linked below are some videos to watch if you are unable to come to our workshops
                         <p>
                   
                         </p>
-                        <p className='linux-h3'>Bootable USB Windows</p>
+                         <p className='linux-h3'>SolidWorks for Beginners!</p>
                         <p className="iframe-align">
                         <iframe width="560" height="315" src="https://www.youtube.com/embed/qtgmGkEPXs8?start=110" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </p>
-                        <p className='linux-h3'>Bootable USB MAC OS</p>
+       
                         <p className="iframe-align">
-                            <iframe className='linux-yt'
-                                src="https://www.youtube.com/embed/Yf3VChom8qo"
-                                title="YouTube video player"
-                                frameborder="0"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                allowfullscreen
-                            ></iframe>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/CiBwrjUeB8U?start=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </p>
 
-                        <a className='linux-links' href="https://ubuntu.com/tutorials/install-ubuntu-desktop#1-overview">
-                            Bootable USB Help
-                        </a>
-
-
-                    </Jumbotron>
-
-
-                    <Jumbotron className='linux-methods-jumbo'>
-                        <p className='linux-h1'> Hard Drive Partitioning </p>
-
-                        <p>
-                            This method involves partitioning your hard drive on the host
-                            computer to allow seperate OS's to be installed on the same drive.
-                            It has the least computer requirements, as Linux is installed on
-                            the hard drive and uses all host resources. Partitioning is
-                            potentially risky as there is a possibility of deleting your
-                            operating system but as long as you are paying attention and
-                            following steps there should be no problems.
+                        <p className='linux-h3'>SolidWorks Basics and Parts</p>
+                        <p className = "iframe-align">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/CII_iPwVLUg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>       
                         </p>
-                        <Row className='linux-links-row'>
-                            <a className='linux-links' href="https://itsfoss.com/install-ubuntu-1404-dual-boot-mode-windows-8-81-uefi/">
-                                Partition Install on Windows
-                            </a>
 
-                            <a className='linux-links' href="https://www.makeuseof.com/tag/install-linux-macbook-pro/">
-                                Partition Install on Mac
-                            </a>
-                        </Row>
+                        <p className='linux-h3'>SolidWorks Engine Assembly and Animation</p>
+                        <p className = "iframe-align">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/5KVSuNt1UX8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </p>
 
                     </Jumbotron>
                 </Col>
             </Container>
-
-
 
         </Jumbotron>
     );

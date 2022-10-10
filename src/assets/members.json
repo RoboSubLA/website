@@ -556,7 +556,7 @@
   },
 
   "2022-2023":{
-    "officers": [
+    "officers1": [
       {
         "name": "Aren Petrossian",
         "sign": "\"Europa\"",
@@ -596,7 +596,9 @@
         "linkI": "",
         "link": "https://www.linkedin.com/in/jordan-doose-381bb4161/",
         "email":"jdoose@calstatela.edu"
-      },
+      }
+    ],
+      "officers2" : [
       {
         "name": "Ashley Tran",
         "sign": "\"Iris\"",
@@ -658,6 +660,15 @@
         "email":"gasayas2@calstatela.edu"
       },
       {
+        "name": "Anthony Arias",
+        "img":  "/images/members/anthony.jpeg",
+        "title": "Frame & Hull",
+        "text": "",
+        "linkI": "",
+        "link": "",
+        "email":"aarias70@calstatela.edu"
+      },
+      {
         "name": "Arun N.Radhakrishnan",
         "img": "/images/members/arun.jpeg",
         "title": "Controls / Electronics",
@@ -676,24 +687,6 @@
         "email":"tmai25@calstatela.edu"
       },
       {
-        "name": "Eric Galstyan",
-        "img":  "/images/members/eric22.jpg",
-        "title": "Electronics",
-	    	"text": "",
-		    "linkI": "",
-        "link": "",
-        "email":"egalsty5@calstatela.edu"
-      },
-      {
-        "name": "Anthony Arias",
-        "img":  "/images/members/anthony.jpeg",
-        "title": "Frame & Hull",
-        "text": "",
-        "linkI": "",
-        "link": "",
-        "email":"aarias70@calstatela.edu"
-      },
-      {
         "name": "David Roberto Lopez",
         "img":  "/images/members/david.jpeg",
         "title": "Controls",
@@ -701,6 +694,16 @@
         "linkI": "",
         "link": "",
         "email":"dlopez145@calstatela.edu"
+      },
+    
+      {
+        "name": "Eric Galstyan",
+        "img":  "/images/members/eric22.jpg",
+        "title": "Electronics",
+	    	"text": "",
+		    "linkI": "",
+        "link": "",
+        "email":"egalsty5@calstatela.edu"
       },
       {
         "name": "Kevin Hong",
