@@ -7,7 +7,7 @@ import './GitHub.css'
 const GetStarted = () => {
   return (
     <>
-      <Jumbotron className='getstarted-jumbo-container' fluid>
+      <Jumbotron className='git' fluid>
           <Container>
             <Image className='github-logo' src='/images/other/GitHubLogo.png'/>
             <p className='resources-section-p'>At a high level, GitHub is a website and cloud-based service that helps developers store and manage their code, as well as track and control changes to their code. To understand exactly what GitHub is, you need to know two connected principles:</p>  
