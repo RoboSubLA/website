@@ -28,17 +28,16 @@ You can view the website at https://robosubla.com.
 
    This will start the project through a local development server on the
    location: `http://localhost:3000`.
-  Open this site in the browser and you can see the website and make changes.
 
-3. When updating or changing the website, make a new branch from `master` and
-   make a pull request to merge your feature branch with the `master` branch.
+3. To update or change the website, make a new branch from `master` and push
+   and commit future changes to this branch.
 
-   To make a new branch use the command:
+    To make a new branch use the command:
 
-    `git checkout -b <Branch Name>`
+     `git checkout -b <Branch Name>`
 
     The branch name should reflect the updates to be made on the website.
 
 4. When you have made your changes on the new branch and wish to deploy them,
-   create a pull request to merge it into the `master` branch. It is the `master`
-   branch that is getting built and displayed on the actual website.
+   create a pull request to merge it into the `master` branch. The `master`
+   branch is what gets built and displayed on the actual website.
