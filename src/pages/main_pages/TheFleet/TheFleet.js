@@ -15,7 +15,7 @@ const TheFleet = () => {
         <h2 className="jumbotron-h2">Rankings:</h2>
         <p className="jumbotron-p">Overall: 8th </p>
         <p className="jumbotron-p">Video: 32nd </p>
-        <p className="jumbotron-p">Website: 21)</p>
+        <p className="jumbotron-p">Website: 21st</p>
         <p className="jumbotron-p">Technical-Design Report: 25th</p>
         <div className="button-container">
           <Button className="jumbotron-button" href="https://youtu.be/K124Y61hVNQ">
