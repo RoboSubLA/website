@@ -10,7 +10,6 @@ import PastMembers from "./PastMembers";
 import Card from "react-bootstrap/Card";
 import Accordion from "react-bootstrap/Accordion";
 import Button from "../../../components/Button/Button";
-import Collapsible from 'react-collapsible';
 
 const Members = () => {
   //this will pull the first object in the data file as the default for display on members page
@@ -22,7 +21,7 @@ const Members = () => {
     <div className="cont">
       <Container className="main-container">
         <GroupSection heading="Officers" list={updated.officers1} className="main-container" />
-        <RowSection list ={updated.officers2}></RowSection> 
+        <RowSection list ={updated.officers2}></RowSection>
         <p> </p>
         <GroupSection heading="Club Team" list={updated.members} className="main-container" />
         <GroupSection heading="Senior Design Team - CS" list={updated.seniordesignCS1}className="main-container" />
