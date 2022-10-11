@@ -106,9 +106,7 @@ const Resources = () => {
               </Tab.Pane>
 
               <Tab.Pane eventKey="ros">
-                <h2 className="resource-text-title">
-                  Robot OS 
-                </h2>
+           
                 <ROS />
               </Tab.Pane>
 
