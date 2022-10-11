@@ -14,8 +14,8 @@ const TheFleet = () => {
         <h1 className="jumbotron-h1">ROBOSUB 2021-2022</h1>
         <h2 className="jumbotron-h2">Rankings:</h2>
         <p className="jumbotron-p">Overall: 8th </p>
-        <p className="jumbotron-p">Video: (100.83/120 points ?)</p>
-        <p className="jumbotron-p">Website: (97.29/130 points ?)</p>
+        <p className="jumbotron-p">Video: 32nd </p>
+        <p className="jumbotron-p">Website: 21)</p>
         <p className="jumbotron-p">Technical-Design Report: 25th</p>
         <div className="button-container">
           <Button className="jumbotron-button" href="https://youtu.be/K124Y61hVNQ">
