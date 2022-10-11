@@ -1,30 +1,44 @@
-# Website for Robosub at Cal State LA
-This is the website for the Robosub team at Cal State LA. The website is used for both Club Members and Senior Design members.
-The website is used to showcase the different Robosubs that have been built, this is also part of the Robosub competition requirements.
-On the website you can also find useful information regarding events and on working with the Robosub.
+# Website for AUV/Robosub at Cal State LA
+This is the website for the AUV team at California State University, Los Angeles.
+The website is displays the work of both Club Members and Senior Design members.
+Additionally, it is used to showcase the different autonomous vehicles our team
+at Cal State LA have developed. It also fulfills a part of the requirements
+of the international Robosub competition, in which we participate in annually.
 
-The website is created with React. See [React Docs](https://reactjs.org/docs/getting-started.html) for more information on working with React.
+On the website, you can also find useful information regarding events and the
+process of working on the robotic submarines.
 
-You can see the website at https://robosubla.com
+The website is created with React-Bootstrap and JavaScript.
+(See [React-Bootstrap Docs](https://https://react-bootstrap.github.io/) for more
+information on working with React-Bootstrap.)
+
+You can view the website at https://robosubla.com.
+
 ## Getting started
-1. The website is using `npm` as package manager, so we need to download all the  packages that the websites is dependent on. You do this by running the following command in the project folder:
+1. The website is using `npm` as its package manager, since we need to download
+   all the  packages that the websites is dependent on. You do this by running
+   the following command in the project folder:
 
     `npm install`
 
-2. After all the packages are installed we use
-
+2. After all the packages are installed, we use:
+    `ng serve`
+      or
     `npm start`
 
-    This will start a local development server on the location `http://localhost:3000`.
-    Open this site in the browser and you can see the website and make changes.
+   This will start the project through a local development server on the
+   location: `http://localhost:3000`.
+  Open this site in the browser and you can see the website and make changes.
 
-3. When making changes to the website you should to this in another branch than `master` and make a pull request to merge your feature branch with the `master` branch. To make a new branch use the command:
+3. When updating or changing the website, make a new branch from `master` and
+   make a pull request to merge your feature branch with the `master` branch.
+
+   To make a new branch use the command:
 
     `git checkout -b <Branch Name>`
 
-    The branch name should reflect the update you are doing to the website.
+    The branch name should reflect the updates to be made on the website.
 
-4. When you have made your changes on the new branch you can create a pull request to merge it into the `master` branch. It is the `master` branch that are getting built and displayed on the actual website. 
-
-## Website Hosting
-...
+4. When you have made your changes on the new branch and wish to deploy them,
+   create a pull request to merge it into the `master` branch. It is the `master`
+   branch that is getting built and displayed on the actual website.
