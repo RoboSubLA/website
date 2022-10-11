@@ -21,9 +21,16 @@ You can view the website at https://robosubla.com.
 
     `npm install`
 
+    *If there are vulnerabilities:
+
+    `npm audit fix`
+
 2. After all the packages are installed, we use:
-    `ng serve`
+
+    `ng serve` (industry standard)
+
       or
+
     `npm start`
 
    This will start the project through a local development server on the
