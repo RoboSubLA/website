@@ -6,7 +6,7 @@ const Linux = () => {
   return (
       <Jumbotron className='linux-jumbo'>
         <Container className='linux-container'>
-          <Image className='linux-logo' src='https://1000logos.net/wp-content/uploads/2017/03/Symbol-Linux.jpg'/>
+          <Image className='linux-logo'  src='/images/other/LinuxLogo.png'/>
           {/* <p className='linux-h1'> What is Linux </p> */}
           <p className='linux-p'> Just like Windows, iOS, and Mac OS, Linux is an operating system. In fact, one of the most popular platforms on the planet, Android, is powered by the Linux operating system. An operating system is software that manages all of the hardware resources associated with your desktop or laptop. To put it simply, the operating system manages the communication between your software and your hardware. Without the operating system (OS), the software wouldnt function? </p>
           <p className='linux-h3'>The Linux operating system comprises several different pieces:</p>

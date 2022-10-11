@@ -1,4 +1,10 @@
 /* Github & Git */
+.git{
+    text-align: center;
+    background-color: #718093
+
+}
+
 .github-logo {
     width: 80%;
     padding-bottom: 20px;

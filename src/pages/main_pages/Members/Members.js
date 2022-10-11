@@ -5,24 +5,39 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import GroupSection from "../../../components/GroupSection";
-import PastMembers from "../../../components/PastMembers";
+import RowSection from "../../../components/RowSection";
+import PastMembers from "./PastMembers";
+import Card from "react-bootstrap/Card";
+import Accordion from "react-bootstrap/Accordion";
+import Button from "../../../components/Button/Button";
+
 const Members = () => {
   //this will pull the first object in the data file as the default for display on members page
   let obj = require("../../../assets/members.json");
   let json = obj[Object.keys(obj)[0]];
-  let updated = obj["2021-2022"]
+  let updated = obj["2022-2023"];
+  let lastyear = obj["2021-2022"];
   return (
     <div className="cont">
       <Container className="main-container">
-        <GroupSection heading="Officers" list={updated.officers} />
-        <GroupSection heading="Club Team" list={updated.members} />
-        <GroupSection heading="Senior Design Team - CS" list={json.seniordesignCS} />
-		    <GroupSection heading="Senior Design Team - ME" list={json.seniordesignME} />
-		    <GroupSection heading="Senior Design Team - EE" list={json.seniordesignEE} />
-        <GroupSection heading="Advisors" list={json.advisors} />
-        <PastMembers heading="2020-2021 Officers" list={json.officers}/>
-      </Container>
-    </div>
+        <GroupSection heading="Officers" list={updated.officers1} className="main-container" />
+        <RowSection list ={updated.officers2}></RowSection>
+        <p> </p>
+        <GroupSection heading="Club Team" list={updated.members} className="main-container" />
+        <GroupSection heading="Senior Design Team - CS" list={updated.seniordesignCS1}className="main-container" />
+		    <RowSection list={updated.seniordesignCS2}/>
+
+        <GroupSection heading="Senior Design Team - ME" list={updated.seniordesignME1} className="main-container"/>
+        <RowSection list={updated.seniordesignME2}/>
+
+        <GroupSection heading="Senior Design Team - EE" list={updated.seniordesignEE}className="main-container" />
+        <GroupSection heading="Advisors" list={json.advisors}className="main-container" />
+        <Card><Card.Body className="21-22-senior-design"><PastMembers className ="21-22-senior-design" /></Card.Body></Card>
+        <br></br>
+        </Container>
+        </div>
+
+
 
   );
 };

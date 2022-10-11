@@ -3,6 +3,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Tab from "react-bootstrap/Tab";
 import Nav from "react-bootstrap/Nav";
+import StickyBox from "react-sticky-box";
 import "./Resources.css";
 
 // import resource sections
@@ -10,6 +11,7 @@ import Arduino from "../../resource-sections/Arduino/Arduino";
 import ComputerVision from "../../resource-sections/ComputerVision/ComputerVision";
 import ROS from "../../resource-sections/ROS/ROS";
 import Linux from "../../resource-sections/Linux/Linux";
+import FrameHull from "../../resource-sections/Frame&Hull/FrameHull";
 import GetStarted from "../../resource-sections/GetStarted/GetStarted";
 import Github from "../../resource-sections/GitHub/GitHub";
 import MissionPlanning from "../../resource-sections/MissionPlanning/MissionPlanning";
@@ -31,21 +33,10 @@ const Resources = () => {
                 </Nav.Link>
               </Nav.Item>
               <Nav.Item className="resource-item">
+
                 <Nav.Link className="resource-tab" eventKey="arduino">
                   Arduino
                 </Nav.Link>
-              </Nav.Item>
-
-              <Nav.Item className="resource-item">
-                <Nav.Link eventKey="cv">Computer Vision</Nav.Link>
-              </Nav.Item>
-
-              <Nav.Item className="resource-item">
-                <Nav.Link eventKey="electrical">Mission Planning</Nav.Link>
-              </Nav.Item>
-
-              <Nav.Item className="resource-item">
-                <Nav.Link eventKey="github">Git &amp; GitHub</Nav.Link>
               </Nav.Item>
 
               <Nav.Item className="resource-item">
@@ -53,16 +44,29 @@ const Resources = () => {
               </Nav.Item>
 
               <Nav.Item className="resource-item">
-                <Nav.Link eventKey="mechanical">Mechanical</Nav.Link>
+                <Nav.Link eventKey="ros">Robot OS</Nav.Link>
               </Nav.Item>
 
               <Nav.Item className="resource-item">
-                <Nav.Link eventKey="ros">Ros</Nav.Link>
+                <Nav.Link eventKey="github">Git &amp; GitHub</Nav.Link>
               </Nav.Item>
+
+              <Nav.Item className="resource-item">
+                <Nav.Link eventKey="cv">Computer Vision</Nav.Link>
+              </Nav.Item>
+
+              <Nav.Item className="resource-item">
+                <Nav.Link eventKey="mechanical">Frame &amp; Hull</Nav.Link>
+              </Nav.Item>
+
+              <Nav.Item className="resource-item">
+                <Nav.Link eventKey="electrical">Mission Planning</Nav.Link>
+              </Nav.Item>
+
             </Nav>
           </Col>
 
-          <Col sm={9} className="resource-container">
+          <Col sm= {9} className="resource-container">
             <Tab.Content>
               <Tab.Pane eventKey="getstarted">
                 <GetStarted />
@@ -92,17 +96,20 @@ const Resources = () => {
               </Tab.Pane>
 
               <Tab.Pane eventKey="mechanical">
-                <h2 className="resource-text-title">Less Stuff</h2>
+                <h2 className="resource-text-title">Frame &amp; Hull</h2>
+                <FrameHull />
               </Tab.Pane>
 
               <Tab.Pane eventKey="ros">
                 <h2 className="resource-text-title">
-                  Robotic Operating System
+                  Robot OS 
                 </h2>
                 <ROS />
               </Tab.Pane>
             </Tab.Content>
           </Col>
+
+     
         </Row>
       </Tab.Container>
     </div>
