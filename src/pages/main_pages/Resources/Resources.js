@@ -15,7 +15,6 @@ import FrameHull from "../../resource-sections/Frame&Hull/FrameHull";
 import GetStarted from "../../resource-sections/GetStarted/GetStarted";
 import Github from "../../resource-sections/GitHub/GitHub";
 import MissionPlanning from "../../resource-sections/MissionPlanning/MissionPlanning";
-import Electronics from "../../resource-sections/Electronics/Electronics";
 
 const Resources = () => {
   return (
@@ -61,11 +60,7 @@ const Resources = () => {
               </Nav.Item>
 
               <Nav.Item className="resource-item">
-                <Nav.Link eventKey="autonomy">Autonomy</Nav.Link>
-              </Nav.Item>
-
-              <Nav.Item className="resource-item">
-                <Nav.Link eventKey="electrical">Electronics</Nav.Link>
+                <Nav.Link eventKey="electrical">Mission Planning</Nav.Link>
               </Nav.Item>
 
             </Nav>
@@ -87,8 +82,8 @@ const Resources = () => {
                 <ComputerVision />
               </Tab.Pane>
 
-              <Tab.Pane eventKey="autonomy">
-                <h2 className="resource-text-title">Autonomy</h2>
+              <Tab.Pane eventKey="electrical">
+                <h2 className="resource-text-title">Mission Planning</h2>
 				<MissionPlanning />
               </Tab.Pane>
 
@@ -106,15 +101,11 @@ const Resources = () => {
               </Tab.Pane>
 
               <Tab.Pane eventKey="ros">
-           
+                <h2 className="resource-text-title">
+                  Robot OS 
+                </h2>
                 <ROS />
               </Tab.Pane>
-
-              <Tab.Pane eventKey="electrical">
-                <h2 className="resource-text-title">Electronics</h2>
-				    <Electronics />
-              </Tab.Pane>
-
             </Tab.Content>
           </Col>
 
