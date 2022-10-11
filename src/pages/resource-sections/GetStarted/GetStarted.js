@@ -105,43 +105,22 @@ const GetStarted = () => {
               </Card.Header>
               <Accordion.Collapse eventKey="1">
                 <Card.Body  className='getstarted-card-p'>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non
-                  varius nulla, vitae ullamcorper tellus. Proin feugiat libero at mi
-                  congue tincidunt. Nulla facilisi. Proin feugiat accumsan
-                  sollicitudin. Quisque sed metus eget urna suscipit tristique.
-                  Morbi a blandit tellus. Duis condimentum eros a ex hendrerit,
-                  gravida pretium orci feugiat. Vestibulum a pharetra augue. Sed
-                  vulputate elementum elit et laoreet. Mauris pulvinar scelerisque
-                  est id feugiat. Nunc egestas lorem nec sapien sagittis, a mattis
-                  mauris hendrerit. Nam sed dolor ut lorem euismod varius eget quis
-                  tortor. Donec tempor scelerisque auctor. Sed quis velit nec felis
-                  eleifend euismod eget vitae justo. Etiam placerat libero id libero
-                  hendrerit, eget hendrerit dolor mollis. Duis vel lorem in ante
-                  bibendum maximus nec nec orci.
+                  
+                 ?????
+
                 </Card.Body>
               </Accordion.Collapse>
             </Card>
             <Card className='getstarted-card'>
               <Card.Header>
                 <Accordion.Toggle as={Button} variant="link" eventKey="2">
-                  Power Distribution
+                  Electronics
                 </Accordion.Toggle>
               </Card.Header>
               <Accordion.Collapse eventKey="2">
                 <Card.Body className='getstarted-card-p'>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non
-                  varius nulla, vitae ullamcorper tellus. Proin feugiat libero at mi
-                  congue tincidunt. Nulla facilisi. Proin feugiat accumsan
-                  sollicitudin. Quisque sed metus eget urna suscipit tristique.
-                  Morbi a blandit tellus. Duis condimentum eros a ex hendrerit,
-                  gravida pretium orci feugiat. Vestibulum a pharetra augue. Sed
-                  vulputate elementum elit et laoreet. Mauris pulvinar scelerisque
-                  est id feugiat. Nunc egestas lorem nec sapien sagittis, a mattis
-                  mauris hendrerit. Nam sed dolor ut lorem euismod varius eget quis
-                  tortor. Donec tempor scelerisque auctor. Sed quis velit nec felis
-                  eleifend euismod eget vitae justo. Etiam placerat libero id libero
-                  hendrerit, eget hendrerit dolor mollis. Duis vel lorem in ante
-                  bibendum maximus nec nec orci.
+                 The Electronics or Power subteam is responsible primarily on the management of internal current conversion from the batter to all of the other electronic parts in the robotic submarine.
+                 The team creates schematics for the functionality of buck converters (converters that are able to efficiently let high voltage convert into low voltages in order to extend battery life and reduce heat. In turn, this has allowed many smaller appliances to spring into everyday use.)
                 </Card.Body>
               </Accordion.Collapse>
             </Card>
@@ -164,12 +143,12 @@ const GetStarted = () => {
             <Card className='getstarted-card'>
               <Card.Header>
                 <Accordion.Toggle as={Button} variant="link" eventKey="4">
-                  Mission Planning
+                 Autonomy
                 </Accordion.Toggle>
               </Card.Header>
               <Accordion.Collapse eventKey="4">
                 <Card.Body className='getstarted-card-p'>
-				  The Mission Planning team is responsible for writing the state machine 
+				  The Autonomy team is responsible for writing the state machine 
 				  of the AUV. The state machine determines what the AUV is doing at any time,
 				  and it's very important when deciding what to do next. For example,
 				  an AUV might have a state that tells it to follow a path. In this
