@@ -85,7 +85,7 @@
       },
       {
         "name": "Ashley Tran",
-        "img": "/images/members/ashley.jpeg",
+        "img": "/images/members/ashley.jpg",
         "title": "",
         "text": "",
     "linkI": "",
@@ -262,26 +262,26 @@
     ],
     "advisors": [
       {
-        "name": "Richard Cross",
+        "name": "Professor Richard Cross",
         "img": "/images/advisors/Richard.jpg",
-        "title": "Advisor",
+        "title": "Adjunct Professor",
         "text": "Senior Cs Major and Team Lead for Senior Design",
 		"linkI": "",
         "link": "https://www.linkedin.com/in/richard-k-j-cross-8ab65431/",
         "email":"rcross3@calstatela.edu"
       },
       {
-        "name": "Dr. He Shen",
+        "name": "Dr.  He Shen",
         "img": "/images/advisors/heshen.jpg",
-        "title": "Advisor",
+        "title": "Associate Professor",
 		"linkI": "",
         "link": "https://www.linkedin.com/in/he-shen-16148878/",
         "email":"hshen6@calstatela.edu"
       },
       {
-        "name": "Mark Tufenkjian",
+        "name": "Dr. Mark Tufenkjian",
         "img": "/images/advisors/tuf.png",
-        "title": "Advisor",
+        "title": "Interim Associate Dean",
 		"linkI": "",
         "link": "",
         "email":"mtufenk@calstatela.edu"
@@ -338,7 +338,7 @@
     "members": [
       {
         "name": "Ashley Tran",
-        "img": "/images/members/ashley.jpeg",
+        "img": "/images/members/ashley.jpg",
         "title": "Computer Vision",
 	    	"text": "",
 		    "linkI": "",
@@ -356,7 +356,7 @@
       },
       {
         "name": "Paola Reyes",
-        "img": "/images/members/paola.jpeg",
+        "img": "/images/members/paola.jpg",
         "title": "Frame & Hull",
 	    	"text": "",
 		    "linkI": "",
@@ -602,7 +602,7 @@
       {
         "name": "Ashley Tran",
         "sign": "\"Iris\"",
-        "img": "/images/members/ashley.jpeg",
+        "img": "/images/members/ashley.jpg",
         "title": "Computer Vision Lead",
         "text": "",
 		    "linkI": "",
@@ -612,7 +612,7 @@
       {
         "name": "Paola Reyes",
         "sign": "\"Latches\"",
-        "img": "/images/members/paola.jpeg",
+        "img": "/images/members/paola.jpg",
         "title": "Frame & Hull Lead",
         "text": "",
         "linkI": "",
@@ -640,10 +640,10 @@
         "email":"jrange53@calstatela.edu"
       }
     ],
-    "members": [
+    "members1": [
       {
         "name":"Dylan Huang",
-        "img": "/images/members/dylan.jpeg",
+        "img": "/images/members/dylan.jpg",
         "title": "Computer Vision",
 	    	"text": "",
 		    "linkI": "",
@@ -652,7 +652,7 @@
       },
       {
         "name": "Gian Owen Asayas",
-        "img": "/images/members/gian.jpeg",
+        "img": "/images/members/gian.jpg",
         "title": "Frame & Hull",
 	    	"text": "",
 		    "linkI": "",
@@ -661,7 +661,7 @@
       },
       {
         "name": "Anthony Arias",
-        "img":  "/images/members/anthony.jpeg",
+        "img":  "/images/members/anthony.jpg",
         "title": "Frame & Hull",
         "text": "",
         "linkI": "",
@@ -670,7 +670,7 @@
       },
       {
         "name": "Arun N.Radhakrishnan",
-        "img": "/images/members/arun.jpeg",
+        "img": "/images/members/arun.jpg",
         "title": "Controls / Electronics",
 	    	"text": "",
 		    "linkI": "",
@@ -679,23 +679,26 @@
       },
       {
         "name":"Theresa Mai",
-        "img": "/images/members/theresa.jpeg",
+        "img": "/images/members/theresa.jpg",
         "title": "Electronics",
 	    	"text": "",
 		    "linkI": "",
         "link": "",
         "email":"tmai25@calstatela.edu"
-      },
+      }
+
+    ],
+    "members2":[
       {
         "name": "David Roberto Lopez",
-        "img":  "/images/members/david.jpeg",
+        "img":  "/images/members/david.jpg",
         "title": "Controls",
         "text": "",
         "linkI": "",
         "link": "",
         "email":"dlopez145@calstatela.edu"
       },
-    
+
       {
         "name": "Eric Galstyan",
         "img":  "/images/members/eric22.jpg",
@@ -707,7 +710,7 @@
       },
       {
         "name": "Kevin Hong",
-        "img": "/images/members/kevinh.jpeg",
+        "img": "/images/members/kevinh.jpg",
         "title": "Electronics / Frame & Hull",
 	    	"text": "",
 		    "linkI": "",
@@ -716,7 +719,7 @@
       },
       {
         "name": "Sebastian Luna",
-        "img":  "/images/members/sebastian.jpeg",
+        "img":  "/images/members/sebastian.jpg",
         "title": "Controls / Autonomy",
         "text": "",
         "linkI": "",
@@ -736,7 +739,7 @@
       },
       {
         "name":"Thomas Benson",
-        "img": "/images/members/thomas.jpeg",
+        "img": "/images/members/thomas.jpg",
         "title":"Navigation",
         "text": "",
 		    "linkI": "",
@@ -761,13 +764,13 @@
       },
       {
         "name": "Hector Mora-Silva",
-        "img": "/images/members/hector.jpeg",
+        "img": "/images/members/hector.jpg",
         "title": "Autonomy",
         "linkI": "",
         "link": "",
         "email":"mora.hector247@gmail.com"
       }
-    ], 
+    ],
     "seniordesignCS2": [
       {
         "name": "David Fernandez",
@@ -779,7 +782,7 @@
       },
       {
         "name": "Milca Ucelo Paiz",
-        "img": "/images/members/milca.jpeg",
+        "img": "/images/members/milca.jpg",
         "title": "Computer Vision",
        "linkI": "",
         "link": "",
@@ -795,7 +798,7 @@
       },
       {
         "name": "Andrew Marin Heusser",
-        "img": "/images/members/andrewh.jpeg",
+        "img": "/images/members/andrewh.jpg",
         "title": "Controls",
       "linkI": "",
         "link": "",
@@ -821,39 +824,31 @@
         "email":"arenpetrossian@ymail.com"
       },
       {
-        "name": "Nahom Seifu",
-        "img": "/images/members/nahom.jpeg",
-        "title": "Mechanical Engineer",
-		"linkI": "",
-        "link": "https://www.linkedin.com/in/seifu-nahom/",
-        "email":"seifunahom1@gmail.com"
-      },
-      {
-        "name": "Steven Magana",
-        "img": "/images/members/steven.jpeg",
-        "title": "Mechanical Engineer",
-		    "linkI": "",
-        "link": "www.linkedin.com/in/steven-magana98",
-        "email":"smagan25@calstatela.edu"
-      },
-      {
-        "name": "Carlos Luna",
+        "name": "Carlos Luna Orozco",
         "img": "/images/members/carlos.jpg",
         "title": "Mechanical Engineer",
     "linkI": "",
         "link": "",
         "email":"cluna32@calstatela.edu"
+      },
+      {
+        "name": "Tianyu Ma",
+        "img": "/images/members/tianyu.jpg",
+        "title": "Mechanical Engineer",
+    "linkI": "",
+        "link": "",
+        "email":"tam5@calstatela.edu"
+      },
+      {
+        "name": "Nahom Seifu",
+        "img": "/images/members/nahom.jpg",
+        "title": "Mechanical Engineer",
+		"linkI": "",
+        "link": "https://www.linkedin.com/in/seifu-nahom/",
+        "email":"seifunahom1@gmail.com"
       }
     ],
     "seniordesignME2": [
-      {
-        "name": "Jose Iares",
-        "img": "/images/members/joseI.jpg",
-        "title": "Frame & Hull",
-    "linkI": "",
-        "link": "",
-        "email":"Jlares5@calstatela.edu"
-      },
       {
         "name": "Edward Razo",
         "img": "/images/members/edward.jpg",
@@ -863,18 +858,26 @@
         "email":"Erazo6@calstatela.edu"
       },
       {
-        "name": "Tianyu Ma",
-        "img": "/images/members/tianyu.jpeg",
+        "name": "Steven Magana",
+        "img": "/images/members/steven.jpg",
         "title": "Mechanical Engineer",
+        "linkI": "",
+        "link": "www.linkedin.com/in/steven-magana98",
+        "email":"smagan25@calstatela.edu"
+      },
+      {
+        "name": "Jose Lares",
+        "img": "/images/members/joseI.jpg",
+        "title": "Frame & Hull",
     "linkI": "",
         "link": "",
-        "email":"tam5@calstatela.edu"
+        "email":"Jlares5@calstatela.edu"
       }
     ],
 	    "seniordesignEE": [
       {
         "name": "Cristin Mota",
-        "img": "/images/members/cristins.jpeg",
+        "img": "/images/members/cristin.jpg",
         "title": "Electrical Engineer",
 		"linkI": "",
         "link": "",

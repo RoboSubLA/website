@@ -3,7 +3,6 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Tab from "react-bootstrap/Tab";
 import Nav from "react-bootstrap/Nav";
-import StickyBox from "react-sticky-box";
 import "./Resources.css";
 
 // import resource sections
@@ -102,14 +101,14 @@ const Resources = () => {
 
               <Tab.Pane eventKey="ros">
                 <h2 className="resource-text-title">
-                  Robot OS 
+                  Robot OS
                 </h2>
                 <ROS />
               </Tab.Pane>
             </Tab.Content>
           </Col>
 
-     
+
         </Row>
       </Tab.Container>
     </div>
