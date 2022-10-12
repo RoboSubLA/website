@@ -31,6 +31,31 @@ const ROS = () => {
 
       <Container>
         <h1>ROS Ubuntu Installation:</h1>
+        <p> Run these commands (View the boxes for thorough explanation): </p>
+<code className = "git-code">
+sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
+<br></br>
+<br></br>
+
+sudo apt install curl # if you haven't already installed curl curl -s https://raw.githubusercontent.com/ros/rosdistro/master/ros.asc
+<br></br>
+<br></br>
+sudo apt-key add -
+<br></br>
+<br></br>
+sudo apt update
+<br></br>
+<br></br>
+sudo apt install ros-melodic-desktop-full
+
+<br></br>
+<br></br>
+echo "source /opt/ros/melodic/setup.bash" >> ~/.bashrc source ~/.bashrc
+<br></br>
+<br></br>
+printenv
+</code>
+
         <CardDeck className="git-carddeck">
           <Card className="git-card" border="dark">
             <Card.Body className="git-card-body">
@@ -71,7 +96,9 @@ const ROS = () => {
                 <p className="git-cheat-p"> Setup keys: </p>
                 sudo apt install curl # if you haven't already installed curl
                 curl -s
-                https://raw.githubusercontent.com/ros/rosdistro/master/ros.asc |
+                https://raw.githubusercontent.com/ros/rosdistro/master/ros.asc
+                <br></br>
+                    <br></br>
                 sudo apt-key add -
               </code>
 
@@ -181,47 +208,7 @@ const ROS = () => {
         </CardDeck>
       </Container>
 
-      <h2>Installing ROS</h2>
-      <p>Ros must be installed on a running Ubuntu installation</p>
-      <p>ROS must be installed on a running Ubuntu installation</p>
-      <a href="http://wiki.ros.org/melodic/Installation/Ubuntu">Install ROS</a>
-      <ol className="resource-list">
-        <li>sudo apt-get update</li>
-        <li>sudo apt-get -y install nano</li>
-        <li>sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" &gt; /etc/apt/sources.list.d/ros-latest.list' </li>
-        <li>
-          sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release
-          -sc) main" &gt; /etc/apt/sources.list.d/ros-latest.list'{" "}
-        </li>
-        <li>sudo apt install curl</li>
-        <li>curl -s https://raw.githubusercontent.com/ros/rosdistro/master/ros.asc | sudo apt-key add - </li>
-        <li>
-          curl -s https://raw.githubusercontent.com/ros/rosdistro/master/ros.asc
-          | sudo apt-key add -{" "}
-        </li>
-        <li>sudo apt update </li>
-        <li>sudo apt install ros-melodic-desktop</li>
-        <li>echo "source /opt/ros/melodic/setup.bash" &gt;&gt; ~/.bashrc</li>
-        <li>source ~/.bashrc </li>
-        <li>sudo apt install python-rosdep python-rosinstall python-rosinstall-generator python-wstool build-essential </li>
-        <li>
-          sudo apt install python-rosdep python-rosinstall
-          python-rosinstall-generator python-wstool build-essential{" "}
-        </li>
-        <li>sudo apt install python-rosdep </li>
-        <li>sudo rosdep init </li>
-        <li>rosdep update </li>
-      </ol>
-      <pre>
-        Check if ROS is Installed: <code>printenv | grep ROS</code>
-      </pre>
-      <h2>Setting Up Catkin Workspace</h2>
-      <figure>
-        <figcaption>Code Snippet</figcaption>
-        <pre>
-          <code>sudo apt get install nano</code>
-        </pre>
-      </figure>
+      
     </>
   );
 };
