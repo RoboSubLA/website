@@ -45,7 +45,7 @@ const ThisYear = () => {
                 <td>Christian Castillo</td>
                 <td>Computer Science</td>
               </tr>
-			  
+
 			  <tr>
                 <td>Controls Leader & Sensors</td>
                 <td>Leslie Araujo</td>
@@ -53,7 +53,7 @@ const ThisYear = () => {
               </tr>
 
               <tr>
-                <td>MIssion Planning</td>
+                <td>Mission Planning</td>
                 <td>Alan Chan</td>
                 <td>Computer Science</td>
               </tr>
@@ -111,19 +111,19 @@ const ThisYear = () => {
                 <td>Andrew Maravilla</td>
                 <td>Electrical Engineering</td>
               </tr>
-			  
+
 			  <tr>
                 <td>Electrical Engineering Team</td>
                 <td>Edward Komperda</td>
                 <td>Electrical Engineering</td>
               </tr>
-			  
+
 			  <tr>
                 <td>Electrical Engineering Team</td>
                 <td>Emigdio Alaniz</td>
                 <td>Electrical Engineering</td>
               </tr>
-			  
+
             </tbody>
           </Table>
         </Tab>

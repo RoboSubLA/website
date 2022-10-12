@@ -262,26 +262,26 @@
     ],
     "advisors": [
       {
-        "name": "Professor Richard Cross",
+        "name": "Richard Cross",
         "img": "/images/advisors/Richard.jpg",
-        "title": "Adjunct Professor",
+        "title": "Advisor",
         "text": "Senior Cs Major and Team Lead for Senior Design",
 		"linkI": "",
         "link": "https://www.linkedin.com/in/richard-k-j-cross-8ab65431/",
         "email":"rcross3@calstatela.edu"
       },
       {
-        "name": "Dr.  He Shen",
+        "name": "Dr. He Shen",
         "img": "/images/advisors/heshen.jpg",
-        "title": "Associate Professor",
+        "title": "Advisor",
 		"linkI": "",
         "link": "https://www.linkedin.com/in/he-shen-16148878/",
         "email":"hshen6@calstatela.edu"
       },
       {
-        "name": "Dr. Mark Tufenkjian",
+        "name": "Mark Tufenkjian",
         "img": "/images/advisors/tuf.png",
-        "title": "Interim Associate Dean",
+        "title": "Advisor",
 		"linkI": "",
         "link": "",
         "email":"mtufenk@calstatela.edu"
@@ -640,10 +640,10 @@
         "email":"jrange53@calstatela.edu"
       }
     ],
-    "members1": [
+    "members": [
       {
         "name":"Dylan Huang",
-        "img": "/images/members/dylan.jpg",
+        "img": "/images/members/dylan.jpeg",
         "title": "Computer Vision",
 	    	"text": "",
 		    "linkI": "",
@@ -685,10 +685,7 @@
 		    "linkI": "",
         "link": "",
         "email":"tmai25@calstatela.edu"
-      }
-
-    ],
-    "members2":[
+      },
       {
         "name": "David Roberto Lopez",
         "img":  "/images/members/david.jpg",
@@ -824,31 +821,39 @@
         "email":"arenpetrossian@ymail.com"
       },
       {
-        "name": "Carlos Luna Orozco",
-        "img": "/images/members/carlos.jpg",
-        "title": "Mechanical Engineer",
-    "linkI": "",
-        "link": "",
-        "email":"cluna32@calstatela.edu"
-      },
-      {
-        "name": "Tianyu Ma",
-        "img": "/images/members/tianyu.jpg",
-        "title": "Mechanical Engineer",
-    "linkI": "",
-        "link": "",
-        "email":"tam5@calstatela.edu"
-      },
-      {
         "name": "Nahom Seifu",
         "img": "/images/members/nahom.jpg",
         "title": "Mechanical Engineer",
 		"linkI": "",
         "link": "https://www.linkedin.com/in/seifu-nahom/",
         "email":"seifunahom1@gmail.com"
+      },
+      {
+        "name": "Steven Magana",
+        "img": "/images/members/steven.jpg",
+        "title": "Mechanical Engineer",
+		    "linkI": "",
+        "link": "www.linkedin.com/in/steven-magana98",
+        "email":"smagan25@calstatela.edu"
+      },
+      {
+        "name": "Carlos Luna",
+        "img": "/images/members/carlos.jpg",
+        "title": "Mechanical Engineer",
+    "linkI": "",
+        "link": "",
+        "email":"cluna32@calstatela.edu"
       }
     ],
     "seniordesignME2": [
+      {
+        "name": "Jose Iares",
+        "img": "/images/members/joseI.jpg",
+        "title": "Frame & Hull",
+    "linkI": "",
+        "link": "",
+        "email":"Jlares5@calstatela.edu"
+      },
       {
         "name": "Edward Razo",
         "img": "/images/members/edward.jpg",
@@ -858,26 +863,18 @@
         "email":"Erazo6@calstatela.edu"
       },
       {
-        "name": "Steven Magana",
-        "img": "/images/members/steven.jpg",
+        "name": "Tianyu Ma",
+        "img": "/images/members/tianyu.jpg",
         "title": "Mechanical Engineer",
-        "linkI": "",
-        "link": "www.linkedin.com/in/steven-magana98",
-        "email":"smagan25@calstatela.edu"
-      },
-      {
-        "name": "Jose Lares",
-        "img": "/images/members/joseI.jpg",
-        "title": "Frame & Hull",
     "linkI": "",
         "link": "",
-        "email":"Jlares5@calstatela.edu"
+        "email":"tam5@calstatela.edu"
       }
     ],
 	    "seniordesignEE": [
       {
         "name": "Cristin Mota",
-        "img": "/images/members/cristin.jpg",
+        "img": "/images/members/cristins.jpeg",
         "title": "Electrical Engineer",
 		"linkI": "",
         "link": "",

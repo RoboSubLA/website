@@ -41,20 +41,20 @@ const About = () => {
           </p>
 
           <h1 className="about-header">Thanks to Our Sponsors</h1>
-          <Image className = "sponsor"
+          <Image
             src={process.env.PUBLIC_URL + "/images/sponsors/csula.png"}
           ></Image>
-          <Image className = "sponsor" width = "320"
-            src={process.env.PUBLIC_URL + "/images/sponsors/mworks.png"}
+          <Image
+            src={process.env.PUBLIC_URL + "/images/sponsors/mathworks.png"}
           ></Image>
-          <Image className = "sponsor" height = "200"
-            src={process.env.PUBLIC_URL + "/images/sponsors/naval.png"}
+          <Image
+            src={process.env.PUBLIC_URL + "/images/sponsors/onr.png"}
           ></Image>
-          <Image className = "sponsor"
+          <Image
             src={process.env.PUBLIC_URL + "/images/sponsors/sparkfun.png"}
           ></Image>
-          <Image className = "sponsor" width = "320"
-            src={process.env.PUBLIC_URL + "/images/sponsors/dsys.svg"}
+          <Image
+            src={process.env.PUBLIC_URL + "/images/sponsors/dassaultsys.png"}
           ></Image>
         </Container>
       </Jumbotron>
