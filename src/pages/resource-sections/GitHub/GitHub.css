@@ -10,6 +10,14 @@
     padding-bottom: 20px;
 }
 
+.ros-logo{
+  width: 70%;
+  padding-top: 80px;
+  padding-left: 30%;
+      padding-bottom: 80px;
+  content: center;
+}
+
 .git-links-row {
     justify-content: center;
     padding-top:15px;
