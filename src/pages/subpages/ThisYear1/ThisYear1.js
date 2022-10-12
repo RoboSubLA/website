@@ -49,19 +49,19 @@ const ThisYear1 = () => {
                 <td>Computer Science</td>
               </tr>
               <tr>
-                <td>Mission Planning</td>
+                <td>Mission Planning Lead</td>
                 <td>Victor Solis</td>
                 <td>Computer Science</td>
               </tr>
               <tr>
-                <td>Computer Vision</td>
-                <td>Ashley Tran</td>
-                <td>Computer Science</td>
+                <td>Frame & Hull</td>
+                <td>Jazmin Reyes</td>
+                <td>Mechanical Engineering</td>
               </tr>
               <tr>
-                <td>Computer Vision Lead</td>
-                <td>Perla Ramirez</td>
-                <td>Computer Science</td>
+                <td>Frame & Hull</td>
+                <td>Chayuth Mandtanavonsin</td>
+                <td>Mechanical Engineering</td>
               </tr>
               <tr>
                 <td>Frame & Hull</td>
@@ -71,7 +71,17 @@ const ThisYear1 = () => {
               <tr>
                 <td>Frame & Hull</td>
                 <td>Jose Rangel</td>
-                <td>Electrical Engineering</td>
+                <td>Mechanical Engineering</td>
+              </tr>
+              <tr>
+                <td>Computer Vision</td>
+                <td>Ashley Tran</td>
+                <td>Computer Science</td>
+              </tr>
+              <tr>
+                <td>Computer Vision </td>
+                <td>Perla Ramirez</td>
+                <td>Computer Science</td>
               </tr>
               <tr>
                 <td>Power Distribution</td>
@@ -83,23 +93,14 @@ const ThisYear1 = () => {
                 <td>Andrew Ye</td>
                 <td>Mechanical Engineering</td>
               </tr>
-              <tr>
-                <td>Frame & Hull</td>
-                <td>Jazmin Reyes</td>
-                <td>---</td>
-              </tr>
-              <tr>
-                <td>Frame & Hull</td>
-                <td>Chayuth Mandtanavonsin</td>
-                <td>---</td>
-              </tr>
+
 
 
             </tbody>
           </Table>
         </Tab>
 
-       
+
       </Tabs>
     </div>
   </div>

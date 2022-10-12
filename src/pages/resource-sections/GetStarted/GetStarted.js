@@ -9,9 +9,9 @@ const GetStarted = () => {
         <Container>
           <h1 className='resources-section-h1'>Welcome Members & RoboSub Teams</h1>
 
-          <p className='resources-section-p'> 
-            Here at <span className='accent-color'>RoboSub LA </span> we are passionate about Robotics and 
-            we want to share what we know with our community of Robotic 
+          <p className='resources-section-p'>
+            Here at <span className='accent-color'>RoboSub LA </span> we are passionate about Robotics and
+            we want to share what we know with our community of Robotic
             enthusiast.
           </p>
 
@@ -45,7 +45,7 @@ const GetStarted = () => {
             </Figure>
 
             <Figure className='getstarted-figure'>
-              <a className='getstarted-a' href='https://robonation.org/app/uploads/sites/4/2021/03/Skills-Video_RoboSub21-Online_V1.pdf'> 
+              <a className='getstarted-a' href='https://robonation.org/app/uploads/sites/4/2021/03/Skills-Video_RoboSub21-Online_V1.pdf'>
               <Figure.Image
               width={171}
               height={180}
@@ -66,7 +66,7 @@ const GetStarted = () => {
               alt="171x180"
               src="https://robonation.org/app/uploads/sites/4/2021/03/tdr-icon_RS21.svg"
               />
-              <Figure.Caption className='getstarted-cap'> 
+              <Figure.Caption className='getstarted-cap'>
                 Technical Design Report
               </Figure.Caption>
               </a>
@@ -76,7 +76,7 @@ const GetStarted = () => {
         <Container>
           <h1 className='resources-section-h1' ><span className='accent-color'>RoboSub LA Team</span></h1>
           <p className='resources-section-p'>Our team is split up into two project teams, the student organization and the senior design team. The senior design team builds one vehicle, and the club members build a separate vehicle while being mentored by senior design members. Both vehicles are intended for use in the competition and strategies will be carefully considered based on the capabilities of both vehicles. Members have the opportunity to design advanced robotics systems and work on an interdisciplinary project to gain experience working with a team. Please see the progress tab for a better idea of what our members are working on and what tasks and projects are available to new members</p>
-          
+
           <h3 className='resources-section-h3'>
             Team Breakdown Subteams:
           </h3>
@@ -105,43 +105,22 @@ const GetStarted = () => {
               </Card.Header>
               <Accordion.Collapse eventKey="1">
                 <Card.Body  className='getstarted-card-p'>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non
-                  varius nulla, vitae ullamcorper tellus. Proin feugiat libero at mi
-                  congue tincidunt. Nulla facilisi. Proin feugiat accumsan
-                  sollicitudin. Quisque sed metus eget urna suscipit tristique.
-                  Morbi a blandit tellus. Duis condimentum eros a ex hendrerit,
-                  gravida pretium orci feugiat. Vestibulum a pharetra augue. Sed
-                  vulputate elementum elit et laoreet. Mauris pulvinar scelerisque
-                  est id feugiat. Nunc egestas lorem nec sapien sagittis, a mattis
-                  mauris hendrerit. Nam sed dolor ut lorem euismod varius eget quis
-                  tortor. Donec tempor scelerisque auctor. Sed quis velit nec felis
-                  eleifend euismod eget vitae justo. Etiam placerat libero id libero
-                  hendrerit, eget hendrerit dolor mollis. Duis vel lorem in ante
-                  bibendum maximus nec nec orci.
+
+                 ?????
+
                 </Card.Body>
               </Accordion.Collapse>
             </Card>
             <Card className='getstarted-card'>
               <Card.Header>
                 <Accordion.Toggle as={Button} variant="link" eventKey="2">
-                  Power Distribution
+                  Electronics
                 </Accordion.Toggle>
               </Card.Header>
               <Accordion.Collapse eventKey="2">
                 <Card.Body className='getstarted-card-p'>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non
-                  varius nulla, vitae ullamcorper tellus. Proin feugiat libero at mi
-                  congue tincidunt. Nulla facilisi. Proin feugiat accumsan
-                  sollicitudin. Quisque sed metus eget urna suscipit tristique.
-                  Morbi a blandit tellus. Duis condimentum eros a ex hendrerit,
-                  gravida pretium orci feugiat. Vestibulum a pharetra augue. Sed
-                  vulputate elementum elit et laoreet. Mauris pulvinar scelerisque
-                  est id feugiat. Nunc egestas lorem nec sapien sagittis, a mattis
-                  mauris hendrerit. Nam sed dolor ut lorem euismod varius eget quis
-                  tortor. Donec tempor scelerisque auctor. Sed quis velit nec felis
-                  eleifend euismod eget vitae justo. Etiam placerat libero id libero
-                  hendrerit, eget hendrerit dolor mollis. Duis vel lorem in ante
-                  bibendum maximus nec nec orci.
+                 The Electronics or Power subteam is responsible primarily on the management of internal current conversion from the battery to all of the other electronic parts in the robotic submarine.
+                 The team creates schematics for the functionality of buck converters (converters that are able to efficiently let high voltage convert into low voltages in order to extend battery life and reduce heat. In turn, this has allowed many smaller appliances to spring into everyday use.)
                 </Card.Body>
               </Accordion.Collapse>
             </Card>
@@ -164,12 +143,12 @@ const GetStarted = () => {
             <Card className='getstarted-card'>
               <Card.Header>
                 <Accordion.Toggle as={Button} variant="link" eventKey="4">
-                  Mission Planning
+                 Autonomy
                 </Accordion.Toggle>
               </Card.Header>
               <Accordion.Collapse eventKey="4">
                 <Card.Body className='getstarted-card-p'>
-				  The Mission Planning team is responsible for writing the state machine 
+				  The Autonomy team is responsible for writing the state machine
 				  of the AUV. The state machine determines what the AUV is doing at any time,
 				  and it's very important when deciding what to do next. For example,
 				  an AUV might have a state that tells it to follow a path. In this
@@ -191,7 +170,7 @@ const GetStarted = () => {
               </Card.Header>
               <Accordion.Collapse eventKey="5">
                 <Card.Body className='getstarted-card-p'>
-				  The Computer Vision team is responsible for making the AUV recognize objects 
+				  The Computer Vision team is responsible for making the AUV recognize objects
 				  with its camera. So, one of the most important tasks of the CV team is object
 				  detection, which can be done with software. This year YOLO (You only look once)
 				  will be used for the CV software. YOLO is a machine learning (deep learning)

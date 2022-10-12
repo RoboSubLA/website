@@ -15,6 +15,7 @@ const Events = () => {
 		<div className="content" align="center">
 			<div className="centerCalendar">
 			<iframe src="https://calendar.google.com/calendar/embed?src=auvcalstatela%40gmail.com&ctz=America%2FLos_Angeles"></iframe>
+					
 			</div>
 		</div>
 	</div>
