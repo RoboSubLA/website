@@ -14,6 +14,7 @@ import FrameHull from "../../resource-sections/Frame&Hull/FrameHull";
 import GetStarted from "../../resource-sections/GetStarted/GetStarted";
 import Github from "../../resource-sections/GitHub/GitHub";
 import MissionPlanning from "../../resource-sections/MissionPlanning/MissionPlanning";
+import Electronics from "../../resource-sections/Electronics/Electronics";
 
 const Resources = () => {
   return (
@@ -33,6 +34,18 @@ const Resources = () => {
               </Nav.Item>
               <Nav.Item className="resource-item">
 
+              <Nav.Item className="resource-item">
+                <Nav.Link eventKey="mechanical">Frame &amp; Hull</Nav.Link>
+              </Nav.Item>
+
+              <Nav.Item className="resource-item">
+                  <Nav.Link eventKey="electronics">Electronics</Nav.Link>
+            </Nav.Item>
+
+            <Nav.Item className="resource-item">
+                <Nav.Link eventKey="mission">Mission Planning</Nav.Link>
+          </Nav.Item>
+
                 <Nav.Link className="resource-tab" eventKey="arduino">
                   Arduino
                 </Nav.Link>
@@ -43,24 +56,19 @@ const Resources = () => {
               </Nav.Item>
 
               <Nav.Item className="resource-item">
+                <Nav.Link eventKey="github">Git &amp; GitHub</Nav.Link>
+              </Nav.Item>
+
+
+              <Nav.Item className="resource-item">
                 <Nav.Link eventKey="ros">Robot OS</Nav.Link>
               </Nav.Item>
 
-              <Nav.Item className="resource-item">
-                <Nav.Link eventKey="github">Git &amp; GitHub</Nav.Link>
-              </Nav.Item>
 
               <Nav.Item className="resource-item">
                 <Nav.Link eventKey="cv">Computer Vision</Nav.Link>
               </Nav.Item>
 
-              <Nav.Item className="resource-item">
-                <Nav.Link eventKey="mechanical">Frame &amp; Hull</Nav.Link>
-              </Nav.Item>
-
-              <Nav.Item className="resource-item">
-                <Nav.Link eventKey="electrical">Mission Planning</Nav.Link>
-              </Nav.Item>
 
             </Nav>
           </Col>
@@ -81,7 +89,13 @@ const Resources = () => {
                 <ComputerVision />
               </Tab.Pane>
 
-              <Tab.Pane eventKey="electrical">
+
+                <Tab.Pane eventKey="electronics">
+                  <h2 className="resource-text-title">Electronics</h2>
+            <Electronics />
+              </Tab.Pane>
+
+              <Tab.Pane eventKey="mission">
                 <h2 className="resource-text-title">Mission Planning</h2>
 				<MissionPlanning />
               </Tab.Pane>
