@@ -1,4 +1,4 @@
-{
+dylan.jpg{
   "2020-2021": {
     "officers": [
       {
@@ -85,7 +85,7 @@
       },
       {
         "name": "Ashley Tran",
-        "img": "/images/members/ashley.jpeg",
+        "img": "/images/members/ashley.jpg",
         "title": "",
         "text": "",
     "linkI": "",
@@ -338,7 +338,7 @@
     "members": [
       {
         "name": "Ashley Tran",
-        "img": "/images/members/ashley.jpeg",
+        "img": "/images/members/ashley.jpg",
         "title": "Computer Vision",
 	    	"text": "",
 		    "linkI": "",
@@ -356,7 +356,7 @@
       },
       {
         "name": "Paola Reyes",
-        "img": "/images/members/paola.jpeg",
+        "img": "/images/members/paola.jpg",
         "title": "Frame & Hull",
 	    	"text": "",
 		    "linkI": "",
@@ -602,7 +602,7 @@
       {
         "name": "Ashley Tran",
         "sign": "\"Iris\"",
-        "img": "/images/members/ashley.jpeg",
+        "img": "/images/members/ashley.jpg",
         "title": "Computer Vision Lead",
         "text": "",
 		    "linkI": "",
@@ -612,7 +612,7 @@
       {
         "name": "Paola Reyes",
         "sign": "\"Latches\"",
-        "img": "/images/members/paola.jpeg",
+        "img": "/images/members/paola.jpg",
         "title": "Frame & Hull Lead",
         "text": "",
         "linkI": "",
@@ -652,7 +652,7 @@
       },
       {
         "name": "Gian Owen Asayas",
-        "img": "/images/members/gian.jpeg",
+        "img": "/images/members/gian.jpg",
         "title": "Frame & Hull",
 	    	"text": "",
 		    "linkI": "",
@@ -661,7 +661,7 @@
       },
       {
         "name": "Anthony Arias",
-        "img":  "/images/members/anthony.jpeg",
+        "img":  "/images/members/anthony.jpg",
         "title": "Frame & Hull",
         "text": "",
         "linkI": "",
@@ -670,7 +670,7 @@
       },
       {
         "name": "Arun N.Radhakrishnan",
-        "img": "/images/members/arun.jpeg",
+        "img": "/images/members/arun.jpg",
         "title": "Controls / Electronics",
 	    	"text": "",
 		    "linkI": "",
@@ -679,7 +679,7 @@
       },
       {
         "name":"Theresa Mai",
-        "img": "/images/members/theresa.jpeg",
+        "img": "/images/members/theresa.jpg",
         "title": "Electronics",
 	    	"text": "",
 		    "linkI": "",
@@ -688,14 +688,14 @@
       },
       {
         "name": "David Roberto Lopez",
-        "img":  "/images/members/david.jpeg",
+        "img":  "/images/members/david.jpg",
         "title": "Controls",
         "text": "",
         "linkI": "",
         "link": "",
         "email":"dlopez145@calstatela.edu"
       },
-    
+
       {
         "name": "Eric Galstyan",
         "img":  "/images/members/eric22.jpg",
@@ -707,7 +707,7 @@
       },
       {
         "name": "Kevin Hong",
-        "img": "/images/members/kevinh.jpeg",
+        "img": "/images/members/kevinh.jpg",
         "title": "Electronics / Frame & Hull",
 	    	"text": "",
 		    "linkI": "",
@@ -716,7 +716,7 @@
       },
       {
         "name": "Sebastian Luna",
-        "img":  "/images/members/sebastian.jpeg",
+        "img":  "/images/members/sebastian.jpg",
         "title": "Controls / Autonomy",
         "text": "",
         "linkI": "",
@@ -736,7 +736,7 @@
       },
       {
         "name":"Thomas Benson",
-        "img": "/images/members/thomas.jpeg",
+        "img": "/images/members/thomas.jpg",
         "title":"Navigation",
         "text": "",
 		    "linkI": "",
@@ -761,13 +761,13 @@
       },
       {
         "name": "Hector Mora-Silva",
-        "img": "/images/members/hector.jpeg",
+        "img": "/images/members/hector.jpg",
         "title": "Autonomy",
         "linkI": "",
         "link": "",
         "email":"mora.hector247@gmail.com"
       }
-    ], 
+    ],
     "seniordesignCS2": [
       {
         "name": "David Fernandez",
@@ -779,7 +779,7 @@
       },
       {
         "name": "Milca Ucelo Paiz",
-        "img": "/images/members/milca.jpeg",
+        "img": "/images/members/milca.jpg",
         "title": "Computer Vision",
        "linkI": "",
         "link": "",
@@ -795,7 +795,7 @@
       },
       {
         "name": "Andrew Marin Heusser",
-        "img": "/images/members/andrewh.jpeg",
+        "img": "/images/members/andrewh.jpg",
         "title": "Controls",
       "linkI": "",
         "link": "",
@@ -822,7 +822,7 @@
       },
       {
         "name": "Nahom Seifu",
-        "img": "/images/members/nahom.jpeg",
+        "img": "/images/members/nahom.jpg",
         "title": "Mechanical Engineer",
 		"linkI": "",
         "link": "https://www.linkedin.com/in/seifu-nahom/",
@@ -830,7 +830,7 @@
       },
       {
         "name": "Steven Magana",
-        "img": "/images/members/steven.jpeg",
+        "img": "/images/members/steven.jpg",
         "title": "Mechanical Engineer",
 		    "linkI": "",
         "link": "www.linkedin.com/in/steven-magana98",
@@ -864,7 +864,7 @@
       },
       {
         "name": "Tianyu Ma",
-        "img": "/images/members/tianyu.jpeg",
+        "img": "/images/members/tianyu.jpg",
         "title": "Mechanical Engineer",
     "linkI": "",
         "link": "",
