@@ -81,7 +81,8 @@ const GetStarted = () => {
             Team Breakdown Subteams:
           </h3>
 
-          <Accordion >
+          <Accordion>
+
             <Card className='getstarted-card'>
               <Card.Header>
                 <Accordion.Toggle as={Button} variant="link" eventKey="0">
@@ -97,6 +98,9 @@ const GetStarted = () => {
                 </Card.Body>
               </Accordion.Collapse>
             </Card>
+              </Accordion>
+
+              <Accordion>
             <Card className='getstarted-card'>
               <Card.Header>
                 <Accordion.Toggle as={Button} variant="link" eventKey="1">
@@ -111,6 +115,9 @@ const GetStarted = () => {
                 </Card.Body>
               </Accordion.Collapse>
             </Card>
+              </Accordion>
+
+              <Accordion>
             <Card className='getstarted-card'>
               <Card.Header>
                 <Accordion.Toggle as={Button} variant="link" eventKey="2">
@@ -124,6 +131,9 @@ const GetStarted = () => {
                 </Card.Body>
               </Accordion.Collapse>
             </Card>
+              </Accordion>
+
+                <Accordion>
             <Card className='getstarted-card'>
               <Card.Header>
                 <Accordion.Toggle as={Button} variant="link" eventKey="3">
@@ -140,6 +150,9 @@ const GetStarted = () => {
                 </Card.Body>
               </Accordion.Collapse>
             </Card>
+              </Accordion>
+
+              <Accordion>
             <Card className='getstarted-card'>
               <Card.Header>
                 <Accordion.Toggle as={Button} variant="link" eventKey="4">
@@ -162,6 +175,9 @@ const GetStarted = () => {
                 </Card.Body>
               </Accordion.Collapse>
             </Card>
+              </Accordion>
+
+                <Accordion>
             <Card className='getstarted-card'>
               <Card.Header>
                 <Accordion.Toggle as={Button} variant="link" eventKey="5">
@@ -178,7 +194,10 @@ const GetStarted = () => {
                 </Card.Body>
               </Accordion.Collapse>
             </Card>
+
           </Accordion>
+
+
         </Container>
       </Jumbotron>
     </>
