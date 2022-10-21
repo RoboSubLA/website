@@ -817,7 +817,7 @@
       {
         "name": "Aren Petrossian",
         "img": "/images/members/aren.jpg",
-        "title": "Mechanical Engineer",
+        "title": "Intervehicle Communication",
         "text": "Mechanical Engineer Student with a 4.0 gpa",
 		    "linkI": "",
         "link": "https://www.linkedin.com/in/aren-petrossian/",
@@ -826,7 +826,7 @@
       {
         "name": "Carlos Luna Orozco",
         "img": "/images/members/carlos.jpg",
-        "title": "Mechanical Engineer",
+        "title": "Hull",
     "linkI": "",
         "link": "",
         "email":"cluna32@calstatela.edu"
@@ -834,7 +834,7 @@
       {
         "name": "Tianyu Ma",
         "img": "/images/members/tianyu.jpg",
-        "title": "Mechanical Engineer",
+        "title": "Frame",
     "linkI": "",
         "link": "",
         "email":"tam5@calstatela.edu"
@@ -842,7 +842,7 @@
       {
         "name": "Nahom Seifu",
         "img": "/images/members/nahom.jpg",
-        "title": "Mechanical Engineer",
+        "title": "Simulation",
 		"linkI": "",
         "link": "https://www.linkedin.com/in/seifu-nahom/",
         "email":"seifunahom1@gmail.com"
@@ -852,7 +852,7 @@
       {
         "name": "Edward Razo",
         "img": "/images/members/edward.jpg",
-        "title": "Actuators",
+        "title": "Claw",
     "linkI": "",
         "link": "",
         "email":"Erazo6@calstatela.edu"
@@ -860,7 +860,7 @@
       {
         "name": "Steven Magana",
         "img": "/images/members/steven.jpg",
-        "title": "Mechanical Engineer",
+        "title": "Ball Dropper",
         "linkI": "",
         "link": "www.linkedin.com/in/steven-magana98",
         "email":"smagan25@calstatela.edu"
@@ -868,7 +868,7 @@
       {
         "name": "Jose Lares",
         "img": "/images/members/joseI.jpg",
-        "title": "Frame & Hull",
+        "title": "Torpedo",
     "linkI": "",
         "link": "",
         "email":"Jlares5@calstatela.edu"
@@ -878,7 +878,7 @@
       {
         "name": "Cristin Mota",
         "img": "/images/members/cristin.jpg",
-        "title": "Electrical Engineer",
+        "title": "Hydrophones",
 		"linkI": "",
         "link": "",
         "email":"Cmota11@calstatela.edu"
@@ -886,10 +886,18 @@
       {
         "name": "Anthony Zelada",
         "img": "/images/members/anthonyz.jpg",
-        "title": "Electrical Engineer",
+        "title": "Power Distribution Board",
     "linkI": "",
         "link": "",
         "email":"azelada2@calstatela.edu"
+      },
+      {
+        "name": "Edgar Brito",
+        "img": "/images/members/edgar.jpg",
+        "title": "Doppler Velocity Log",
+    "linkI": "",
+        "link": "",
+        "email":"ebrito4@calstatela.edu"
       }
     ]
   }
