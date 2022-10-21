@@ -26,7 +26,7 @@ const Members = () => {
         <GroupSection heading="Club Team" list={updated.members1} className="main-container" />
           <RowSection list={updated.members2}/>
 
-        <GroupSection heading="Senior Design Team - ME" list={updated.seniordesignME1} className="main-container"/>
+        <GroupSection heading="Senior Design Team - ME" list={updated.seniordesignME1} className="me1"/>
         <RowSection list={updated.seniordesignME2}/>
 
         <GroupSection heading="Senior Design Team - EE" list={updated.seniordesignEE}className="main-container" />
