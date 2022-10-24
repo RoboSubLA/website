@@ -55,8 +55,8 @@ const Sponsors = () => {
         <h1 className = "spons-heading">Fall 2022 Sponsorship Packet</h1>
         <object
           class="pdf"
-          width="600px"
-          height="800px"
+          width="500px"
+          height="675px"
           data="https://drive.google.com/file/d/1PsGdtf7-BZoSfNbwImO0Ay_P16BJabqs/preview"
           type="application/pdf"
         >
