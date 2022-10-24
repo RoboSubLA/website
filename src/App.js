@@ -8,9 +8,11 @@ import Footer from "./components/Footer/Footer";
 import Home from "./pages/main_pages/Home/Home";
 import SignUp from "./pages/main_pages/SignUp/SignUp";
 import TheFleet from "./pages/main_pages/TheFleet/TheFleet";
+import Sponsors from "./pages/main_pages/Sponsors/Sponsors";
 import Members from "./pages/main_pages/Members/Members";
 import Resources from "./pages/main_pages/Resources/Resources";
 import Events from "./pages/main_pages/Events/Events";
+
 
 // sub pages import
 import Lanturn from "./pages/subpages/Lanturn/Lanturn";
@@ -31,6 +33,7 @@ function App() {
         <Switch>
           <Route path="/" exact component={Home} />
           <Route path="/TheFleet" component={TheFleet} />
+          <Route path="/Sponsors" component={Sponsors} />
           <Route path="/Members" component={Members} />
           <Route path="/Resources" component={Resources} />
           <Route path="/Events" component={Events} />
