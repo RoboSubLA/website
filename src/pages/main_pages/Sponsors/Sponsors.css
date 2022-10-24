@@ -15,10 +15,10 @@
     background-size: 100px 100px, 100px 100px, 100px 20px, 20px 20px;
     /* background-position: -2px -2px, -2px -2px, -1px -1px, -1px -1px; */
   }
-  
+
   .sponsor-container {
     position: relative;
-  
+
     background-color: #269;
     background-image: linear-gradient(
       rgba(37, 100, 168, 0.5) 2px,
@@ -28,10 +28,10 @@
       linear-gradient(rgba(255, 255, 255, 0.28) 1px, transparent 1px),
       linear-gradient(90deg, rgba(255, 255, 255, 0.28) 1px, transparent 1px);
     background-size: 100px 100px, 100px 100px, 100px 20px, 20px 20px;
-  
-  
+
+
   }
-  
+
   .spons-container {
     background-color: #f0f8ff82;
     border-radius: 2em;
@@ -39,26 +39,33 @@
     margin: 20px;
     font-size: 1rem ;
   }
-  
+
   .spons-heading{
     margin-top: 10px;
      text-align: center;
      color: white;
-  
+
   }
-  
+
   .sponsor{
-      align-items: center;
+    padding: 10px;
   }
-  
-  
+
+
   .spons-desc{
       text-align: center;
       background-color: #f0f8ff82;
-  
+
   }
-  
-  
+
+.spons-img{
+  text-align: center;
+    margin: auto;
+
+    padding: 10px;
+
+}
+
   .subtitle{
       margin-top: 20px;
       padding-bottom: .3em;
@@ -66,7 +73,7 @@
       border-bottom-style: solid;
       border-color: yellow;
   }
-  
+
   .pdf-container {
     background-color: #269;
     background-color: #269;
@@ -79,12 +86,11 @@
       linear-gradient(90deg, rgba(255, 255, 255, 0.28) 1px, transparent 1px);
     background-size: 100px 100px, 100px 100px, 100px 20px, 20px 20px;
     /* background-position: -2px -2px, -2px -2px, -1px -1px, -1px -1px; */
-     padding-left: 10%;
+    padding-left:10%;
+
   }
   .pdf{
     margin-left: 100px;
     margin-right: 150px;
     padding-top: 30px;
   }
-  
-  
