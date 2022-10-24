@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Button from "../Button/Button";
 import { Link } from "react-router-dom";
-import Image from "react-bootstrap/Image";
 import "./Navbar.css";
 
 function Navbar() {
@@ -42,11 +41,13 @@ function Navbar() {
             <i className={click ? "fas fa-times" : "fas fa-bars"} />
           </div>
           <ul className={click ? "nav-menu active" : "nav-menu"}>
+
             <li className="nav-item">
               <Link to="/" className="nav-links" onClick={closeMobileMenu}>
                 Home Port <i className="fas fa-anchor"></i>
               </Link>
             </li>
+
             <li className="nav-item">
               <Link
                 to="/thefleet"
@@ -57,6 +58,18 @@ function Navbar() {
               </Link>
             </li>
 
+
+            <li className="nav-item">
+              <Link
+                to="/sponsors"
+                className="nav-links"
+                onClick={closeMobileMenu}
+              >
+               Sponsors <i class="fas fa-building"></i>
+              </Link>
+            </li>
+
+
             <li className="nav-item">
               <Link
                 to="/members"
@@ -66,15 +79,17 @@ function Navbar() {
                 Crew Deck <i className="fas fa-id-card"></i>
               </Link>
             </li>
+
             <li className="nav-item">
               <Link
                 to="/resources"
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
-                Resources <i className="fas fa-id-card"></i>
+                Resources <i className="fas fa-book"></i>
               </Link>
             </li>
+
             <li className="nav-item">
               <Link
                 to="/events"
@@ -84,6 +99,7 @@ function Navbar() {
                 Events <i className="fas fa-calendar-alt" />
               </Link>
             </li>
+
             <li>
               <Link
                 to="/sign-up"
@@ -93,6 +109,7 @@ function Navbar() {
                 Sign Up
               </Link>
             </li>
+
           </ul>
           {button && (
             <Button path="/sign-up" buttonStyle="btn--outline">
