@@ -51,12 +51,12 @@ const Sponsors = () => {
       </div>
 
       {/* </Jumbotron> */}
-          <div className="pdf-container">
+       <div className="pdf-container">
         <h1 className = "spons-heading">Fall 2022 Sponsorship Packet</h1>
         <object
           class="pdf"
-          width="80%"
-          height="650px"
+          width="600px"
+          height="600px"
           data="https://drive.google.com/file/d/1PsGdtf7-BZoSfNbwImO0Ay_P16BJabqs/preview"
           type="application/pdf"
         >
