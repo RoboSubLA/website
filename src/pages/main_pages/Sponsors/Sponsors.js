@@ -51,18 +51,15 @@ const Sponsors = () => {
       </div>
 
       {/* </Jumbotron> */}
-            <div className="pdf-container">
+          <div className="pdf-container">
         <h1 className = "spons-heading">Fall 2022 Sponsorship Packet</h1>
         <object
           class="pdf"
           width="80%"
           height="650px"
-          data="../../../../../files/SponsPacketF2022.pdf?#zoom=58&scrollbar=0&toolbar=0&navpanes=0"
+          data="https://drive.google.com/file/d/1PsGdtf7-BZoSfNbwImO0Ay_P16BJabqs/preview"
           type="application/pdf"
         >
-            <embed src="../../../../../files/SponsPacketF2022.pdf?#zoom=58&scrollbar=0&toolbar=0&navpanes=0" 
-      type="application/pdf" />
-
         </object>
       </div>
 
