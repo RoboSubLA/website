@@ -56,7 +56,7 @@ const Sponsors = () => {
         <object
           class="pdf"
           width="600px"
-          height="600px"
+          height="800px"
           data="https://drive.google.com/file/d/1PsGdtf7-BZoSfNbwImO0Ay_P16BJabqs/preview"
           type="application/pdf"
         >
