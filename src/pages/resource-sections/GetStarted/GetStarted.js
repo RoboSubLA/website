@@ -91,7 +91,7 @@ const GetStarted = () => {
               </Card.Header>
               <Accordion.Collapse eventKey="0">
                 <Card.Body  className='getstarted-card-p'>
-                  The frame and hull team is responsible for making the actual design
+                  The Frame and Hull team is responsible for making the actual design
 				  of the AUV itself. The hull and frame of the sub are the physical
 				  components of the AUV, which the mechanical engineering team will
 				  be responsbile for making.
@@ -110,7 +110,7 @@ const GetStarted = () => {
               <Accordion.Collapse eventKey="1">
                 <Card.Body  className='getstarted-card-p'>
 
-                 ?????
+                 The Actuated Systems team is responsible for designing and manufacturing the claw, ball dropper, and torpedo systems. Students focus on kinematics, finite element analysis, and computational fluid dynamics.
 
                 </Card.Body>
               </Accordion.Collapse>
