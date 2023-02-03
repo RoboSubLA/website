@@ -28,100 +28,74 @@ const Wailord = () => {
               </tr>
             </thead>
             <tbody>
-              <tr>
-                <td>Computer Science Leader</td>
-                <td> NAME </td>
-                <td>Computer Science</td>
-              </tr>
+      
 
               <tr>
-                <td>Mission Planning Leader</td>
-                <td> NAME </td>
-                <td>Computer Science</td>
-              </tr>
-
-              <tr>
-                <td>CV Leader & Sensors</td>
-                <td>NAME </td>
-                <td>Computer Science</td>
-              </tr>
-
-			  <tr>
-                <td>Controls Leader & Sensors</td>
-                <td>NAME</td>
-                <td>Computer Science</td>
-              </tr>
-
-              <tr>
-                <td>Mission Planning</td>
-                <td>NAME</td>
-                <td>Computer Science</td>
-              </tr>
-
-              <tr>
-                <td>Computer Vision & Mission Planning</td>
-                <td>NAME</td>
-                <td>Computer Science</td>
-              </tr>
-
-              <tr>
-                <td>Computer Vision</td>
-                <td>Bryan Sanchez</td>
-                <td>Computer Science</td>
-              </tr>
-
-              <tr>
-                <td>Computer Vision</td>
-                <td>Robin Romero</td>
-                <td>Computer Science</td>
-              </tr>
-
-              <tr>
-                <td>Controls & Sensors</td>
-                <td>Edwin Tran</td>
-                <td>Computer Science</td>
-              </tr>
-
-              <tr>
-                <td>Mechanical Engineering Team</td>
-                <td>Forrest Hale</td>
+                <td>Club President</td>
+                <td>Aren Petrossian</td>
                 <td>Mechanical Engineering</td>
               </tr>
 
               <tr>
-                <td>Mechanical Engineering Team</td>
-                <td>Zachary Beatti</td>
+                <td>Club Vice-President</td>
+                <td>Katherine Bonomo</td>
                 <td>Mechanical Engineering</td>
               </tr>
 
-              <tr>
-                <td>Mechanical Engineering Team</td>
-                <td>Damien Ramos</td>
-                <td>Mechanical Engineering</td>
-              </tr>
-
-              <tr>
-                <td>Electrical Engineering Team</td>
-                <td>Victor Sandoval</td>
-                <td>Electrical Engineering</td>
-              </tr>
-
-              <tr>
-                <td>Electrical Engineering Team</td>
-                <td>Andrew Maravilla</td>
-                <td>Electrical Engineering</td>
-              </tr>
+      
 
 			  <tr>
-                <td>Electrical Engineering Team</td>
-                <td>Edward Komperda</td>
+                <td>Autonomy Leader</td>
+                <td>Victor Solis</td>
+                <td>Computer Science</td>
+              </tr>
+
+              <tr>
+                <td>Frame & Hull Leader</td>
+                <td>Paolo Reyes</td>
                 <td>Electrical Engineering</td>
               </tr>
 
-			  <tr>
-                <td>Electrical Engineering Team</td>
-                <td>Emigdio Alaniz</td>
+              <tr>
+                <td>Frame & Hull Leader</td>
+                <td>Jose Rangel</td>
                 <td>Electrical Engineering</td>
+              </tr>
+
+              <tr>
+                <td>Computer Vision Leader</td>
+                <td>Ashley Tran</td>
+                <td>Computer Science</td>
+              </tr>
+
+              <tr>
+                <td>Electronics Leader</td>
+                <td>Andrew Ye</td>
+                <td>Electrical Engineering</td>
+              </tr>
+
+              <tr>
+                <td>Frame & Hull</td>
+                <td>Gian Owen Asayas</td>
+                <td>-</td>
+              </tr>
+
+              <tr>
+                <td>Frame & Hull/Electronics</td>
+                <td>Kevin Hong</td>
+                <td>-</td>
+              </tr>
+
+              <tr>
+                <td>Frame & Hull</td>
+                <td>Anthony Arias</td>
+                <td>-</td>
+              </tr>
+
+              <tr>
+                <td>Controls/Electronics</td>
+                <td>Arun N. Radhakrishnan</td>
+                <td>-</td>
               </tr>
 
             </tbody>
