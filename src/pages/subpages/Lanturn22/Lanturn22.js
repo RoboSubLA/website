@@ -2,15 +2,12 @@ import React from "react";
 import Tabs from "react-bootstrap/Tabs";
 import Tab from "react-bootstrap/Tab";
 import Table from "react-bootstrap/Table";
-import Image from "react-bootstrap/Image";
-import Carousel from "react-bootstrap/Carousel";
 
 import "./Lanturn22.css";
 
 const Lanturn22 = () => {
   return (
-
-	<div className="sub-container">
+    <div className="sub-container">
       <h1 className="sub-header">LANTURN 2022-2023</h1>
 
       <Tabs
@@ -29,108 +26,117 @@ const Lanturn22 = () => {
             </thead>
             <tbody>
               <tr>
+                <td>ME/EE Leader</td>
+                <td>Aren Petrossian</td>
+                <td>Mechanical Engineering</td>
+              </tr>
+
+              <tr>
+                <td>Mechanical Engineering Team</td>
+                <td>Carlos Luna</td>
+                <td>Mechanical Engineering</td>
+              </tr>
+
+              <tr>
+                <td>Mechanical Engineering Team</td>
+                <td>Steven Magana</td>
+                <td>Mechanical Engineering</td>
+              </tr>
+
+              <tr>
+                <td>Mechanical Engineering Team</td>
+                <td>Nahom Seifu</td>
+                <td>Mechanical Engineering</td>
+              </tr>
+
+              <tr>
+                <td>Mechanical Engineering Team</td>
+                <td>Jose Iares</td>
+                <td>Mechanical Engineering</td>
+              </tr>
+
+              <tr>
+                <td>Mechanical Engineering Team</td>
+                <td>Edward Razo</td>
+                <td>Mechanical Engineering</td>
+              </tr>
+
+              <tr>
+                <td>Mechanical Engineering Team</td>
+                <td>Tianyu Ma</td>
+                <td>Mechanical Engineering</td>
+              </tr>
+
+              <tr>
+                <td>Electrical Engineering Team</td>
+                <td>Anthony Zelada </td>
+                <td>Electrical Engineering</td>
+              </tr>
+
+              <tr>
+                <td>Electrical Engineering Team</td>
+                <td>Cristian Mota</td>
+                <td>Electrical Engineering</td>
+              </tr>
+
+
+              <tr>
                 <td>Computer Science Leader</td>
-                <td> NAME </td>
+                <td>Victor Solis</td>
+                <td>Computer Science</td>
+              </tr> 
+
+              <tr>
+                <td> Computer Science Team</td>
+                <td>Thomas Benson</td>
                 <td>Computer Science</td>
               </tr>
 
               <tr>
-                <td>Mission Planning Leader</td>
-                <td> NAME </td>
+                <td>Computer Science Team</td>
+                <td>Hector Mora-Silva</td>
                 <td>Computer Science</td>
               </tr>
 
               <tr>
-                <td>CV Leader & Sensors</td>
-                <td>NAME </td>
-                <td>Computer Science</td>
-              </tr>
-
-			  <tr>
-                <td>Controls Leader & Sensors</td>
-                <td>NAME</td>
+                <td>Computer Science Team</td>
+                <td>Roberto Hernandez</td>
                 <td>Computer Science</td>
               </tr>
 
               <tr>
-                <td>Mission Planning</td>
-                <td>NAME</td>
+                <td>Computer Science Team</td>
+                <td>Bailey Canham</td>
                 <td>Computer Science</td>
               </tr>
 
               <tr>
-                <td>Computer Vision & Mission Planning</td>
-                <td>NAME</td>
+                <td>Computer Science Team</td>
+                <td>Brandon Vy Cao </td>
                 <td>Computer Science</td>
               </tr>
 
               <tr>
-                <td>Computer Vision</td>
-                <td>Bryan Sanchez</td>
+                <td>Computer Science Team</td>
+                <td>David Fernandez</td>
+                <td>Computer Science</td>
+              </tr>
+              <tr>
+                <td>Computer Science Team</td>
+                <td>Andrew Marin Heusser</td>
                 <td>Computer Science</td>
               </tr>
 
               <tr>
-                <td>Computer Vision</td>
-                <td>Robin Romero</td>
+                <td>Computer Science Team</td>
+                <td>Milca Ucelo</td>
                 <td>Computer Science</td>
               </tr>
-
-              <tr>
-                <td>Controls & Sensors</td>
-                <td>Edwin Tran</td>
-                <td>Computer Science</td>
-              </tr>
-
-              <tr>
-                <td>Mechanical Engineering Team</td>
-                <td>Forrest Hale</td>
-                <td>Mechanical Engineering</td>
-              </tr>
-
-              <tr>
-                <td>Mechanical Engineering Team</td>
-                <td>Zachary Beatti</td>
-                <td>Mechanical Engineering</td>
-              </tr>
-
-              <tr>
-                <td>Mechanical Engineering Team</td>
-                <td>Damien Ramos</td>
-                <td>Mechanical Engineering</td>
-              </tr>
-
-              <tr>
-                <td>Electrical Engineering Team</td>
-                <td>Victor Sandoval</td>
-                <td>Electrical Engineering</td>
-              </tr>
-
-              <tr>
-                <td>Electrical Engineering Team</td>
-                <td>Andrew Maravilla</td>
-                <td>Electrical Engineering</td>
-              </tr>
-
-			  <tr>
-                <td>Electrical Engineering Team</td>
-                <td>Edward Komperda</td>
-                <td>Electrical Engineering</td>
-              </tr>
-
-			  <tr>
-                <td>Electrical Engineering Team</td>
-                <td>Emigdio Alaniz</td>
-                <td>Electrical Engineering</td>
-              </tr>
-
             </tbody>
           </Table>
         </Tab>
-
       </Tabs>
     </div>
-
   );
 };
 
