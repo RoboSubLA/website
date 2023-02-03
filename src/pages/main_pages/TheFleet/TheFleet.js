@@ -6,9 +6,66 @@ import Jumbotron from "react-bootstrap/Jumbotron";
 import { Link } from "react-router-dom";
 import "./TheFleet.css";
 
+import Lanturn22 from "../../subpages/Lanturn22/Lanturn22";
+
+
 const TheFleet = () => {
   return (
     <div className="fleet-container">
+
+    {/* 2022-2023 */}
+       <Jumbotron fluid className="jumbotron-container">
+         <h1 className="jumbotron-h1">ROBOSUB 2022-2023</h1>
+         <h2 className="jumbotron-h2">Rankings:</h2>
+         <p className="jumbotron-p">Overall: -  </p>
+         <p className="jumbotron-p">Video: - </p>
+         <p className="jumbotron-p">Website: -</p>
+         <p className="jumbotron-p">Technical-Design Report: -</p>
+         <div className="button-container">
+           <Button className="jumbotron-button" href="https://youtu.be/K124Y61hVNQ">
+             Team Video
+           </Button>
+           <Button className="jumbotron-button" href="https://robonation.org/app/uploads/sites/5/2022/06/RS2022_CSULA_RoboSubLA_TDR_4kSSZrT.pdf">
+             Design Report
+           </Button>
+         </div>
+       </Jumbotron>
+
+       <CardDeck className="fleet-carddeck">
+         <Card className="fleet-card" border="dark">
+           <Card.Img variant="top" src={"/images/subs/lanturn2022/lanturn223.jpg"} />
+           <Card.Body className="fleet-card-body">
+             <Card.Title className="fleet-card-title">
+               Lanturn 2022-2023
+             </Card.Title>
+             <Card.Text className="fleet-card-text">
+               Senior Design Team
+             </Card.Text>
+           </Card.Body>
+           <Link className="fleet-link" to="/Lanturn22">
+             More Info
+           </Link>
+         </Card>
+
+         <Card className="fleet-card" border="dark">
+           <Card.Img variant="top" src={"/images/subs/lanturn2022/wailord.png"} />
+           <Card.Body className="fleet-card-body">
+             <Card.Title className="fleet-card-title">
+               Wailord 2022-2023
+             </Card.Title>
+             <Card.Text className="fleet-card-text">
+         Club Team
+       </Card.Text>
+           </Card.Body>
+           <Link className="fleet-link" to="/Wailord">
+             More Info
+           </Link>
+         </Card>
+       </CardDeck>
+
+
+
+
 	 {/* 2021-2022 */}
       <Jumbotron fluid className="jumbotron-container">
         <h1 className="jumbotron-h1">ROBOSUB 2021-2022</h1>
