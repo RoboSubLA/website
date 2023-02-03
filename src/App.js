@@ -25,6 +25,8 @@ import Report2022 from "./pages/subpages/DesignReport/Report2022";
 import Report2019 from "./pages/subpages/DesignReport/Report2019";
 import Report2020 from "./pages/subpages/DesignReport/Report2020";
 import Lanturn2020 from "./pages/subpages/Lanturn/Lanturn2020";
+import Lanturn22 from "./pages/subpages/Lanturn22/Lanturn22";
+import Wailord from "./pages/subpages/Wailord/Wailord";
 function App() {
   return (
     <>
@@ -44,12 +46,14 @@ function App() {
           <Route path="/Gyarados" component={Gyarados} />
           <Route path="/Magikarp" component={Magikarp} />
           <Route path="/Lanturn2020" component={Lanturn2020} />
+          <Route path="/Lanturn22" component={Lanturn22} />
+          <Route path="/Wailord" component={Wailord} />
 
 		  <Route path="/ThisYear" component={ThisYear} />
-		  <Route path="/ThisYear1" component={ThisYear1} /> 
-      <Route path="/Report2022" component={Report2022} /> 
-      <Route path="/Report2019" component={Report2019} /> 
-      <Route path="/Report2020" component={Report2020} /> 
+		  <Route path="/ThisYear1" component={ThisYear1} />
+      <Route path="/Report2022" component={Report2022} />
+      <Route path="/Report2019" component={Report2019} />
+      <Route path="/Report2020" component={Report2020} />
 
         </Switch>
         <Footer />
