@@ -33,7 +33,7 @@ const TheFleet = () => {
 
        <CardDeck className="fleet-carddeck">
          <Card className="fleet-card" border="dark">
-           <Card.Img variant="top" src={"/images/subs/lanturn2022/lanturn223.jpg"} />
+           <Card.Img variant="top" src={"/images/subs/lanturn2022/Lanturn223.jpg"} />
            <Card.Body className="fleet-card-body">
              <Card.Title className="fleet-card-title">
                Lanturn 2022-2023
