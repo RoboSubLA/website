@@ -14,7 +14,7 @@ function Footer() {
               <i className="fas fa-water" />
             </Link>
           </div>
-          <small className="website-rights">Robosub © 2022</small>
+          <small className="website-rights">Robosub © 2023</small>
           <div className="social-icons">
             <a
               className="social-icon-link instagram"

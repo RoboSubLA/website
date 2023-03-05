@@ -12,14 +12,17 @@ const Sponsors = () => {
     <div className="main">
       {/* <Jumbotron className = "sponsor-container"> */}
      
-        <h1 className="spons-heading">Become a Sponsor!</h1>
+        <h1 className="spons-heading">Thank you to our sponsors!</h1>
         <div className="spons-container">
           <h3 className="subtitle">Sponsors</h3>
           <p className="spons-desc">
-            Thank you to our existing sponsors! Your support fuels our endeavors
-            of building autonomous underwater vehicles and helps substantiate
-            our team's technical skills through hands-on experiences.
+            RoboSubLA extends our greatest thanks to our sponsors! Your support
+            enables us to continue building autonomous underwater vehicles,
+            and helps provide our members with technical skills through
+            hands-on experiences with industry-standard components.
           </p>
+
+          <h3 className="spons-subtitle">Gold Sponsors</h3>
           <div className="spons-img">
             <Image
               className="sponsor"
@@ -28,18 +31,36 @@ const Sponsors = () => {
             ></Image>
             <Image
               className="sponsor"
-              width="320"
-              src={process.env.PUBLIC_URL + "/images/sponsors/mworks.png"}
-            ></Image>
-            <Image
-              className="sponsor"
-              width="200"
+              height="150"
               src={process.env.PUBLIC_URL + "/images/sponsors/naval.png"}
             ></Image>
             <Image
               className="sponsor"
-              width="210"
-              src={process.env.PUBLIC_URL + "/images/sponsors/sparkfun.png"}
+              width="400"
+              src={process.env.PUBLIC_URL + "/images/sponsors/vectornav.png"}
+            ></Image>
+          </div>
+
+          <h3 className="spons-subtitle">Silver Sponsors</h3>
+          <div className="spons-img">
+            <Image
+              className="sponsor"
+              width="400"
+              src={process.env.PUBLIC_URL + "/images/sponsors/bluetrail.png"}
+            ></Image>
+            <Image
+              className="sponsor"
+              width="400"
+              src={process.env.PUBLIC_URL + "/images/sponsors/bluerobotics.png"}
+            ></Image>
+          </div>
+
+          <h3 className="spons-subtitle">Bronze Sponsors</h3>
+          <div className="spons-img">
+            <Image
+              className="sponsor"
+              width="320"
+              src={process.env.PUBLIC_URL + "/images/sponsors/mworks.png"}
             ></Image>
             <Image
               className="sponsor"
@@ -47,12 +68,11 @@ const Sponsors = () => {
               src={process.env.PUBLIC_URL + "/images/sponsors/dsys.svg"}
             ></Image>
           </div>
-
       </div>
 
       {/* </Jumbotron> */}
        <div className="pdf-container">
-        <h1 className = "spons-heading">Fall 2022 Sponsorship Packet</h1>
+        <h1 className = "spons-heading">Ready to sponsor RoboSubLA? Read our benefits packet!</h1>
         <object
           class="pdf"
           width="500px"
