@@ -17,6 +17,14 @@
   font-size: 22px;
 }
 
+.home-sponsor-container {
+  background-color: #f0f8ffaa;
+  border-radius: 2em;
+  padding: 10px;
+  margin: 20px;
+  font-size: 1rem ;
+}
+
 .sponsor{
   margin-left: 10px;
     margin-right: 15px;
