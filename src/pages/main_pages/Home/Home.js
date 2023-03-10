@@ -40,22 +40,46 @@ const About = () => {
             members
           </p>
 
-          <h1 className="about-header">Thanks to Our Sponsors</h1>
-          <Image className = "sponsor"
-            src={process.env.PUBLIC_URL + "/images/sponsors/csula.png"}
-          ></Image>
-          <Image className = "sponsor" width = "320"
-            src={process.env.PUBLIC_URL + "/images/sponsors/mworks.png"}
-          ></Image>
-          <Image className = "sponsor" height = "200"
-            src={process.env.PUBLIC_URL + "/images/sponsors/naval.png"}
-          ></Image>
-          <Image className = "sponsor"
-            src={process.env.PUBLIC_URL + "/images/sponsors/sparkfun.png"}
-          ></Image>
-          <Image className = "sponsor" width = "320"
-            src={process.env.PUBLIC_URL + "/images/sponsors/dsys.svg"}
-          ></Image>
+          <div className="home-sponsor-container">
+            <h1 className="about-header">Thanks to Our Sponsors!</h1>
+            <Image
+              className="sponsor"
+              height="150"
+              src={process.env.PUBLIC_URL + "/images/sponsors/csula.png"}
+            ></Image>
+            <Image
+              className="sponsor"
+              height="150"
+              src={process.env.PUBLIC_URL + "/images/sponsors/naval.png"}
+            ></Image>
+            <Image
+              className="sponsor"
+              width="500"
+              src={process.env.PUBLIC_URL + "/images/sponsors/vectornav.png"}
+            ></Image>
+            <br/>
+            <Image
+              className="sponsor"
+              width="330"
+              src={process.env.PUBLIC_URL + "/images/sponsors/bluetrail.png"}
+            ></Image>
+            <Image
+              className="sponsor"
+              width="330"
+              src={process.env.PUBLIC_URL + "/images/sponsors/bluerobotics.png"}
+            ></Image>
+            <br/>
+            <Image
+              className="sponsor"
+              width="240"
+              src={process.env.PUBLIC_URL + "/images/sponsors/mworks.png"}
+            ></Image>
+            <Image
+              className="sponsor"
+              width="225"
+              src={process.env.PUBLIC_URL + "/images/sponsors/dsys.svg"}
+            ></Image>
+          </div>
         </Container>
       </Jumbotron>
     </div>
