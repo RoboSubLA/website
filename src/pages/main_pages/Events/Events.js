@@ -8,17 +8,19 @@ import Typical from "react-typical";
 
 const Events = () => {
   return (
-	<div className="event">
-	<div className="bg" align="center"></div>
-	<div className="bg bg2" align="center"></div>
-	<div className="bg bg3" align="center"></div>
-		<div className="content" align="center">
-			<div className="centerCalendar">
-			<iframe src="https://calendar.google.com/calendar/embed?src=auvcalstatela%40gmail.com&ctz=America%2FLos_Angeles"></iframe>
-					
-			</div>
-		</div>
-	</div>
+    <div className="event-container">
+      <div className="bg" align="center"></div>
+      <div className="bg bg2" align="center"></div>
+      <div className="bg bg3" align="center"></div>
+      <div className="content" align="center">
+        <div className="centerCalendar">
+          <iframe
+            title="Calander"
+            src="https://calendar.google.com/calendar/embed?src=auvcalstatela%40gmail.com&ctz=America%2FLos_Angeles"
+          ></iframe>
+        </div>
+      </div>
+    </div>
   );
 };
 

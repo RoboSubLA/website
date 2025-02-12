@@ -26,22 +26,16 @@ function Navbar() {
 
   return (
     <>
-      <nav className="navbar">
+      <nav className="navbar navbar--fixed-top">
         <div className="navbar-container">
           <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-            AUV
-            <i className="fas fa-water" />
-            {/* <Image
-              src='./images/robosublogo.png'
-              width='60'
-              height='60'
-            /> */}
+            RoboSub LA
+            <i className="gi gi-submarine"></i>
           </Link>
           <div className="menu-icon" onClick={handleClick}>
             <i className={click ? "fas fa-times" : "fas fa-bars"} />
           </div>
           <ul className={click ? "nav-menu active" : "nav-menu"}>
-
             <li className="nav-item">
               <Link to="/" className="nav-links" onClick={closeMobileMenu}>
                 Home Port <i className="fas fa-anchor"></i>
@@ -58,17 +52,15 @@ function Navbar() {
               </Link>
             </li>
 
-
             <li className="nav-item">
               <Link
                 to="/sponsors"
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
-               Sponsors <i class="fas fa-building"></i>
+                Sponsors <i class="fas fa-building"></i>
               </Link>
             </li>
-
 
             <li className="nav-item">
               <Link
@@ -109,7 +101,6 @@ function Navbar() {
                 Sign Up
               </Link>
             </li>
-
           </ul>
           {button && (
             <Button path="/sign-up" buttonStyle="btn--outline">

@@ -1,6 +1,5 @@
 import React from "react";
 import "./Footer.css";
-import Button from "../Button/Button";
 import { Link } from "react-router-dom";
 
 function Footer() {
@@ -8,17 +7,17 @@ function Footer() {
     <div className="footer-container">
       <section className="social-media">
         <div className="social-media-wrap">
-          <div className="footer-logo">
-            <Link to="/" className="social-logo">
-              AUV
-              <i className="fas fa-water" />
+          <div className="logo-container">
+            <Link to="/" className="logo">
+              RoboSub LA
+              <i className="gi gi-submarine"></i>
             </Link>
           </div>
-          <small className="website-rights">Robosub © 2023</small>
+          <small className="website-rights">Robosub © 2024</small>
           <div className="social-icons">
             <a
               className="social-icon-link instagram"
-			        href="https://www.instagram.com/auvcalstatela/?hl=en"
+              href="https://www.instagram.com/auvcalstatela/?hl=en"
               aria-label="Instagram"
             >
               <i className="fab fa-instagram" />

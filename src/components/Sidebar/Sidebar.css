@@ -1,0 +1,20 @@
+@media (max-width: 768px) {
+  .side-tab {
+    display: none !important;
+  }
+}
+
+.side-tab {
+  background-color: black !important;
+}
+
+.first-tab:active {
+  color: #ffcf00 !important;
+}
+
+.tab {
+  font-family: "Bebas Neue", sans-serif !important;
+  letter-spacing: 0.3rem;
+  text-align: center;
+  color: #fff;
+}

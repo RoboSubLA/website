@@ -6,6 +6,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-family: "Bebas Neue", sans-serif;
 }
 
 .footer-subscription {
@@ -21,8 +22,7 @@
 }
 
 .footer-subscription > p {
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-    'Lucida Sans', Arial, sans-serif;
+  font-family: "Bebas Neue", sans-serif;
 }
 
 .footer-subscription-heading {
@@ -102,36 +102,31 @@
 }
 
 .social-media {
-  width: 75%;
+  width: 95%;
 }
 
 .social-media-wrap {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* width: 90%; */
-  /* max-width: 1000px; */
   margin: 0 auto 0 auto;
+  font-family: "Bebas Neue", sans-serif;
 }
 
 .social-icons {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  
- 
 }
 
 .social-logo {
   color: #fff;
   justify-self: start;
-  
   cursor: pointer;
   text-decoration: none;
   font-size: 2rem;
   display: flex;
   align-items: center;
-  
 }
 
 .website-rights {
@@ -164,12 +159,13 @@
 @media screen and (max-width: 768px) {
 }
 
+@import url("https://fonts.googleapis.com/css?family=Audiowide");
 
-
-
-
-@import url('https://fonts.googleapis.com/css?family=Audiowide');
-
-text,p,h1,h2,h3,button,small, .social-logo{
-  font-family: "Audiowide", sans-serif;
+.logo,
+.website-rights,
+.social-logo {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 2rem;
+  letter-spacing: 1dvh;
+  color: #fff;
 }

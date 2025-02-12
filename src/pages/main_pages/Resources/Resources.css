@@ -1,3 +1,20 @@
+.content {
+  transform: none !important;
+  -webkit-transform: none !important;
+  -moz-transform: none !important;
+  -ms-transform: none !important;
+  -o-transform: none !important;
+  position: static !important;
+}
+
+.sidebar-content-container {
+  background-color: #000;
+}
+
+.wrapper {
+  padding: 0 !important;
+}
+
 .resource-title {
   text-align: center;
 }
@@ -13,7 +30,6 @@
   display: flex;
   justify-content: center;
   padding-top: 2rem;
-
 }
 
 .resource-item-container {
@@ -21,7 +37,7 @@
 }
 
 .resource-item {
-  padding: .5em;
+  padding: 0.5em;
 }
 
 .resource-iframe {
@@ -31,7 +47,7 @@
 .iframe-align {
   text-align: center;
 }
-.resource-list{
+.resource-list {
   padding: 1em;
 }
 .resource-text {
@@ -70,6 +86,10 @@
 
 /* iPhone X, iPhone 6/7/8 Plus, */
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+  .d-flex {
+    display: inline !important;
+  }
+
   .resource-item-container {
     margin-top: 1rem;
     position: unset;

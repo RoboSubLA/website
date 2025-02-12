@@ -17,7 +17,7 @@ const Person = (props) => {
                 src={props.data.img}
               />
               <Figure.Caption>{props.data.name}</Figure.Caption>
-                <Figure.Caption>{props.data.sign}</Figure.Caption>
+              <Figure.Caption>{props.data.sign}</Figure.Caption>
               <Figure.Caption>{props.data.title}</Figure.Caption>
             </Figure>
           </div>
@@ -31,7 +31,7 @@ const Person = (props) => {
               <a className="fig-back-icon" href={props.data.link}>
                 <i className="fas fa-user-circle"></i>
               </a>
-              <div id = "email">{props.data.email}</div>
+              <div id="email">{props.data.email}</div>
             </div>
           </div>
         </div>

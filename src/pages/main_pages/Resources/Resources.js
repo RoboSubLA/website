@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Tab from "react-bootstrap/Tab";
@@ -15,12 +15,36 @@ import GetStarted from "../../resource-sections/GetStarted/GetStarted";
 import Github from "../../resource-sections/GitHub/GitHub";
 import MissionPlanning from "../../resource-sections/MissionPlanning/MissionPlanning";
 import Electronics from "../../resource-sections/Electronics/Electronics";
+import Sidebar from "../../../components/Sidebar/Sidebar";
 
 const Resources = () => {
+  const [activeSection, setActiveSection] = useState("getstarted");
+
   return (
     <div>
-      {/* <h1 className='resource-title'>Resources</h1> */}
-      <Tab.Container id="left-tabs-example" defaultActiveKey="getstarted">
+      {/* Sidebar and content area */}
+      <div className="d-flex sidebar-content-container">
+        <Sidebar
+          activeSection={activeSection}
+          setActiveSection={setActiveSection}
+        />
+
+        {/* This section is to retreive the content of the imported components */}
+        <div className="content p-3 wrapper">
+          {activeSection === "getstarted" && <GetStarted />}
+          {activeSection === "mechanical" && <FrameHull />}
+          {activeSection === "electronics" && <Electronics />}
+          {activeSection === "missionplanning" && <MissionPlanning />}
+          {activeSection === "arduino" && <Arduino />}
+          {activeSection === "linux" && <Linux />}
+          {activeSection === "github" && <Github />}
+          {activeSection === "ros" && <ROS />}
+          {activeSection === "cv" && <ComputerVision />}
+        </div>
+      </div>
+
+      {/* <h1 className="resource-title">Resources</h1> */}
+      {/* <Tab.Container id="left-tabs-example" defaultActiveKey="getstarted">
         <Row className="resource-row">
           <Col className="resource-left-col" sm={3}>
             <Nav
@@ -33,18 +57,17 @@ const Resources = () => {
                 </Nav.Link>
               </Nav.Item>
               <Nav.Item className="resource-item">
+                <Nav.Item className="resource-item">
+                  <Nav.Link eventKey="mechanical">Frame &amp; Hull</Nav.Link>
+                </Nav.Item>
 
-              <Nav.Item className="resource-item">
-                <Nav.Link eventKey="mechanical">Frame &amp; Hull</Nav.Link>
-              </Nav.Item>
-
-              <Nav.Item className="resource-item">
+                <Nav.Item className="resource-item">
                   <Nav.Link eventKey="electronics">Electronics</Nav.Link>
-            </Nav.Item>
+                </Nav.Item>
 
-            <Nav.Item className="resource-item">
-                <Nav.Link eventKey="mission">Mission Planning</Nav.Link>
-          </Nav.Item>
+                <Nav.Item className="resource-item">
+                  <Nav.Link eventKey="mission">Mission Planning</Nav.Link>
+                </Nav.Item>
 
                 <Nav.Link className="resource-tab" eventKey="arduino">
                   Arduino
@@ -59,21 +82,17 @@ const Resources = () => {
                 <Nav.Link eventKey="github">Git &amp; GitHub</Nav.Link>
               </Nav.Item>
 
-
               <Nav.Item className="resource-item">
                 <Nav.Link eventKey="ros">Robot OS</Nav.Link>
               </Nav.Item>
 
-
               <Nav.Item className="resource-item">
                 <Nav.Link eventKey="cv">Computer Vision</Nav.Link>
               </Nav.Item>
-
-
             </Nav>
           </Col>
 
-          <Col sm= {9} className="resource-container">
+          <Col sm={9} className="resource-container">
             <Tab.Content>
               <Tab.Pane eventKey="getstarted">
                 <GetStarted />
@@ -89,15 +108,14 @@ const Resources = () => {
                 <ComputerVision />
               </Tab.Pane>
 
-
-                <Tab.Pane eventKey="electronics">
-                  <h2 className="resource-text-title">Electronics</h2>
-            <Electronics />
+              <Tab.Pane eventKey="electronics">
+                <h2 className="resource-text-title">Electronics</h2>
+                <Electronics />
               </Tab.Pane>
 
               <Tab.Pane eventKey="mission">
                 <h2 className="resource-text-title">Mission Planning</h2>
-				<MissionPlanning />
+                <MissionPlanning />
               </Tab.Pane>
 
               <Tab.Pane eventKey="github">
@@ -114,15 +132,12 @@ const Resources = () => {
               </Tab.Pane>
 
               <Tab.Pane eventKey="ros">
-          
                 <ROS />
               </Tab.Pane>
             </Tab.Content>
           </Col>
-
-
         </Row>
-      </Tab.Container>
+      </Tab.Container> */}
     </div>
   );
 };
